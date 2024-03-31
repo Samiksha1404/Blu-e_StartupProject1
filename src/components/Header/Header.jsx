@@ -2,6 +2,7 @@ import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 import bluelogo from '../../assets/bluelogo.svg'
 import Darkmode from '../DarkMood/Darkmode';
+import Dark2 from '../DarkMood/Dark2';
 
 
 
@@ -18,11 +19,8 @@ export default function Header() {
                         />
                     </Link>
                    
-                    <div
-    className="justify-between items-end"
-    id="mobile-menu-2"
->
-    <ul className="flex font-semibold md:flex-row space-x-8 items-center text-lg">
+                    <div className=" justify-between items-end" id="mobile-menu-2">
+    <ul className="md:flex-row flex flex-col font-semibold  space-x-8 items-center text-lg ">
         <li>
             <NavLink
                 to="/"
@@ -98,7 +96,7 @@ export default function Header() {
 
                          {/* theme changer button */}
                          <div className=" ">
-                        <Darkmode/>
+                        <Dark2/>
                     </div>
                   
                      
