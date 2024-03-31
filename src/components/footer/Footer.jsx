@@ -37,10 +37,10 @@ export default function Footer() {
            <div className="w-full h-[2px] bg-black"></div>
 
 
-            <div className="md:flex-row flex flex-col justify-between mt-4 md:gap-0 gap-4">
+            <div className="md:flex-row flex flex-col justify-between mt-4 md:gap-0 gap-4 text-slate-800 dark:text-slate-200 mb-6">
                 <div className="">
                  <p className="font-bold">Privacy Policy | Terms & Conditions</p>
-                 <p className="text-sm">© 2023 Shashtav Charging Bharat Pvt. Ltd.</p>
+                 <p className="text-sm mt-2">© 2023 Shashtav Charging Bharat Pvt. Ltd.</p>
                 </div>
                 <div className='flex gap-6'>
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
