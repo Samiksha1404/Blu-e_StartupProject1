@@ -4,6 +4,7 @@ import heroSec from '../../../assets/herosectionimg.png'
 import img2 from '../../../assets/2.jpg'
 import img3 from '../../../assets/3.jpg'
 import img4 from '../../../assets/4.jpg'
+
 const Herosection = () => {
   const [counter, setCounter] = useState(1);
 
@@ -34,7 +35,7 @@ const Herosection = () => {
           </div>
 
           <div className="slide">
-            <img src="../../../assets/2.jpg" alt="" />
+            <img src={img2} alt="" />
           </div>
           <div className="slide">
             <img src={img3} alt="" />
