@@ -14,7 +14,7 @@ export default function Header() {
                     <Link to="/" className="flex items-center">
                         <img
                             src={bluelogo}
-                            className=""
+                            className="bg-blend-multiply"
                             alt="Logo"
                         />
                     </Link>

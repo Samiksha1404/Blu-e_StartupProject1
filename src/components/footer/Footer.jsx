@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import Grid from './Grid';
-import footerLogo from '../../assets/footerLogo.svg'
+import footerLogo from '../../assets/blueSymb.png'
 
 
 export default function Footer() {
@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
                     
             <div className="flex flex-col gap-5">
-                <img src={footerLogo} alt="" className='w-24'/>
+                <img src={footerLogo} alt="" className='w-24 shadow-md shadow-slate-200 '/>
                 <Grid heading="About Blu-e"/>
                 <p className="text-[20px]">
                 <span className='font-bold'>Shashtav Charging Bharat Private Limited</span> is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. 
