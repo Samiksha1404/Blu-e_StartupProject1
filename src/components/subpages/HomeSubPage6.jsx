@@ -7,15 +7,15 @@ import c4 from "../../assets/c6_4.svg"
 
 const HomeSubPage6 = () => {
   return (
-    <div className='bg-yellow-400 dark:bg-slate-700  flex flex-col justify-center items-center gap-10'>
+    <div className='bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center items-center gap-10 '>
         <div className="">
-          <p className="lg:text-[38px] md:text-[28px] text-[20px] text-center font-semibold pt-5 dark:text-slate-100">Key differentiators of <br />
+          <p className="lg:text-[38px] md:text-[28px] text-[25px]  text-center font-bold pt-5 dark:text-slate-100 ">Key differentiators of <br />
 BLU-E</p>
         </div>
 
         {/* // cards */}
 
-        <div className="flex items-center justify-center gap-10 flex-wrap mx-4">
+        <div className="lg:flex items-center justify-center gap-10 flex-wrap mx-4 mb-5 grid grid-cols-2">
           <Card6 image={c1} title="Fast charging" content="All charging stations will have fast chargers for customer convenience."/>
           <Card6 image={c2} title="BLU-E Charge App" content="Cashless charging stations will operate through the BLU-E Charge App."/>
           <Card6 image={c3} title="Fluid payment options" content="All modes of payment - Net banking, Credit card, Debit card, UPI or Wallet are accepted."/>
