@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer.jsx'
 function Layout() {
   return (
     <>
-   <div className="dark:bg-slate-900 ">
+   <div className="dark:bg-slate-950 ">
    <Header/>
    <Outlet />
    <Footer/>

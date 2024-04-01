@@ -7,7 +7,7 @@ import footerLogo from '../../assets/blueSymb.png'
 
 export default function Footer() {
     return (
-        <footer className="border-y dark:bg-slate-900 bottom-0 mt-16 mb-10 mx-4">
+        <footer className="border-y dark:bg-slate-950 bottom-0 mt-16 mb-10 mx-4">
             <div className="mx-auto w-full  p-4 py-6 lg:py-8 text-black dark:text-slate-200">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
                     
@@ -44,19 +44,19 @@ export default function Footer() {
                 </div>
                 <div className='flex gap-6'>
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg '/>
+                        <FaInstagram className='md:w-9 md:h-9 w-7 h-7 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg '/>
                     </a>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                        <FaFacebook className='md:w-9 md:h-9 w-7 h-7  text-white bg-blue-900 p-1 rounded-lg '/>
+                        <FaFacebook className='md:w-9 md:h-9 w-7 h-7  text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg '/>
+                        <FaTwitter className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
                     <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg '/>
+                        <FaLinkedin className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
                     <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-                        <FaYoutube className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg '/>
+                        <FaYoutube className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
 </div>
 
