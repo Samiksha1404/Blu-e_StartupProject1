@@ -15,7 +15,7 @@ BLU-E</p>
 
         {/* // cards */}
 
-        <div className="lg:flex items-center justify-center gap-10 flex-wrap mx-4 mb-5 grid grid-cols-2">
+        <div className=" lg:flex items-center justify-center  flex-wrap mx-4 mb-5 grid grid-cols-2" style={{ gap: '1.5rem' }}>
           <Card6 image={c1} title="Fast charging" content="All charging stations will have fast chargers for customer convenience."/>
           <Card6 image={c2} title="BLU-E Charge App" content="Cashless charging stations will operate through the BLU-E Charge App."/>
           <Card6 image={c3} title="Fluid payment options" content="All modes of payment - Net banking, Credit card, Debit card, UPI or Wallet are accepted."/>
