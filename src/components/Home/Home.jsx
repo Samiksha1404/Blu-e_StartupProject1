@@ -4,6 +4,7 @@ import Herosection from '../Home/herosection/Herosection';
 import HomeSubPage3 from '../subpages/HomeSubPage3';
 import HomeSubPage6 from '../subpages/HomeSubPage6';
 import HomeSubPage2 from '../subpages/HomeSubpage2/HomeSubPage2';
+import HomeSubpage9 from '../subpages/HomeSubpage9';
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
         <HomeSubPage2/>
         <HomeSubPage3/>
         <HomeSubPage6/>
+        <HomeSubpage9/>
        
         </div>
     );
