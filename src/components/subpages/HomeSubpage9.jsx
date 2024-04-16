@@ -16,7 +16,7 @@ const HomeSubpage9 = () => {
 
              {/* world map */}
             <div className="flex flex-col items-center mt-6">
-                <img src={evMap} alt="word-MAp" className='absolute' />
+                <img src={evMap} alt="word-MAp" className='absolute lg:w-[764px] w-0' />
             </div>
 
 
