@@ -6,6 +6,7 @@ import HomeSubPage6 from '../subpages/HomeSubPage6';
 import HomeSubPage2 from '../subpages/HomeSubpage2/HomeSubPage2';
 import HomeSubpage9 from '../subpages/HomeSubpage9';
 import Sponsors from '../subpages/Sponsors';
+import ThoughtLeadership from '../subpages/ThoughtLeadership';
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
         <HomeSubPage3/>
         <HomeSubPage6/>
         <HomeSubpage9/>
+        <ThoughtLeadership/>
         <Sponsors/>
        
         </div>
