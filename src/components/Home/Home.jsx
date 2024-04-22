@@ -9,6 +9,7 @@ import Sponsors from '../subpages/Sponsors';
 import ThoughtLeadership from '../subpages/ThoughtLeadership';
 import HomeSubPage7 from '../subpages/HomeSubPage7';
 import ChargingSolution from '../subpages/cahrgingSolution/ChargingSolution';
+import EvAdvantage from '../subpages/EvAdvantage/EvAdvantage';
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <HomeSubPage3/>
         <ChargingSolution/>
         <HomeSubPage6/>
+        <EvAdvantage/>
         <HomeSubpage9/>
         <HomeSubPage7/>
         <ThoughtLeadership/>
