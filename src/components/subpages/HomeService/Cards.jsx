@@ -11,7 +11,7 @@ const Cards = ({service,bgImage}) => {
             
         </div>
         <NavLink to="/services">
-            <p className="bg-yellow-400 mx-3 italic lg:w-[360px] text-center text-white py-3 font-semibold" >Know More ></p>
+            <p className="bg-yellow-400 mx-3 italic lg:w-[360px] text-center text-white py-3 font-semibold" >Know More </p>
         </NavLink>
     </div>
   )
