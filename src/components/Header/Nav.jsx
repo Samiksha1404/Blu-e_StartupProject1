@@ -14,29 +14,29 @@ export default function Header() {
     const [isNavOpen, setNavOpen] = useState(false)
 
     return (
-        <header className='w-full text-black '>
+        <header className='w-full   font-semibold sticky z-50 top-0  bg-white/70  dark:bg-slate-950/70 dark:shadow-slate-400  shadow-md '>
 
           <nav className="w-full px-5 md:px-10  h-[70px] flex justify-between items-center  ">
 
              {/* logo */}
              <div className="">
-                   <Link to="/" className="flex items-center">
+                   <Link to="/" className="">
                         <img
                             src={bluelogo}
-                            className=" md:pl-16" 
+                            className=" lg:pl-16" 
                             alt="Logo"
                         />
                     </Link>
              </div>
              
-             <ul className="flex font-semibold md:w-fit w-0 md:text-xl text-[1px] space-x-6">
+             <ul className="flex  md:w-fit w-0 md:text-lg lg:text-xl text-[0px] lg:space-x-6">
     <li>
         <NavLink
             to="/"
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             Home
@@ -48,7 +48,7 @@ export default function Header() {
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             Services
@@ -60,7 +60,7 @@ export default function Header() {
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             Location
@@ -72,7 +72,7 @@ export default function Header() {
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             About Us
@@ -84,7 +84,7 @@ export default function Header() {
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             FAQS
@@ -96,7 +96,7 @@ export default function Header() {
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             Contact Us
@@ -108,7 +108,7 @@ export default function Header() {
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
                     isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200`
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
             }
         >
             Products
@@ -125,7 +125,7 @@ className={`md:hidden text-4xl  z-20  ${isNavOpen ? "text-white" : "text-black d
 {isNavOpen ? <CgClose/> : <GiHamburgerMenu/> }
           </button>    
    
-        </div>   
+           </div>   
 
 
           </nav>
