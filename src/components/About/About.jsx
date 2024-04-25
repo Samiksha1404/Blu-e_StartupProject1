@@ -8,6 +8,7 @@ import im1 from "../../assets/im1.svg"
 import im2 from "../../assets/im2.svg"
 import im3 from "../../assets/im3.svg"
 import im4 from "../../assets/im4.svg"
+import FutureOptimization from './FutureOptimization'
 
 function About() {
   return (
@@ -49,8 +50,8 @@ function About() {
 
      <FutureIsNow/>
 
+     
      {/* Delivering Products That Embody... */}
-
      <div className="">
 
       {/* heading */}
@@ -59,7 +60,7 @@ function About() {
       </div>
       
       {/* cards */}
-      <div className="lg:flex grid grid-cols-2  mt-5 justify-evenly  items-center mx-3">
+      <div className="lg:flex grid grid-cols-2  mt-5 justify-evenly  items-center mx-3 bg-slate-200 dark:bg-slate-800 py-6">
         <Card6 image={im1}  title="Responsiveness" content="We strive for 100% transparency in every interaction with stakeholders." />
 
         <Card6 image={im2}  title="User Experience" content="Our app embraces user-centric design, making it the gold standard in usability." />
@@ -69,6 +70,13 @@ function About() {
         <Card6 image={im4}  title="Features" content="We're constantly updating our systems, and application with the latest and greatest." />
       </div>
      </div>
+
+
+     {/* Future Optimization */}
+
+     <FutureOptimization/>
+
+
 
     </>
   )
