@@ -1,6 +1,8 @@
 import React from 'react'
 import IntroPart from '../subcomponents/IntroPart'
 import img1 from "../../assets/Station2.jpg"
+import GradientText from '../subpages/GradientText'
+
 
 function About() {
   return (
@@ -15,12 +17,14 @@ function About() {
       />
 
 
-      <div className="whoWeAreSection w-full h-full pt-20 pb-20 px-40 py-40 flex flex-col justify-end items-start gap-4">
-        <div className="container">
-          <h1 className="text-center bg-gradient-to-r from-blue-500 to-yellow-300 text-transparent bg-clip-text font-bold text-4xl md:text-5xl xl:text-6xl leading-tight font-serif">Who We Are</h1>
+      <div className="whoWeAreSection    ">
+         
+        <div className="container flex flex-col justify-center  items-center gap-4 lg:w-[1195px]  md:mx-auto mx-4">
+         
+        <GradientText text="Who We Are"/>
 
-          <div className="aboutInfo pt-5 ">
-            <span className="font-bold ">Shashtav Charging Bharat Private Limited</span>
+          <div className="aboutInfo pt-5 mx-5 text-slate-800 dark:text-slate-400">
+            <span className="font-bold ">Shashtav Charging Bharat Private Limited </span>
             <span className=" mt-2 text-justify">
               is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. India is extensively transforming into E-mobilities and a new shift to a BEV (Battery Electric Vehicles) is imminent for a next-generation development.
             </span>

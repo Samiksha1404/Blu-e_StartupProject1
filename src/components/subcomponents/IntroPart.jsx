@@ -17,7 +17,7 @@ import React from 'react';
 const IntroPart = ({ imgSrc, title, description, description1, buttonText }) => (
   <div className="herosection sm:h-screen md:h-auto" >
     <div className="imgContainer relative overflow-hidden">
-      <img src={imgSrc} alt="" className="w-full h-auto sm:h-full filter brightness-20" />
+      <img src={imgSrc} alt="" className="w-full h-auto sm:h-full filter brightness-75  " />
       <div className="content absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
         <h1 className="text-white text-4xl sm:text-6xl font-semibold">{title}</h1>
         <p className="text-white text-lg sm:text-xl font-light pb-4 sm:pb-10">{description}<br />{description1}</p>

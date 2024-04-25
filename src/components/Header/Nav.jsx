@@ -130,7 +130,7 @@ className={`md:hidden text-4xl  z-20  ${isNavOpen ? "text-white" : "text-black d
 
           </nav>
 
-          <ul className= {`flex flex-col  pl-10  h-screen absolute top-0 right-0 w-80 bg-yellow-400 dark:bg-slate-900 text-indigo-900  pt-28 md:hidden z-10 transition-all duration-300 
+            <ul className= {`flex flex-col  pl-10  h-screen absolute top-0 right-0 w-80 bg-yellow-400 dark:bg-slate-900 text-indigo-900  pt-28 md:hidden z-10 transition-all duration-300 
             ${isNavOpen ? "translate-x-0" : "translate-x-full"}`} >
                              <li>
                              <NavLink
