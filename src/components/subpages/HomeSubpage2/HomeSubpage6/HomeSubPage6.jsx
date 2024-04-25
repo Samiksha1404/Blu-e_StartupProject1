@@ -1,9 +1,9 @@
 import React from 'react'
 import Card6 from './Card6'
-import c1 from "../../assets/c6_1.svg"
-import c2 from "../../assets/c6_2.svg"
-import c3 from "../../assets/c6_3.svg"
-import c4 from "../../assets/c6_4.svg"
+import c1 from "../../../../assets/c6_1.svg"
+import c2 from "../../../../assets/c6_2.svg"
+import c3 from "../../../../assets/c6_3.svg"
+import c4 from "../../../../assets/c6_4.svg"
 
 const HomeSubPage6 = () => {
   return (

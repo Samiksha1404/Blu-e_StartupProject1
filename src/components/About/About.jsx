@@ -3,7 +3,11 @@ import IntroPart from '../subcomponents/IntroPart'
 import img1 from "../../assets/Station2.jpg"
 import GradientText from '../subpages/GradientText'
 import FutureIsNow from './FutureIsNow'
-
+import Card6 from '../subpages/HomeSubpage2/HomeSubpage6/Card6'
+import im1 from "../../assets/im1.svg"
+import im2 from "../../assets/im2.svg"
+import im3 from "../../assets/im3.svg"
+import im4 from "../../assets/im4.svg"
 
 function About() {
   return (
@@ -44,6 +48,27 @@ function About() {
       </div>   
 
      <FutureIsNow/>
+
+     {/* Delivering Products That Embody... */}
+
+     <div className="">
+
+      {/* heading */}
+      <div className="max-w-[600px] mx-auto text-center">
+        <GradientText text="Delivering Products  That Embody..."/>
+      </div>
+      
+      {/* cards */}
+      <div className="lg:flex grid grid-cols-2  mt-5 justify-evenly  items-center mx-3">
+        <Card6 image={im1}  title="Responsiveness" content="We strive for 100% transparency in every interaction with stakeholders." />
+
+        <Card6 image={im2}  title="User Experience" content="Our app embraces user-centric design, making it the gold standard in usability." />
+
+        <Card6 image={im3}  title="Quick Charge" content="All charging stations will have fast chargers for customer convenience." />
+
+        <Card6 image={im4}  title="Features" content="We're constantly updating our systems, and application with the latest and greatest." />
+      </div>
+     </div>
 
     </>
   )
