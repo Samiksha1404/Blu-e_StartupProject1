@@ -9,6 +9,7 @@ import im2 from "../../assets/im2.svg"
 import im3 from "../../assets/im3.svg"
 import im4 from "../../assets/im4.svg"
 import FutureOptimization from './FutureOptimization'
+import HowWeWork from './HowWeWork '
 
 function About() {
   return (
@@ -75,7 +76,8 @@ function About() {
      {/* Future Optimization */}
 
      <FutureOptimization/>
-
+     
+     <HowWeWork/>
 
 
     </>
