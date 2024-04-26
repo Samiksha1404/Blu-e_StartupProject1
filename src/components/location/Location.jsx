@@ -4,8 +4,8 @@ function Location() {
   return (
     <>
 
-      <div className="mapContainer" style={{ width: "100%", height: "630px", border: "2px solid red " }}>
-map
+      <div className="mapContainer" style={{ width: "100%", height: "630px"}}>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3836486.5165860937!2d73.31880271054936!3d20.110301622206393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1b22a4888e3%3A0xaa79f1ad395b4b3c!2sBlu-E%20Charging%20Station!5e0!3m2!1sen!2sin!4v1714134521326!5m2!1sen!2sin" width="100%" height="600px" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
       </div>
 
