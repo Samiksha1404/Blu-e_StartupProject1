@@ -1,6 +1,10 @@
 import React from 'react'
 import IntroPart from '../subcomponents/IntroPart'
 import img1 from "../../assets/Station3.jpg"
+import img2 from "../../assets/service1.png"
+import img3 from "../../assets/service2.png"
+
+
 import GradientText from '../../components/subpages/GradientText.jsx'
 import process from '../../assets/process.svg'
 
@@ -15,6 +19,42 @@ function Services() {
       description1="solutions for customer delight."
       buttonText="PRODUCT > "
       />
+     
+      {/* blu-e heading */}
+      <div className="flex flex-col justify-center items-center lg:mx-0 mx-4 gap-4">
+      <div className=" text-center">
+      <GradientText text="EV CHARGING SOLUTIONS FOR YOU"/>
+      <div class=" text-center text-stone-500 text-[25px] font-normal font-['Rubik'] tracking-wider">The fast, safe and easy way to charge your electric vehicle.</div>
+      </div>
+      </div>
+
+      {/* servive slider */}
+
+
+       
+       <div className=" flex px-[169px]   lg:mx-0 mx-4  h-[376px]   mt-10">
+       
+       <div className=' w-[600px]  flex'>
+       <img className=" w-[322px] h-[376px]"   src={img2}  />
+       
+       <div className="w-[300px] h-[326px]  bg-white mt-[50px] pt-[20px] pl-[20px] ml-[-112px]">
+       <img className='w-[300px] h-[306px] ' src={img3} alt="" />
+       </div>
+       </div>
+       
+       <div className=' pl-[90px] '>
+       <div class="  text-blue-950 text-[25px] lg:mx-0 font-medium font-['Rubik'] leading-loose tracking-wide">Solutions For Establishing Optimised Charging</div>
+       <div class="w-[648px] h-[201px] text-justify lg:mx-0"><span className="text-blue-950 text-xl font-bold font-['Sarabun'] leading-7 tracking-wide">BLU-</span><span className="text-yellow-300 text-xl font-bold font-['Sarabun'] leading-7 tracking-wide">E</span><span className="text-zinc-600 text-xl font-normal font-['Sarabun'] leading-7 tracking-wide"> is provider of charging station services for electric vehicles. As a pioneer in the field, we are committed to facilitating the widespread adoption of electric transportation by offering convenient and reliable charging solutions. Our charging stations are strategically located in key areas to ensure easy access for electric vehicle owners, whether it be at homes, workplaces, commercial establishments, or public spaces.</span></div>
+       </div>
+       </div>
+
+       
+
+      
+
+        
+    
+     
 
       {/* blu-e process */}
        

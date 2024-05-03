@@ -14,7 +14,7 @@ const Sponsors = () => {
             </div>
 
             <div className="grid lg:grid-cols-4 grid-cols-2 items-center ml-16 space-y-3">
-                <img src={MSME} alt="" className="rounded-xl" />
+            <img src={MSME} alt="" className="rounded-xl " />
                 <img src={SIH} alt="" className="" />
                 <img src={GEM} alt="" className="" />
                 <img src={TBI} alt="" className="rounded-xl" />
