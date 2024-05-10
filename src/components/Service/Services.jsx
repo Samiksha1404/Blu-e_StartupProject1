@@ -41,7 +41,6 @@ function Services() {
        <img className='w-[300px] h-[306px] ' src={img3} alt="" />
        </div>
        </div>
-       
        <div className=' pl-[90px] '>
        <div class="  text-blue-950 text-[25px] lg:mx-0 font-medium font-['Rubik'] leading-loose tracking-wide">Solutions For Establishing Optimised Charging</div>
        <div class="w-[648px] h-[201px] text-justify lg:mx-0"><span className="text-blue-950 text-xl font-bold font-['Sarabun'] leading-7 tracking-wide">BLU-</span><span className="text-yellow-300 text-xl font-bold font-['Sarabun'] leading-7 tracking-wide">E</span><span className="text-zinc-600 text-xl font-normal font-['Sarabun'] leading-7 tracking-wide"> is provider of charging station services for electric vehicles. As a pioneer in the field, we are committed to facilitating the widespread adoption of electric transportation by offering convenient and reliable charging solutions. Our charging stations are strategically located in key areas to ensure easy access for electric vehicle owners, whether it be at homes, workplaces, commercial establishments, or public spaces.</span></div>
