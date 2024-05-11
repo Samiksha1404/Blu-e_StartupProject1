@@ -15,12 +15,12 @@ const HomeSubPage2 = () => {
       <div className="flex flex-col md:flex-row">
         {/*left side */}
         <div className="left md:p-28 block m-auto md:w-1/2 flex-col " >
-          <div className="  text-blue-950 text-xl font-small font-['Rubik'] leading-loose tracking-wide">Solutions For Establishing Optimised  Charging</div>
-          <div className="  text-black text-4xl md:text-5xl font-medium font-['Rubik'] leading-10 md:leading-14">Find Your Smart & Simple Solution With Best Overall Economy Charge Rate!</div>
+          <div className="  text-blue-950 text-xl font-small font-['Rubik'] leading-loose tracking-wide dark:text-blue-300">Solutions For Establishing Optimised  Charging</div>
+          <div className="  text-black text-4xl md:text-5xl font-medium font-['Rubik'] leading-10 md:leading-14 dark:text-slate-100">Find Your Smart & Simple Solution With Best Overall Economy Charge Rate!</div>
 
           <div className='flex items-center mt-6' style={{ display: "flex" }}>
             <img className=" w-20 h-20 md:w-24 md:h-24 mr-4" src={p4} />
-            <div className=" w-full text-zinc-600  font-normal font-['Sarabun']  text-justify ">Our startup is revolutionizing EV charging with Autonomous / Autocharge features to tackle the conventional woes of complexity and time-consuming processes. Everyone can now effortlessly powerup their electric vehicles, making green transportation accessible to all.</div>
+            <div className=" w-full text-zinc-600  font-normal font-['Sarabun']  text-justify dark:text-slate-500 ">Our startup is revolutionizing EV charging with Autonomous / Autocharge features to tackle the conventional woes of complexity and time-consuming processes. Everyone can now effortlessly powerup their electric vehicles, making green transportation accessible to all.</div>
           </div>
           <div className=" items-center justify-center mt-6 mb-6">
             <NavLink to="/about">
@@ -42,9 +42,9 @@ const HomeSubPage2 = () => {
 
             <div className="  block " style={{ paddingLeft: "5.5rem" }}>
               <div className=" md:w-[600px]  md:h-[110px] bg-blue-950 flex justify-center">
-                <div class="p-12 md:p-12 text-center text-white text-xl font-semibold font-['Rubik'] transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400"><a href="/contact">Talk To An Expert</a></div>
+                <div class="p-12 md:p-12 text-center text-white text-xl font-semibold font-['Rubik'] transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400 hover:dark:text-blue-200"><a href="/contact">Talk To An Expert</a></div>
 
-                <div className="p-12 md:p-12 text-center text-white text-xl font-semibold font-['Rubik'] transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400">Watch Our Video!</div>
+                <div className="p-12 md:p-12 text-center text-white text-xl font-semibold font-['Rubik'] transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400 hover:dark:text-blue-200">Watch Our Video!</div>
               </div>
               <img className=" w-full md:w-[600px] md:h-[587px]" src={p2} />
             </div>
