@@ -7,6 +7,15 @@ import img3 from "../../assets/service2.png"
 
 import GradientText from '../../components/subpages/GradientText.jsx'
 import process from '../../assets/process.svg'
+import s1 from '../../assets/s1.svg'
+import s2 from '../../assets/s2.svg'
+import s3 from '../../assets/s3.svg'
+import s4 from '../../assets/s4.svg'
+import s5 from '../../assets/s5.svg'
+
+import s7 from '../../assets/s7.svg'
+import ServiceSolutioncard from './ServiceSolutioncard.jsx'
+
 
 function Services() {
   return (
@@ -49,6 +58,25 @@ function Services() {
 
        
 
+      <div className="">
+        
+        <GradientText text="Services Solution"/>
+
+      <div className="flex flex-col  md:gap-10 gap-6 mt-6 ">
+      <div className="grid md:grid-cols-4 grid-cols-2  md:gap-16  gap-6 mx-auto lg:px-0 px-4">
+        <ServiceSolutioncard title="Revolutionizing EV Charging with Autonomous Convenience" image={s1}/>
+        <ServiceSolutioncard title="Easy payment 
+with UPI" image={s2}/>
+        <ServiceSolutioncard title="Subscription model for long route drivers" image={s3}/>
+        <ServiceSolutioncard title="Real-Time Monitoring Status" image={s4}/>
+      </div>
+      <div className="grid md:grid-cols-3 grid-cols-2 mx-auto md:gap-14 gap-6 lg:px-0 px-4">
+      <ServiceSolutioncard title="Provides a quality service with minimum down time" image={s5}/>
+      <ServiceSolutioncard title="Operative in all seasons" image={s1}/>
+      <ServiceSolutioncard title="Make money by building network with us" image={s7}/>
+      </div>
+    </div>
+      </div>
       
 
         
@@ -57,7 +85,7 @@ function Services() {
 
       {/* blu-e process */}
        
-     <div className="flex flex-col justify-center items-center lg:mx-0 mx-4 gap-4">
+     <div className="flex flex-col justify-center items-center lg:mx-0 mx-4 gap-4 mt-6">
      
      <div className=" text-center">
       <GradientText text="Charge with Blu-E Process"/>
@@ -87,7 +115,7 @@ function Services() {
    </div>
     </div>
 
-    
+  
       
     </>
   )
