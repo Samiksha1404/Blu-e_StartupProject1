@@ -2,6 +2,8 @@
 import React from 'react';
 import IntroPart from '../subcomponents/IntroPart';
 import img1 from '../../assets/Station2.jpg';
+import img2 from '../../assets/playstore.svg';
+import img3 from '../../assets/apple.svg';
 import GradientText from '../../components/subpages/GradientText.jsx';
 import {
   Accordion,
@@ -57,7 +59,7 @@ function Faqs() {
                   2) What are the types of EV Charger?
                   <span className={`ml-2 ${open === 2 ? 'transform rotate-180' : ''}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"  className='justify-end dark:text-slate-100'/>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
                     </svg>
                   </span>
                 </span>
@@ -78,7 +80,7 @@ function Faqs() {
                   3) Why some chargers use Alternating Current (AC) while some use Direct Current (DC)?
                   <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"  className='justify-end dark:text-slate-100'/>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
                     </svg>
                   </span>
                 </span>
@@ -97,7 +99,7 @@ function Faqs() {
                   4) What does it cost to charge an electric car?
                   <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"  className='justify-end dark:text-slate-100' />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
                     </svg>
                   </span>
                 </span>
@@ -114,7 +116,7 @@ function Faqs() {
                   5) Where can we install AC chargers?
                   <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"  className='justify-end dark:text-slate-100'/>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
                     </svg>
                   </span>
                 </span>
@@ -148,7 +150,7 @@ function Faqs() {
                   7) Can one install Level 2 AC charging at home even if one has slow charger which came with the car?
                   <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7"  className='justify-end dark:text-slate-100'/>
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
                     </svg>
                   </span>
                 </span>
@@ -163,13 +165,28 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
+        </div>
 
+        <div className='   pl-32 mt-12 h-[547px] bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center gap-10 '>
+          <div className="sm:h-auto flex flex-col justify-center gap-10">
+            <div className=" "><span class=" flex flex-col justify-center gap-10 text-white sm:text-[38px] font-semibold font-['Rubik']">Download the<br /></span><span class="text-white sm:text-[38px] font-bold font-['Rubik']">BLU-E Shashtav Bharat<br />Charging<br /></span><span className="text-white sm:text-[38px] font-semibold font-['Rubik']">Mobile App</span></div>
 
+            <div className='flex flex-row p-4'>
+              <div className="mb-4 mb-0 pr-20">
+                <button className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+                  <img src={img2} alt="" className="" />
+                  <span className="hidden lg:inline">Play Store</span>
+                </button>
+              </div>
+              <div className=" ml-22  ">
+                <button className="bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+                  <img src={img3} alt="" className='' />
+                  <span className="hidden lg:inline">Apple Store</span>
+                </button>
+              </div>
+            </div>
 
-
-
-
-
+          </div>
         </div>
       </div>
     </>

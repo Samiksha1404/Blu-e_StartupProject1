@@ -12,10 +12,10 @@ import { Link, NavLink } from 'react-router-dom'
 const HomeSubPage2 = () => {
   return (
     <>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col md:flex-row items-center mx-4 gap-5 ">
         {/*left side */}
         <div className="left md:p-28 block m-auto md:w-1/2 flex-col " >
-          <div className="  text-blue-950 text-xl font-small font-['Rubik'] leading-loose tracking-wide dark:text-blue-300">Solutions For Establishing Optimised  Charging</div>
+          <div className="  text-blue-950 lg:text-xl font-small font-['Rubik'] leading-loose tracking-wide dark:text-blue-300">Solutions For Establishing Optimised  Charging</div>
           <div className="  text-black text-4xl md:text-5xl font-medium font-['Rubik'] leading-10 md:leading-14 dark:text-slate-100">Find Your Smart & Simple Solution With Best Overall Economy Charge Rate!</div>
 
           <div className='flex items-center mt-6' style={{ display: "flex" }}>
