@@ -179,7 +179,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              Not much space is needed. A minimum of two cars can park and charge simultaneously. Additionally, approximately 30-35 square feet is required for the canopy along with the charger installation.
+                Not much space is needed. A minimum of two cars can park and charge simultaneously. Additionally, approximately 30-35 square feet is required for the canopy along with the charger installation.
 
               </AccordionBody>
             </Accordion>
@@ -199,7 +199,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              Our charging station is compatible with a wide range of electric vehicles, including all major brands and models.
+                Our charging station is compatible with a wide range of electric vehicles, including all major brands and models.
 
               </AccordionBody>
             </Accordion>
@@ -217,7 +217,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              Charging times vary depending on the vehicle's battery capacity and the charging rate. Typically, fast charging can replenish a significant portion of the battery in a relatively short time, usually ranging from 30 minutes to a few hours.
+                Charging times vary depending on the vehicle's battery capacity and the charging rate. Typically, fast charging can replenish a significant portion of the battery in a relatively short time, usually ranging from 30 minutes to a few hours.
               </AccordionBody>
             </Accordion>
           </div>
@@ -236,7 +236,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              Yes, our charging station is accessible 24 hours a day, seven days a week, providing convenience for EV owners to charge their vehicles whenever needed
+                Yes, our charging station is accessible 24 hours a day, seven days a week, providing convenience for EV owners to charge their vehicles whenever needed
 
               </AccordionBody>
             </Accordion>
@@ -256,7 +256,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              Absolutely. Our charging station is equipped with advanced safety features, including overcurrent protection, overvoltage protection, and temperature monitoring, to safeguard both the vehicle and the charging equipment during the charging process.
+                Absolutely. Our charging station is equipped with advanced safety features, including overcurrent protection, overvoltage protection, and temperature monitoring, to safeguard both the vehicle and the charging equipment during the charging process.
 
               </AccordionBody>
             </Accordion>
@@ -277,7 +277,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              No, you don't need a physical person at the charging station. The charging session can be initiated, monitored, and controlled entirely through our mobile app. There's no need for on-site personnel.
+                No, you don't need a physical person at the charging station. The charging session can be initiated, monitored, and controlled entirely through our mobile app. There's no need for on-site personnel.
 
               </AccordionBody>
             </Accordion>
@@ -287,7 +287,7 @@ function Faqs() {
               <AccordionHeader onClick={() => handleOpen(14)}>
                 <span className="flex p-2 dark:text-slate-100">
                   14) What is the process if I wish to set up a charging point?
-<span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
                     </svg>
@@ -295,7 +295,7 @@ function Faqs() {
                 </span>
               </AccordionHeader>
               <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
-              To set up a charging point, you can visit our official website www.blu-e.in where you can provide your details, and we will revert to you within 24 hours. Alternatively, you can also reach us at 08062178665.
+                To set up a charging point, you can visit our official website www.blu-e.in where you can provide your details, and we will revert to you within 24 hours. Alternatively, you can also reach us at 08062178665.
               </AccordionBody>
             </Accordion>
           </div>
