@@ -12,8 +12,8 @@ const HowWeWork  = () => {
 
             <div className="flex flex-col gap-4">
              <p className="lg:text-[53px] md:text-[42px] text-[32px] font-semibold ">How We Work </p>
-             <p className="lg:text-[20px] text-[16px] text-slate-600 dark:text-slate-400"><span className='font-bold text-slate-800 dark:text-slate-400'>Shashtav Charging Bharat Private Limited , </span>A company expanding the culture of Electric vehicles through its latest technology and innovation.</p>
-             <p className="lg:text-[20px] text-[16px] text-slate-600 dark:text-slate-400" >The depiction of the setting up of charging stations across the nation along with providing fast charge and encouraging the use of EVs is a testimony to their commitment towards renewable energy and innovation.</p>
+             <p className="lg:text-[20px] text-[16px] text-slate-600 dark:text-slate-400 text-justify"><span className='font-bold text-slate-800 dark:text-slate-400'>Shashtav Charging Bharat Private Limited , </span>A company expanding the culture of Electric vehicles through its latest technology and innovation.</p>
+             <p className="lg:text-[20px] text-[16px] text-slate-600 dark:text-slate-400 text-justify" >The depiction of the setting up of charging stations across the nation along with providing fast charge and encouraging the use of EVs is a testimony to their commitment towards renewable energy and innovation.</p>
             </div>
 
         </div>

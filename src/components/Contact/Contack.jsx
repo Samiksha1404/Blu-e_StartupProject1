@@ -87,7 +87,7 @@ function Contack() {
               <div className="tag" style={{ display: "flex" }}>Message</div>
               <textarea placeholder='Message' style={{ width: "100%", height: "100px", border: "2px solid grey", padding: "4px", margin: "10px 0" }} />
             </form>
-            <button style={{ width: 170, height: 50, textAlign: 'center', color: 'white', display: "block", margin: "auto", marginTop: "20px", fontSize: 16, fontFamily: 'Rubik', fontWeight: '100', wordWrap: 'break-word', background: '#FFD233', borderRadius: 3 }}>Send Message</button>
+            <button  type="submit" style={{ width: 170, height: 50, textAlign: 'center', color: 'white', display: "block", margin: "auto", marginTop: "20px", fontSize: 16, fontFamily: 'Rubik', fontWeight: '100', wordWrap: 'break-word', background: '#FFD233', borderRadius: 3 }}>Send Message</button>
           </div>
 
         </div>
