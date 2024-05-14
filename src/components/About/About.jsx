@@ -10,6 +10,7 @@ import im3 from "../../assets/im3.svg"
 import im4 from "../../assets/im4.svg"
 import FutureOptimization from './FutureOptimization'
 import HowWeWork from './HowWeWork '
+import Founders from './Founders'
 
 function About() {
   return (
@@ -71,7 +72,11 @@ function About() {
         <Card6 image={im4}  title="Features" content="We're constantly updating our systems, and application with the latest and greatest." />
       </div>
      </div>
+      
 
+      {/* founders */}
+
+      <Founders/>
 
      {/* Future Optimization */}
 

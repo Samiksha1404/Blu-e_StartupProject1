@@ -165,8 +165,146 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 8} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(8)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  8) How much space is required to set up a fast charging system?
+
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              Not much space is needed. A minimum of two cars can park and charge simultaneously. Additionally, approximately 30-35 square feet is required for the canopy along with the charger installation.
+
+              </AccordionBody>
+            </Accordion>
+          </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 9} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(9)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  9) What type of electric vehicles (EVs) can be charged at the station?
+
+
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              Our charging station is compatible with a wide range of electric vehicles, including all major brands and models.
+
+              </AccordionBody>
+            </Accordion>
+          </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 10} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(10)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  10) How long does it take to charge an electric vehicle at your station?
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              Charging times vary depending on the vehicle's battery capacity and the charging rate. Typically, fast charging can replenish a significant portion of the battery in a relatively short time, usually ranging from 30 minutes to a few hours.
+              </AccordionBody>
+            </Accordion>
+          </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 11} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(11)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  11) Is the charging station accessible 24/7?
+
+
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              Yes, our charging station is accessible 24 hours a day, seven days a week, providing convenience for EV owners to charge their vehicles whenever needed
+
+              </AccordionBody>
+            </Accordion>
+          </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 12} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(12)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  12) Is the charging station equipped with safety features to protect my vehicle and ensure a secure charging process?
+
+
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              Absolutely. Our charging station is equipped with advanced safety features, including overcurrent protection, overvoltage protection, and temperature monitoring, to safeguard both the vehicle and the charging equipment during the charging process.
+
+              </AccordionBody>
+            </Accordion>
+          </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 13} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(13)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  13) Do I need to have a physical person present at the charging station to operate it?
+
+
+
+                  <span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              No, you don't need a physical person at the charging station. The charging session can be initiated, monitored, and controlled entirely through our mobile app. There's no need for on-site personnel.
+
+              </AccordionBody>
+            </Accordion>
+          </div>
+          <div className="mb-4 border-b border-blue-800">
+            <Accordion open={open === 14} animate={CUSTOM_ANIMATION}>
+              <AccordionHeader onClick={() => handleOpen(14)}>
+                <span className="flex p-2 dark:text-slate-100">
+                  14) What is the process if I wish to set up a charging point?
+<span className={`ml-2 ${open === 1 ? 'transform rotate-180' : ''}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-blue-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" className='justify-end dark:text-slate-100' />
+                    </svg>
+                  </span>
+                </span>
+              </AccordionHeader>
+              <AccordionBody className="p-4 text-medium text-justify text-[16px] dark:text-blue-300">
+              To set up a charging point, you can visit our official website www.blu-e.in where you can provide your details, and we will revert to you within 24 hours. Alternatively, you can also reach us at 08062178665.
+              </AccordionBody>
+            </Accordion>
+          </div>
+
         </div>
 
+
+
+        {/*app secition */}
         <div className='   pl-32 mt-12 h-[547px] bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center gap-10 '>
           <div className="sm:h-auto flex flex-col justify-center gap-10">
             <div className=" "><span class=" flex flex-col justify-center gap-10 text-white sm:text-[38px] font-semibold font-['Rubik']">Download the<br /></span><span class="text-white sm:text-[38px] font-bold font-['Rubik']">BLU-E Shashtav Bharat<br />Charging<br /></span><span className="text-white sm:text-[38px] font-semibold font-['Rubik']">Mobile App</span></div>
