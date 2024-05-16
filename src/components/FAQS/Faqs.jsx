@@ -11,6 +11,7 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 
+
 const CUSTOM_ANIMATION = {
   mount: { scale: 1 },
   unmount: { scale: 0.9 },
@@ -299,7 +300,7 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-
+        
         </div>
 
 
