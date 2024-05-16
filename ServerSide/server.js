@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-// const nodemailer = require('nodemailer');
+const nodemailer = require('nodemailer');
 const cors = require('cors');
 
 const app = express();
@@ -11,8 +11,9 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors()); // Use cors middleware
 // MongoDB connection
-mongoose.connect('mongodb+srv://MiniMedia:Samiksha123@cluster1.5sd8ioa.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI);
 const db = mongoose.connection;
+
 
 // Schema
 const contactSchema = new mongoose.Schema({
@@ -24,8 +25,16 @@ const contactSchema = new mongoose.Schema({
 });
 const Contact = mongoose.model('Contact', contactSchema);
 
-// // Nodemailer configuration
-// 
+// Nodemailer configuration
+// const transporter = nodemailer.createTransport({
+//   host: 'smtp.gmail.com', // Update with your SMTP host
+//   port: 465, // Update with your SMTP port
+//   secure: true,
+//   auth: {
+//     user: '', // Update with your email
+//     pass: 'Samiksha@123' // Update with your email password
+//   }
+// });
 // Routes
 app.post('/api/contact', async (req, res) => {
   try {
@@ -34,7 +43,13 @@ app.post('/api/contact', async (req, res) => {
     await newContact.save();
 
     // // // Send email to admin
-    
+    // const mailOptions = {
+    //   from: 'guptasr_3@rknec.edu',///yours email address 
+    //   to: 'sahilrizvi2002@gmail.com', // Update with whom u want to send
+    //   subject: 'New Contact Entry',
+    //   text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+    // };
+    // await transporter.sendMail(mailOptions);
 
     res.status(201).json({ message: 'Contact saved successfully' });
   } catch (err) {

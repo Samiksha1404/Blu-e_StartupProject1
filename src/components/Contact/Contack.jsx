@@ -18,10 +18,19 @@ function Contack() {
       </div>
     </div>
   );
+  const [isClicked, setIsClicked] = useState(false);
+
+  const handleClick = () => {
+    setIsClicked(true);
+    // Call your handleSubmit function
+    handleSubmit();
+    // Optionally, reset the color after some time if needed
+    setTimeout(() => setIsClicked(false), 300); // reset color after 300ms
+  };
 
   const [formData, setFormData] = useState({
     name: '',
-    email: '',   
+    email: '',
     phone: '',
     subject: '',
     message: '',
@@ -91,39 +100,40 @@ function Contack() {
 
 
           {/* form section */}
-        
+
 
           <div className="form" style={{ backgroundColor: "white", padding: "20px", margin: "40px" }}>
-      <h1 style={{ margin: "10px", fontSize: "30px", fontWeight: "500", fontFamily: "sans-serif", color: "black" }}>Send us a message!</h1>
-      <form onSubmit={handleSubmit}>
-        <div style={{ display: "flex", marginBottom: "10px" }}>
-          <div style={{ flex: 1 }}>
-            <div className="tag">Name</div>
-            <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
+            <h1 style={{ margin: "10px", fontSize: "30px", fontWeight: "500", fontFamily: "sans-serif", color: "black" }}>Send us a message!</h1>
+            <form onSubmit={handleSubmit}>
+              <div style={{ display: "flex", marginBottom: "10px" }}>
+                <div style={{ flex: 1 }}>
+                  <div className="tag">Name</div>
+                  <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Name" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
+                </div>
+                <div style={{ flex: 1, marginLeft: "10px" }}>
+                  <div className="tag">Email</div>
+                  <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
+                </div>
+              </div>
+              <div style={{ display: "flex", marginBottom: "10px" }}>
+                <div style={{ flex: 1 }}>
+                  <div className="tag">Phone</div>
+                  <input type="text" name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
+                </div>
+                <div style={{ flex: 1, marginLeft: "10px" }}>
+                  <div className="tag">Subject</div>
+                  <input type="text" name="subject" value={formData.subject} onChange={handleChange} placeholder="Subject" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
+                </div>
+              </div>
+              <div className="tag">Message</div>
+              <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Message" style={{ width: "100%", height: "100px", border: "2px solid grey", padding: "4px", margin: "10px 0" }} />
+              <button type="submit" className={`w-[170px] h-[50px] text-center text-white block mx-auto mt-[20px] text-[16px] font-[Rubik] font-thin break-words rounded-[3px] border-none transition-colors duration-300 ${isClicked ? 'bg-blue-950' : 'bg-[#FFD233]'}`}
+                onClick={handleClick}>Send Message</button>
+            </form>
           </div>
-          <div style={{ flex: 1, marginLeft: "10px" }}>
-            <div className="tag">Email</div>
-            <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Email" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
-          </div>
-        </div>
-        <div style={{ display: "flex", marginBottom: "10px" }}>
-          <div style={{ flex: 1 }}>
-            <div className="tag">Phone</div>
-            <input type="text" name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
-          </div>
-          <div style={{ flex: 1, marginLeft: "10px" }}>
-            <div className="tag">Subject</div>
-            <input type="text" name="subject" value={formData.subject} onChange={handleChange} placeholder="Subject" style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
-          </div>
-        </div>
-        <div className="tag">Message</div>
-        <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Message" style={{ width: "100%", height: "100px", border: "2px solid grey", padding: "4px", margin: "10px 0" }} />
-        <button type="submit" style={{ width: "170px", height: "50px", textAlign: "center", color: "white", display: "block", margin: "auto", marginTop: "20px", fontSize: "16px", fontFamily: "Rubik", fontWeight: "100", wordWrap: "break-word", background: "#FFD233", borderRadius: "3px", border: "none" }} onClick={handleSubmit}>Send Message</button>
-      </form>
-    </div>
 
         </div>
-    </div>
+      </div>
 
     </>
   )
