@@ -5,7 +5,7 @@ import chStation from '../../../assets/chStation.svg'
 
 const EvAdvantage = () => {
   return (
-    <div>
+    <div data-aos="slide-up" data-aos-duration="4000">
       <div className="flex flex-col lg:space-y-20 items-center my-10">
         {/* heading */}
         <div className="">
