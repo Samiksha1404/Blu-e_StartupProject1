@@ -15,7 +15,7 @@ function VideoSection() {
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/1b2cc39ad8ccf069e12886ef71598972c9cd5e06c1abb5471460407413ee582e?apiKey=d7e5bab79af041058fcada747b413e1e& "
       alt="Descriptive alt text for the image" 
-      data-aos="slide-left" data-aos-duration="1000"
+      data-aos="" data-aos-duration="1000"
       className="ml-auto w-full aspect-[0.91] max-w-[777px] max-md:max-w-full"
     />
       </div>
@@ -41,7 +41,7 @@ function AboutUsButton() {
 function HomeSubpage2() {
   return (
     <div>
-      <div className="flex gap-5 max-md:flex-col max-md:gap-0" data-aos="slide-right" data-aos-duration="2000">
+      <div className="flex gap-5 max-md:flex-col justify-center items-center max-md:gap-0" data-aos="fade-down" data-aos-duration="2000">
         <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch px-5 my-auto text-lg font-medium max-md:mt-10 max-md:max-w-full">
             <h1 className="text-xl tracking-wide leading-8 text-center text-blue-950 max-md:max-w-full dark:text-blue-300">
@@ -66,9 +66,11 @@ function HomeSubpage2() {
                 transportation accessible to all.
               </p>
             </div>
+
             <AboutUsButton />
           </div>
         </div>
+
         <VideoSection />
       </div>
     </div>

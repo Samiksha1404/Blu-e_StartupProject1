@@ -8,7 +8,7 @@ const ThoughtLeadership = () => {
         <div className="bg-yellow-400 dark:bg-slate-900 flex items-center flex-col">
             <div className="flex flex-col justify-center items-center p-10">
              
-             <h1 className=" lg:text-[103px] md:text-[80px] sm:text-[60px] text-[45px] absolute text-white font-bold mt-8  lg:left-[180px] z-10" data-aos="slide-right" data-aos-duration="2000">Thought <br /> Leadership</h1>
+             <h1 className=" lg:text-[103px] md:text-[80px] sm:text-[60px] text-[45px] absolute text-white font-bold mt-8  lg:left-[180px] z-10" data-aos="fade-right" data-aos-duration="2000">Thought <br /> Leadership</h1>
              <figure data-aos="fade-up" data-aos-duration="2000">
              <img src={Green} alt="" className="th-image "/>
              </figure>

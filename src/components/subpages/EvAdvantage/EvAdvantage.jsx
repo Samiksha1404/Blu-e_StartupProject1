@@ -9,7 +9,7 @@ const EvAdvantage = () => {
       <div className="flex flex-col lg:space-y-20 items-center my-10">
         {/* heading */}
         <div className="">
-          <p className="md:text-[48px] text-[32px] font-bold dark:text-slate-200  text-center mb-5 dark:text-slate-300">What advantages will you get using 
+          <p className="md:text-[48px] text-[32px] font-bold dark:text-slate-200  text-center mb-5 ">What advantages will you get using 
 EV Charger?</p>
         </div>
 

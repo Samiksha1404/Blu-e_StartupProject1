@@ -22,7 +22,7 @@ const HomeSubpage9 = () => {
 
         <div className="flex flex-col md:flex-row w-full  justify-around items-center md:mt-9 mt-[-20px] md:space-y-0 space-y-6 ">
             {/* left */}
-            <div className="md:mr-0 mr-[95px]"  data-aos="slide-right" data-aos-duration="2000">
+            <div className="md:mr-0 mr-[95px]"  data-aos="fade-left" data-aos-duration="2000">
               
             <div class="md:space-y-5  space-y-2 mt-8 md:mx-1 mx-auto px-6  text-left">
             <h1 class="text-indigo-950 dark:text-indigo-400/50 md:text-[42px] text-2xl font-semibold ">EV Charging</h1>
@@ -37,7 +37,7 @@ const HomeSubpage9 = () => {
             </div>
             
             {/* right */}
-            <div className="" data-aos="slide-left" data-aos-duration="2000">
+            <div className="" data-aos="fade-right" data-aos-duration="2000">
               <img src={evCharge} alt="" className='lg:w-[682px] lg:h-[472px] ' />
             </div>
 
