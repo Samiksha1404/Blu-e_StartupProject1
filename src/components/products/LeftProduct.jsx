@@ -8,11 +8,11 @@ const LeftProduct = ({heading , subheading , li1,li2,li3,li4 ,imgsrc }) => (
       <div className='p-4 mt-2'>
         <div className={`  flex flex-col lg:flex-row  dark:bg-white items-center w-fit mx-auto`}>
          {/* image */}
-          <div className="lg:w-[526px] item-center justify-center">
+          <div className="lg:w-[526px] item-center justify-center" >
             <img src={imgsrc} alt="" className="w-[330] h-[500px] pl-8 " />
           </div>
 
-          <div className="bg-white dark:bg-slate-800  md:p-10 p-4 lg:w-[756px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2 ">
+          <div className="bg-white dark:bg-slate-800  md:p-10 p-4 lg:w-[756px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2 " >
             {/* heading */}
             <h1 className="lg:text-[48px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400 text-black font-['Rubik'] ">{heading}</h1>
             <h1 className="lg:text-[20px] md:text-[25px] text-[18px] text-blue-950 dark:text-blue-300 ">{subheading}</h1>
@@ -25,6 +25,7 @@ const LeftProduct = ({heading , subheading , li1,li2,li3,li4 ,imgsrc }) => (
               </ul>
             </p>
           </div>
+
         </div>
       </div>
       <div className="max-w-[481px] min-h-[30px] bg-gradient-to-r from-yellow-300 via-yellow-400 to-slate-10 flex items-center justify-center mt-6 mb-6"></div>
