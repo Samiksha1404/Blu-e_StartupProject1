@@ -25,13 +25,13 @@ const LeftProduct2 = ({ heading, subheading, imgsrc }) => {
     <>
       {/* product1 */}
       <div className='p-4'>
-        <div className="flex flex-col lg:flex-row  dark:bg-white  items-center w-fit mx-auto">
+        <div data-aos="fade-down" data-aos-duration="1000" className="flex flex-col lg:flex-row  dark:bg-white  items-center w-fit mx-auto">
           {/* image */}
-          <div className="lg:w-[526px] flex items-center justify-center">
+          <div data-aos="flip-up" data-aos-duration="1000" className="lg:w-[526px] flex items-center justify-center">
             <img src={imgsrc} alt="" className="w-[330px] h-[500px] lg:pl-8" />
           </div>
 
-          <div className="bg-white dark:bg-slate-800 md:p-10 p-4 lg:w-[756px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2">
+          <div data-aos="fade-down" data-aos-duration="1000" className="bg-white dark:bg-slate-800 md:p-10 p-4 lg:w-[756px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2">
             {/* heading */}
             <h1 className="lg:text-[48px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400 text-black font-['Rubik']">{heading}</h1>
             <h1 className="lg:text-[20px] md:text-[25px] text-[18px] text-blue-950 dark:text-blue-300" >{subheading}</h1>
