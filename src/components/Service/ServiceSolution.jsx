@@ -17,7 +17,7 @@ const ServiceSolution = () => {
          </div>
          
          <div className="w-full flex flex-col items-center px-2">
-         <div className=" lg:w-[1165px] grid grid-cols-3 lg:gap-16 md:gap-8 gap-2  pt-5">
+         <div  className=" lg:w-[1165px] grid grid-cols-3 lg:gap-16 md:gap-8 gap-2  pt-5">
             <Card6 image={s1} title="Revolutionizing EV Charging with Autonomous Convenience"/>
             <Card6 image={s2} title="Easy payment with UPI"/>
             <Card6 image={s7} title="Make money by building network with us"/>
