@@ -14,10 +14,10 @@ export default function Footer() {
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
                     
             <div className="flex flex-col gap-5 justify-center md:max-w-[80%] mx-auto text-justify ">
-                <img src={footerLogo} alt="" className='w-24 shadow-md shadow-slate-200 '/>
+                <img src={footerLogo} alt="" className='lg:w-24 md:w-12 w-12 shadow-md shadow-slate-200 '/>
                 <Grid heading="About Blu-e"/>
-                <p className="md:text-[20px] text-[18px]">
-                <span className='font-bold md:text-[20px] text-[17px]'>Shashtav Charging Bharat Private Limited</span> is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. 
+                <p className="md:text-[20px] text-[14px]">
+                <span className='font-bold md:text-[20px] text-[14px]'>Shashtav Charging Bharat Private Limited</span> is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. 
                 </p>
                 <h1 claclassNamess="">CIN: U27900MH2023PTC401951</h1>
                 </div>
@@ -39,7 +39,7 @@ export default function Footer() {
            <div className="w-full h-[2px] bg-black dark:bg-slate-300"></div>
 
 
-            <div className="md:flex-row flex flex-col justify-between  md:items-end  items-center mt-4 md:gap-0 gap-4 text-slate-800 dark:text-slate-200 mb-6">
+            <div  className="md:flex-row flex flex-col justify-between  md:items-end  items-center mt-4 md:gap-0 gap-4 text-slate-800 dark:text-slate-200 mb-6 md:mx-16 ">
                 <div className="">
                  <p className="font-bold">Privacy Policy | Terms & Conditions</p>
                  <p className="text-sm mt-2">© 2023 Shashtav Charging Bharat Pvt. Ltd.</p>
