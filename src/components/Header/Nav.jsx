@@ -10,9 +10,12 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 
 export default function Header() {
+
     
     const [isNavOpen, setNavOpen] = useState(false)
-
+    
+    
+    
     return (
         <header className='w-full   font-semibold sticky z-50 top-0  bg-white/70  dark:bg-slate-950/70 dark:shadow-slate-400  shadow-md '>
 
@@ -130,7 +133,9 @@ className={`md:hidden text-4xl  z-20  ${isNavOpen ? "text-white" : "text-black d
 
           </nav>
 
-            <ul className= {`flex flex-col  pl-10  h-screen absolute top-0 right-0 w-80 bg-yellow-400 dark:bg-slate-900 text-indigo-900  pt-28 md:hidden z-10 transition-all duration-300 
+            <ul 
+           
+            className= {`fixed flex flex-col  pl-10  h-screen  top-0 right-[-40px] w-80 bg-yellow-400 dark:bg-slate-900 text-indigo-900  pt-28 md:hidden z-10 transition-transform duration-300 
             ${isNavOpen ? "translate-x-0" : "translate-x-full"}`} >
                              <li>
                              <NavLink

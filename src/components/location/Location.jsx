@@ -9,37 +9,38 @@ function Location() {
 
       </div>
 
+     <div>
+     <h1 className="text-center font-[surban] text-base md:text-lg lg:text-xl text-indigo-900 my-4 dark:text-blue-300">Contact Us We Will Respond Soon!</h1>
+     <h1 className="text-center font-[surban] text-2xl lg:text-3xl xl:text-4xl  md:text-xl lg:text-2xl text-black mb-6 dark:text-slate-100">Get In Touch With Nearest Local <br/> Business Sales Executive</h1>
 
-      <div className="contactpart" style={{ width: "100%", height: "600px", backgroundColor: 'white', paddingTop: "20px" }}>
-        <div className="contactsection" style={{ width: "80%", height: "auto", padding: "40px ", display: "block", margin: "auto" }}>
-          {/* form section */}
-          <div className="form" style={{ backgroundColor: "white", padding: "20px", marginTop: "30px" }}>
-            <h1 style={{ textAlign: 'center', fontFamily: 'Rubik', margin: "10px", fontSize: "18px", fontFamily: "surban", color: '#091F5B' }}>Contact Us We Will Respond Soon!</h1>
-            <h1 style={{ textAlign: 'center', fontFamily: 'Rubik', margin: "10px", fontSize: "30px", fontweight: "500", fontFamily: "surban", color: "black" }}>Get In Touch With Nearest Local <br />Business Sales Executive</h1>
-
-            <form action="">
-              <div style={{ display: "flex", marginBottom: "10px"}}>
-                <div style={{ flex: 1, paddingRight:"20px" }}>
-                  <div className="tag" style={{ display: "flex" }}>Name</div>
-                  <input type="text" placeholder='Name' style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
-                </div>
-                <div style={{ flex: 1, paddingRight:"20px" }}>
-                  <div className="tag" style={{ display: "flex" }}>Email</div>
-                  <input type="email" placeholder='Email' style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
-                </div>
-
-                <div style={{ flex: 1,paddingRight:"20px" }}>
-                  <div className="tag" style={{ display: "flex" }}>Phone</div>
-                  <input type="text" placeholder='Phone' style={{ width: "100%", height: "34px", border: "2px solid grey", padding: "4px", margin: "5px 0" }} />
-                </div>
-              </div>
-              <div className="tag" style={{ display: "flex" }}>Message</div>
-              <textarea placeholder='Message' style={{ width: "100%", height: "100px", border: "2px solid grey", padding: "4px", margin: "10px 0" }} />
-            </form>
-            <button style={{ width: 170, height: 50, textAlign: 'center', color: 'white', display: "block", margin: "auto", marginTop: "20px", fontSize: 16, fontFamily: 'Rubik', fontWeight: '100', wordWrap: 'break-word', background: '#FFD233', borderRadius: 3 }}>Send Message</button>
-          </div>
+     <form className='lg:pl-32 lg:pr-32 justify-center item-center p-2 sm:p-2'>
+    <div className="grid gap-6 mb-6 md:grid-cols-2">
+        <div>
+            <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+            <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
         </div>
-      </div>
+         
+        <div>
+            <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+            <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+        </div>
+        
+    </div>
+    <div className="mb-6">
+        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
+        <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+    </div> 
+    <div className="mb-6">
+        <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+        <textarea type="Message" id="message" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Message" required />
+    </div> 
+    <button type="submit" className="block m-auto  justify-center items-center text-white bg-yellow-300 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+  Submit
+</button>
+
+</form>
+
+</div>
 
     </>
   )

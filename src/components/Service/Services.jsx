@@ -28,6 +28,7 @@ function Services() {
         title="Services"
         description="Delivering top-tier charging "
         description1="solutions for customer delight."
+        buttonLink="/products"
         buttonText="PRODUCT > "
       />
 

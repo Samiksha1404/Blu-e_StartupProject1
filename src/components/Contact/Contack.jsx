@@ -66,6 +66,7 @@ function Contack() {
         title="Contact Us"
         description="Delivering top-tier charging"
         description1="solutions for customer delight."
+        buttonLink="/about"
         buttonText="ABOUT US"
       />
 

@@ -1,6 +1,5 @@
 import React from 'react'
-import IntroPart from '../subcomponents/IntroPart'
-import img1 from "../../assets/Station2.jpg"
+
 import GradientText from '../subpages/GradientText'
 import FutureIsNow from './FutureIsNow'
 import Card6 from '../subpages/HomeSubpage2/HomeSubpage6/Card6'
@@ -9,20 +8,35 @@ import im2 from "../../assets/im2.svg"
 import im3 from "../../assets/im3.svg"
 import im4 from "../../assets/im4.svg"
 import FutureOptimization from './FutureOptimization'
+import v1 from "../../assets/aboutvideo.mp4"
 import HowWeWork from './HowWeWork '
 import Founders from './Founders'
+import AboutIntropart from './AboutIntropart'
 
 function About() {
   return (
     <>
 
-      <IntroPart
-        imgSrc={img1}
+  {/* <div className="herosection sm:h-screen md:h-auto" >
+    <div className="imgContainer relative overflow-hidden">
+       <video src={v1} className="w-full h-auto sm:h-full filter brightness-75  " ></video> 
+      <div className="content absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
+        <h1 className="text-white text-4xl sm:text-6xl font-semibold">About Us</h1>
+        <p className="text-white text-lg sm:text-xl font-light pb-4 sm:pb-10">We’re Revolutionising<br />EV charging experience in India</p>
+        <button className="herobutton inline-block bg-blue-800 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-base sm:text-lg">SERVICES ></button>
+      </div>
+    </div>
+  </div> */}
+
+  <div className="App">
+      <AboutIntropart
+        videoSrc={v1}
         title="About Us"
         description="We’re Revolutionising"
         description1="EV charging experience in India"
-        buttonText="SERVICES > "
       />
+    </div>
+
 
        {/* who we are section */}
        
@@ -79,8 +93,7 @@ function About() {
       <Founders/>
 
      {/* Future Optimization */}
-
-     <FutureOptimization/>
+      <FutureOptimization/>
      
      <HowWeWork/>
 

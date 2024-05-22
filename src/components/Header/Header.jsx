@@ -9,7 +9,7 @@ import Dark2 from '../DarkMood/Dark2';
 export default function Header() {
     return (
         <header className="shadow-lg sticky z-50 top-0  shadow-slate-300 w-full">
-            <nav className=" dark:bg-slate-950   border-gray-200 lg:px-6 py-2.5 shad ">
+            <nav className=" dark:bg-slate-950   border-gray-200 lg:px-6 py-2.5 ">
                 <div className="flex flex-wrap justify-between items-center mx-auto ">
                     <Link to="/" className="flex items-center">
                         <img

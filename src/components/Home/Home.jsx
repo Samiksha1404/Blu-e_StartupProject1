@@ -6,7 +6,7 @@ import HomeSubPage6 from '../subpages/HomeSubpage2/HomeSubpage6/HomeSubPage6';
 import HomeSubPage2 from '../subpages/HomeSubpage2/HomeSubPage2';
 import HomeSubpage9 from '../subpages/HomeSubpage9';
 import Sponsors from '../subpages/Sponsors';
-import ThoughtLeadership from '../subpages/ThoughtLeadership';
+import ThoughtLeadership from '../subpages/ThoughtLeadership/ThoughtLeadership';
 import HomeSubPage7 from '../subpages/HomeSubPage7';
 import ChargingSolution from '../subpages/cahrgingSolution/ChargingSolution';
 import EvAdvantage from '../subpages/EvAdvantage/EvAdvantage';

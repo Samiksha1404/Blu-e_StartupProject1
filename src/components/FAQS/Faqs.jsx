@@ -29,6 +29,7 @@ function Faqs() {
         title="FAQs"
         description="We’re Revolutionising"
         description1="EV charging experience in India"
+        buttonLink="/services"
         buttonText="SERVICES >"
       />
       <div className=" py-2 lg:px-32 px-4">

@@ -7,7 +7,7 @@ import footerLogo from '../../assets/blueSymb.png'
 
 export default function Footer() {
     return (
-        <footer className="border-y dark:bg-slate-950 bottom-0 mt-16 mb-10 mx-4">
+        <footer className="border-y dark:bg-slate-950 bottom-0 mt-16 mb-10 mx-4 " data-aos="fade-down" data-aos-duration="1000">
             <div className="mx-auto w-full  p-4 py-6 lg:py-8 text-black dark:text-slate-200">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
                     
@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
             
             {/* horizontal line */}
-           <div className="w-full h-[2px] bg-black"></div>
+           <div className="w-full h-[2px] bg-black dark:bg-slate-300"></div>
 
 
             <div className="md:flex-row flex flex-col justify-between mt-4 md:gap-0 gap-4 text-slate-800 dark:text-slate-200 mb-6">
