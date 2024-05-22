@@ -22,21 +22,22 @@ const DownloadSection = () => {
   ];
 
   return (
-    <section className="flex flex-col justify-center items-center px-4 py-14 bg-blue-950 md:px-16 md:mx-40 mt-8">
-      <div className="w-full max-w-[616px]">
+    <section data-aos="zoom-in" data-aos-duration="1000" className="flex flex-col justify-center items-center px-4 py-14 bg-blue-950 md:px-16 md:mx-40 mt-8">
+      <div  className="w-full max-w-[616px]">
         <div className="flex flex-col gap-8 md:flex-row md:gap-5">
-          <div className="flex flex-col md:w-[69%]">
+          <div data-aos="fade-down" data-aos-duration="1000" className="flex flex-col md:w-[69%]">
             <h2 className="text-3xl font-semibold text-white"> Download the <br />
               <span className="font-bold text-white">BLU-E Shashtav Bharat</span> <br />
               <span className="font-bold text-white">Charging</span> Mobile App </h2>
           </div>
-          <div className="flex flex-col gap-4 md:ml-5 md:w-[31%]">
+          <div data-aos="flip-up" data-aos-duration="1000" className="flex flex-col gap-4 md:ml-5 md:w-[31%]">
             {downloadButtons.map((button, index) => (
               <DownloadButton
                 key={index}
                 imageSrc={button.imageSrc}
                 storeName={button.storeName}
                 link={button.link}
+                
               />
             ))}
           </div>

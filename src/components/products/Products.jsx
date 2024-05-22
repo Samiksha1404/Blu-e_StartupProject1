@@ -8,7 +8,7 @@ import LeftProduct2 from './LeftProduct2.jsx'
 import RightProduct2 from './RightProduct2.jsx'
 import p1 from "../../assets/product1.png"
 import p2 from "../../assets/product2.png"
-import p3 from "../../assets/product3.png"     
+import p3 from "../../assets/product3.png"
 import p4 from "../../assets/product4.png"
 import p5 from "../../assets/product5.png"
 import Applications from './Applications.jsx'

@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 const Cards = ({service,bgImage}) => {
   return (
     <div>
-        <div className=" items-end lg:h-[492px] lg:w-[360px] h-48 bg-cover mx-3 bg-no-repeat flex " style={{ backgroundImage: `url(${bgImage})` }}>
+        <div className=" items-end lg:h-[492px] lg:w-[360px] h-48 bg-cover mx-1 bg-no-repeat flex " style={{ backgroundImage: `url(${bgImage})` }}>
             
             
             <p className="pl-3 text-white font-bold text-[20px] mb-4">{service}</p>

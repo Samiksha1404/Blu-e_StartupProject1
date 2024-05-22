@@ -7,9 +7,9 @@ import c4 from "../../../../assets/c6_4.svg"
 
 const HomeSubPage6 = () => {
   return (
-    <div className='bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center items-center gap-10 ' data-aos="slide-up" data-aos-duration="4000">
+    <div className='bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center items-center gap-10 ' data-aos="slide-up" data-aos-duration="2000">
         <div className="">
-          <p className="lg:text-[38px] md:text-[28px] text-[25px]  text-center font-bold pt-5 dark:text-slate-100 ">Key differentiators of <br />
+          <p data-aos="slide-down" data-aos-duration="1000" className="lg:text-[38px] md:text-[28px] text-[25px]  text-center font-bold pt-5 dark:text-slate-100 ">Key differentiators of <br />
 BLU-E</p>
         </div>
 
