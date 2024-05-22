@@ -20,8 +20,8 @@ function Products() {
       <IntroPart
       imgSrc={img1}
       title="Product "
-      description="We’re Revolutionising"
-      description1="EV charging experience in India"
+      description="Our commitment is to provide world-class products "
+      description1="and offerings for ultimate customer satisfaction."
       buttonLink="/services"
       buttonText="SERVICES > "
       />

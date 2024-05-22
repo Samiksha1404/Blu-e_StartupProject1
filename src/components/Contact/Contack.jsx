@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import img1 from '../../assets/Station1.jpg'
+import img1 from '../../assets/contactUs.jpg'
 import img2 from '../../assets/call.svg'
 import img3 from '../../assets/location.svg'
 import img4 from '../../assets/mail.svg'
@@ -64,8 +64,8 @@ function Contack() {
       <IntroPart
         imgSrc={img1}
         title="Contact Us"
-        description="Delivering top-tier charging"
-        description1="solutions for customer delight."
+        description="Get in touch today"
+        description1="we Will Respond Soon!"
         buttonLink="/about"
         buttonText="ABOUT US"
       />
@@ -105,7 +105,7 @@ function Contack() {
 
           <div className="form" style={{ backgroundColor: "white", padding: "20px", margin: "40px" }}>
             <h1 style={{ margin: "10px", fontSize: "30px", fontWeight: "500", fontFamily: "sans-serif", color: "black" }}>Send us a message!</h1>
-            <form onSubmit={handleSubmit}>
+            {/* <form onSubmit={handleSubmit}>
               <div style={{ display: "flex", marginBottom: "10px" }}>
                 <div style={{ flex: 1 }}>
                   <div className="tag">Name</div>
@@ -130,7 +130,39 @@ function Contack() {
               <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Message" style={{ width: "100%", height: "100px", border: "2px solid grey", padding: "4px", margin: "10px 0" }} />
               <button type="submit" className={`w-[170px] h-[50px] text-center text-white block mx-auto mt-[20px] text-[16px] font-[Rubik] font-thin break-words rounded-[3px] border-none transition-colors duration-300 ${isClicked ? 'bg-blue-950' : 'bg-[#FFD233]'}`}
                 onClick={handleClick}>Send Message</button>
-            </form>
+            </form> */}
+            <form onSubmit={handleSubmit} className=' justify-center item-center p-2 sm:p-2'>
+          <div className="grid gap-6 mb-6 md:grid-cols-2">
+            <div>
+              <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
+              <input type="text" id="first_name" value={formData.name} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
+            </div>
+
+            <div>
+              <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+              <input type="tel" id="phone" value={formData.phone} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+            </div>
+
+          </div>
+          <div>
+          <div>
+            <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
+            <input type="email" id="email" value={formData.email} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+          </div>
+          <div >
+            <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+            <input type="email" id="email" value={formData.subject} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+          </div>
+          </div>
+          <div className="mb-6">
+            <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+            <textarea type="Message" value={formData.message} onChange={handleChange} id="message" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Message" required />
+          </div>
+          <button type="submit" onClick={handleClick} className="block m-auto  justify-center items-center text-white bg-yellow-400 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Submit Message
+          </button>
+
+        </form>
           </div>
 
         </div>

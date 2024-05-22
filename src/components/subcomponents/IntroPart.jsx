@@ -16,20 +16,19 @@ import { Link } from 'react-router-dom';
 // );
 
 
-
 const IntroPart = ({ imgSrc, title, description, description1, buttonText, buttonLink }) => (
-  <div className="herosection sm:h-screen md:h-auto">
-    <div className="imgContainer relative overflow-hidden md:h-[630px]">
-      <img src={imgSrc} alt="" className="w-full h-full object-cover filter brightness-75" />
-      <div className="content absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
-        <h1 className="text-white text-2xl sm:text-4xl lg:text-6xl font-semibold">{title}</h1>
-        <p className="text-white text-base sm:text-lg lg:text-xl font-light pb-2 sm:pb-4 lg:pb-10">
+  <div className="herosection relative">
+    <div className="imgContainer relative overflow-hidden md:h-[700px] bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${imgSrc})` }}>
+      <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0.1, 0.9), rgba(0, 0.2, 0, 0))' }}></div>
+      <div className="content absolute inset-0 flex flex-col justify-center items-center text-center z-10">
+        <h1 className="text-white text-34xl md:text-6xl lg:text-7xl font-bold text-center">{title}</h1>
+        <p className="text-white text-3xl text-center md:text-lg lg:text-xl font-light pb-4 md:pb-6 lg:pb-8">
           {description}
           <br />
           {description1}
         </p>
         <Link to={buttonLink}>
-          <button className="herobutton inline-block bg-blue-800 text-white px-3 sm:px-4 lg:px-6 py-2 sm:py-2 lg:py-3 rounded-lg text-sm sm:text-base lg:text-lg">
+          <button className="herobutton bg-blue-800 text-white px-4 md:px-6 py-2 md:py-3 lg:py-4 rounded-lg text-base md:text-lg lg:text-xl hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-yellow-100">
             {buttonText}
           </button>
         </Link>
@@ -37,6 +36,7 @@ const IntroPart = ({ imgSrc, title, description, description1, buttonText, butto
     </div>
   </div>
 );
+
 
 export default IntroPart;
 

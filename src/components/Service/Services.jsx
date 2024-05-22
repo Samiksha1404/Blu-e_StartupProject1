@@ -1,6 +1,6 @@
 import React from 'react'
 import IntroPart from '../subcomponents/IntroPart'
-import img1 from "../../assets/Station3.jpg"
+import img1 from "../../assets/service.jpg"
 import img2 from "../../assets/service1.png"
 import img3 from "../../assets/service2.png"
 
@@ -17,6 +17,7 @@ import s7 from '../../assets/s7.svg'
 import ServiceSolutioncard from './ServiceSolutioncard.jsx'
 import DownloadSection from './DownloadSection.jsx'
 import { NavLink } from 'react-router-dom'
+import ChargeSteps from './ChargeSteps.jsx'
 
 
 function Services() {
@@ -68,7 +69,7 @@ function Services() {
                 <span className="font-bold text-yellow-300  ">E</span> is provider of charging station services for electric vehicles. As a pioneer in the field, we are committed to facilitating the widespread adoption of electric transportation by offering convenient and reliable charging solutions. Our charging stations are strategically located in key areas to ensure easy access for electric vehicle owners, whether it be at homes, workplaces, commercial establishments, or public spaces.
               </p>
               <div className="flex gap-5 justify-between self-end mt-9 text-lg font-semibold text-center text-white">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/862d2b7dc82b113d7834e6f0975b08d7307a6dcfba06387182df74ee42031b7c?apiKey=d7e5bab79af041058fcada747b413e1e&" alt="" className="shrink-0 self-start mt-2.5 aspect-square w-[60px]" />
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/862d2b7dc82b113d7834e6f0975b08d7307a6dcfba06387182df74ee42031b7c?apiKey=d7e5bab79af041058fcada747b413e1e&" alt="" className="shrink-0 self-start mt-2.5 aspect-square w-[60px] animate-zoom" />
                 <div className=" items-center justify-center mt-6 mb-6">
                   <NavLink to="/about">
                     <button className="relative md:px-6 md:py-3 px-2 md:text-xl  text-sm font-semibold  text-black rounded-lg group">
@@ -124,6 +125,9 @@ function Services() {
           <img data-aos="zoom-in" data-aos-duration="1500" src={process} alt="" className="" />
         </div>
       </div>
+ 
+     {/* Charging steps */}
+     <ChargeSteps/>
 
 
       {/* about blu-e paragraph */}

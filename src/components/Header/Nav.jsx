@@ -59,6 +59,18 @@ export default function Header() {
     </li>
     <li>
         <NavLink
+            to="/products"
+            className={({ isActive }) =>
+                `block py-2 pr-4 pl-3 duration-200 ${
+                    isActive ? "text-blue-900 underline" : "text-black"
+                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
+            }
+        >
+            Products
+        </NavLink>
+    </li>
+    <li>
+        <NavLink
             to="/location"
             className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
@@ -105,18 +117,7 @@ export default function Header() {
             Contact Us
         </NavLink>
     </li>
-    <li>
-        <NavLink
-            to="/products"
-            className={({ isActive }) =>
-                `block py-2 pr-4 pl-3 duration-200 ${
-                    isActive ? "text-blue-900 underline" : "text-black"
-                } border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-900 lg:p-0 dark:text-slate-200 text-slate-800`
-            }
-        >
-            Products
-        </NavLink>
-    </li>
+   
 </ul>
 
 
@@ -159,6 +160,16 @@ className={`md:hidden text-3xl  z-20  ${isNavOpen ? "text-white" : "text-black d
                             </li>
                             <li>
                                 <NavLink
+                                    to="/products"
+                                    className={({isActive}) =>
+                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    }
+                                >
+                                    Products
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
                                     to="/location"
                                     className={({isActive}) =>
                                     `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
@@ -197,16 +208,7 @@ className={`md:hidden text-3xl  z-20  ${isNavOpen ? "text-white" : "text-black d
                                     Contact Us
                                 </NavLink>
                             </li>
-                            <li>
-                                <NavLink
-                                    to="/products"
-                                    className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
-                                    }
-                                >
-                                    Products
-                                </NavLink>
-                            </li>
+                            
             </ul>
 
 

@@ -5,6 +5,7 @@ import img1 from '../../assets/Station2.jpg';
 import img2 from '../../assets/playstore.svg';
 import img3 from '../../assets/apple.svg';
 import GradientText from '../../components/subpages/GradientText.jsx';
+import plugeasy from '../../assets/Plugeasy.png';
 import {
   Accordion,
   AccordionHeader,
@@ -301,33 +302,68 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-        
+
         </div>
 
 
 
         {/*app secition */}
-        <div className='   pl-32 mt-12 h-[547px] bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center gap-10 '>
+        {/* <div className='   pl-32 mt-12 h-[547px] bg-yellow-400 dark:bg-slate-800  flex flex-col justify-center gap-10 '>
           <div className="sm:h-auto flex flex-col justify-center gap-10">
-            <div className=" "><span class=" flex flex-col justify-center gap-10 text-white sm:text-[38px] font-semibold font-['Rubik']">Download the<br /></span><span class="text-white sm:text-[38px] font-bold font-['Rubik']">BLU-E Shashtav Bharat<br />Charging<br /></span><span className="text-white sm:text-[38px] font-semibold font-['Rubik']">Mobile App</span></div>
-
-            <div className='flex flex-row p-4'>
-              <div className="mb-4 mb-0 pr-20">
-                <button className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
-                  <img src={img2} alt="" className="" />
-                  <span className="hidden lg:inline">Play Store</span>
-                </button>
-              </div>
-              <div className=" ml-22  ">
-                <button className="bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+           
+           
+            <div className=" "><span class=" block flex-col justify-center gap-10 text-white sm:text-[38px] font-semibold font-['Rubik']">Download the<br /></span><span class="text-white sm:text-[38px] font-bold font-['Rubik']">BLU-E Shashtav Bharat<br />Charging<br /></span><span className="text-white sm:text-[38px] font-semibold font-['Rubik']">Mobile App</span></div>
+              <div className='flex flex-row p-4'>
+                <div className="mb-4 mb-0 pr-20">
+                  <button className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+                   <img src={img2} alt="" className="" />
+                   <span className="hidden lg:inline">Play Store</span>
+                  </button>
+                </div>
+                <div className=" ml-22  ">
+                  <button className="bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
                   <img src={img3} alt="" className='' />
                   <span className="hidden lg:inline">Apple Store</span>
-                </button>
+                  </button>
+                </div>
               </div>
             </div>
-
+           
+          </div> */}
+          <div className="p-4 md:p-12 mt-12 bg-yellow-400 dark:bg-slate-800 flex flex-col justify-center items-center gap-10 md:flex-row md:justify-between">
+      <div className="flex flex-col justify-center gap-10 w-full md:w-1/2 text-center md:text-left">
+        <div className="flex flex-col justify-center gap-10 md:pl-14">
+          <div className="">
+            <span className="block text-white text-[24px] md:text-[38px] font-semibold font-['Rubik']">
+              Download Plugeasy App
+              <br />
+            </span>
+            <span className="text-white text-[24px] md:text-[38px] font-bold font-['Rubik']">
+            for Charging with
+              <br />
+              BLU-E 
+              <br />
+            </span>
+            <span className="text-white text-[24px] md:text-[38px] font-semibold font-['Rubik']">
+             Shashtav Bharat.
+            </span>
+          </div>
+          <div className="flex justify-center md:justify-start gap-4 p-4">
+            <button className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+              <img src={img2} alt="Play Store" className="w-6 h-6 mr-2" />
+              <span className="hidden lg:inline">Play Store</span>
+            </button>
+            <button className="bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+              <img src={img3} alt="Apple Store" className="w-6 h-6 mr-2" />
+              <span className="hidden lg:inline">Apple Store</span>
+            </button>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center items-center w-full md:w-1/2">
+        <img src={plugeasy} alt="App Image" className="max-w-full h-auto animate-zoom" />
+      </div>
+    </div>
       </div>
     </>
   );
