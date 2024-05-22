@@ -17,16 +17,16 @@ export default function Header() {
     
     
     return (
-        <header className='w-full   font-semibold sticky z-50 top-0  bg-white/70  dark:bg-slate-950/70 dark:shadow-slate-400  shadow-md '>
+        <header className='w-full   font-semibold sticky z-50 top-0  bg-white   dark:bg-slate-950/70 dark:shadow-slate-400  shadow-md '>
 
-          <nav className="w-full px-5 md:px-10  h-[70px] flex justify-between items-center  ">
+          <nav className="w-full px-5 md:px-10  md:h-[70px] md:py-1 py-2  flex justify-between items-center  ">
 
              {/* logo */}
-             <div className="">
+             <div className="   p-1">
                    <Link to="/" className="">
                         <img
                             src={bluelogo}
-                            className=" lg:pl-16" 
+                            className=" lg:pl-16 md:w-full rounded-[4px]  w-[86px]  " 
                             alt="Logo"
                         />
                     </Link>
@@ -124,7 +124,7 @@ export default function Header() {
             <Dark2/>
             <button 
 onClick={()=> setNavOpen(!isNavOpen)}
-className={`md:hidden text-4xl  z-20  ${isNavOpen ? "text-white" : "text-black dark:text-slate-300"}`}>
+className={`md:hidden text-3xl  z-20  ${isNavOpen ? "text-white" : "text-black dark:text-slate-300"}`}>
 {isNavOpen ? <CgClose/> : <GiHamburgerMenu/> }
           </button>    
    
