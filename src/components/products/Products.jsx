@@ -28,7 +28,7 @@ function Products() {
     
     {/* product sub heading */}
     <div className="flex flex-col justify-center items-center lg:mx-0 mx-4 gap-4">
-        <div className=" text-center">
+        <div className=" text-center lg:pl-12 lg:pr-12">
           <GradientText text="EXPLORE OUR WIDE RANGE OF EV CHARGING PRODUCTS & SOLUTIONS!" />
           <div class=" text-center text-stone-500 text-[25px] font-normal font-['Rubik'] tracking-wider dark:text-slate-100">Your beast needs a beast for a perfect charging solution.</div>
         </div>

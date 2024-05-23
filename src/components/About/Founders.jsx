@@ -38,7 +38,7 @@ const Founders = () => {
   return (
     <div>
       <div data-aos="zoom-in" data-aos-duration="1500"  className="bg-gradient-to-r from-blue-900 to-blue-700 dark:bg-gradient-to-r dark:from-blue-950 dark:to-blue-900 p-10 mx-auto lg:w-[1191px] rounded-md mt-5">
-        <h1 className="text-4xl font-bold text-white mb-8 text-center">Delivering Products That Embody...</h1>
+        <h1 className="text-4xl font-bold text-white mb-8 text-center">The minds who keep us charged...</h1>
         <div data-aos="fade-up" data-aos-duration="1500" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 justify-items-center gap-4">
           {founders.map((founder, index) => (
             <Card

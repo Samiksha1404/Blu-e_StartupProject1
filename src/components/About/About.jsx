@@ -44,10 +44,10 @@ function About() {
   <div className=" flex flex-col justify-center items-center gap-4    pt-4">
     <GradientText text="Who We Are" />
 
-    <div data-aos="fade-up" data-aos-duration="1000" className="aboutInfo pt-5  text-slate-800 dark:text-slate-400 md:text-lg text-[15px] text-justify item-center gap-2 lg:mx-[60px] mx-5 flex flex-col justify-center items-center ">
-      <span   className="font-bold ">Shashtav Charging Bharat Private Limited </span>
+    <div data-aos="fade-up" data-aos-duration="1000" className="aboutInfo pt-5 pb-5 text-slate-800 dark:text-slate-400 md:text-lg text-[15px] text-justify item-center gap-5 lg:w-[1380px] lg:mx-[60px] mx-5 flex flex-col justify-center items-center ">
+      
       <span data-aos="fade-down" data-aos-duration="1000" className="mt-2 text-justify">
-        is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. India is extensively transforming into E-mobilities and a new shift to a BEV (Battery Electric Vehicles) is imminent for a next-generation development.
+      <span   className="font-bold ">Shashtav Charging Bharat Private Limited </span>  is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. India is extensively transforming into E-mobilities and a new shift to a BEV (Battery Electric Vehicles) is imminent for a next-generation development.
       </span>
 
       <p data-aos="fade-down" data-aos-duration="1000" className="mt-4 text-justify">

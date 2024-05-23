@@ -10,7 +10,7 @@ import GradientText from '../subpages/GradientText'
 
 const FutureOptimization = () => {
   return (
-    <div className=' '> 
+    <div className='pb-10 '> 
          <div className="">
             <GradientText text="Future Optimization"/>
          </div>

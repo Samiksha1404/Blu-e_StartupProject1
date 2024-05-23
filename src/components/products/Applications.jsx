@@ -16,9 +16,9 @@ const Applications = () => {
   <div className="mx-2 md:mx-0 mb-4 md:mb-0 ">
     <div  class="md:space-y-5 space-y-2 mt-8 md:mx-1  px-6 ">
       <ul data-aos="fade-down" data-aos-duration="1000" class="space-y-2 md:text-xl text-slate-800 dark:text-slate-500">
-        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1" /><p><span className='font-bold text-blue-950 dark:text-blue-300' >Highway Fuel Outlets/</span> service station</p></li>
-        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1" /><p> <span className='font-bold text-blue-950 dark:text-blue-300' >Parking garage/</span> back office</p></li>
-        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1" /><p> <span className='font-bold text-blue-950 dark:text-blue-300'>Mall, shopping</span>  complex, university</p></li>
+        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1 animate-zoom" /><p><span className='font-bold text-blue-950 dark:text-blue-300' >Highway Fuel Outlets/</span> service station</p></li>
+        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1 animate-zoom" /><p> <span className='font-bold text-blue-950 dark:text-blue-300' >Parking garage/</span> back office</p></li>
+        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1 animate-zoom" /><p> <span className='font-bold text-blue-950 dark:text-blue-300'>Mall, shopping</span>  complex, university</p></li>
       </ul>
     </div>
   </div>
@@ -28,9 +28,9 @@ const Applications = () => {
   <div className="mx-2 md:mx-0 mb-4 md:mb-0 ">
     <div  class="md:space-y-5 space-y-2 mt-8 md:mx-1  px-6">
       <ul data-aos="fade-up" data-aos-duration="1000" class=" space-y-2 md:text-xl text-slate-800 dark:text-slate-500  ">
-        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1" /><p><span className='font-bold text-blue-950 dark:text-blue-300' >Commercial </span>fleet operators</p></li>
-        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1" /><p> <span className='font-bold text-blue-950 dark:text-blue-300' >EV infrastructure</span> operator/service providers</p></li>
-        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1" /><p> <span className='font-bold text-blue-950 dark:text-blue-300' >EV dealer</span> workshop</p></li>
+        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1 animate-zoom" /><p><span className='font-bold text-blue-950 dark:text-blue-300' >Commercial </span>fleet operators</p></li>
+        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1 animate-zoom" /><p> <span className='font-bold text-blue-950 dark:text-blue-300' >EV infrastructure</span> operator/service providers</p></li>
+        <li class="flex space-x-3"><img src={elipse} alt="" class="w-5 mt-1 animate-zoom" /><p> <span className='font-bold text-blue-950 dark:text-blue-300' >EV dealer</span> workshop</p></li>
       </ul>
     </div>
   </div>

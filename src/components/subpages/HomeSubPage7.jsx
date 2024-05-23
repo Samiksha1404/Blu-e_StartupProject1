@@ -14,8 +14,8 @@ const HomeSubPage7 = () => {
                 <p className="dark:text-slate-300 text-justify">Smart electric car charging is an entirely new reality. Each morning you will find a fully served charged car. Also, it will have charged overnight when the electricity is cheapest and it has been able to contribute to the power grid network, also it be needed in language, currency, and tax regulations.</p>
 
              <ul class="space-y-2 md:text-xl  text-slate-800 dark:text-slate-300 font-bold mt-6">
-              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1"/><p>Reducing CO2 emissions by manufacturing locally.</p></li>
-              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1"/><p> Global supply chain for continuous improvement.</p></li>
+              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1 animate-zoom"/><p>Reducing CO2 emissions by manufacturing locally.</p></li>
+              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1 animate-zoom"/><p> Global supply chain for continuous improvement.</p></li>
             </ul>
 
             </div>
