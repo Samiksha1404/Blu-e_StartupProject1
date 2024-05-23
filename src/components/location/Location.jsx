@@ -9,32 +9,32 @@ function Location() {
 
       </div>
 
-      <div>
-        <h1 className="text-center font-[surban] text-base md:text-lg lg:text-xl text-indigo-900 my-4 dark:text-blue-300">Contact Us We Will Respond Soon!</h1>
-        <h1 className="text-center font-[surban] text-2xl lg:text-3xl xl:text-4xl  md:text-xl lg:text-2xl text-black mb-6 dark:text-slate-100">Get In Touch With Nearest Local <br /> Business Sales Executive</h1>
+      <div data-aos="fade-up" data-aos-duration="2000">
+        <h1 data-aos="fade-down" data-aos-duration="1000"  className="text-center font-[surban] text-base md:text-lg lg:text-xl text-indigo-900 my-4 dark:text-blue-300">Contact Us We Will Respond Soon!</h1>
+        <h1 data-aos="fade-down" data-aos-duration="1000" className="text-center font-[surban] text-2xl lg:text-3xl xl:text-4xl  md:text-xl lg:text-2xl text-black mb-6 dark:text-slate-100">Get In Touch With Nearest Local <br /> Business Sales Executive</h1>
 
-        <form className='lg:pl-32 lg:pr-32 justify-center item-center p-2 sm:p-2'>
-          <div className="grid gap-6 mb-6 md:grid-cols-2">
-            <div>
+        <form data-aos="slide-down" data-aos-duration="1500" className='lg:pl-32 lg:pr-32 justify-center item-center p-2 sm:p-2 mx-2'>
+          <div className="grid gap-6 mb-6 md:grid-cols-2 ">
+            <div data-aos="slide-up" data-aos-duration="1500">
               <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-              <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
+              <input type="text" id="first_name" className="bg-gray-50 border  rounded border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
             </div>
 
-            <div>
+            <div data-aos="slide-up" data-aos-duration="1500">
               <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
               <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
             </div>
 
           </div>
-          <div className="mb-6">
+          <div data-aos="slide-up" data-aos-duration="1500" className="mb-6">
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
             <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
           </div>
-          <div className="mb-6">
+          <div data-aos="slide-up" data-aos-duration="1500" className="mb-6">
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
             <textarea type="Message" id="message" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Message" required />
           </div>
-          <button type="submit" className="block m-auto  justify-center items-center text-white bg-yellow-300 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <button data-aos="flip-up" data-aos-duration="1500" type="submit" className="block m-auto  justify-center items-center text-white bg-yellow-300 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Submit
           </button>
 
