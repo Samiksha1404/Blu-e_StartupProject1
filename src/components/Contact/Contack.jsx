@@ -8,11 +8,11 @@ import IntroPart from '../subcomponents/IntroPart'
 function Contack() {
 
   const ContactInfo = ({ title, imgSrc, description }) => (
-    <div className="c1" style={{ flex: 1, padding: "30px" }}>
+    <div className="c1 mx-auto " style={{ flex: 1, padding: "30px" }}>
       <div className="info1">
-        <h1 style={{ fontSize: "50px", fontWeight: "700", fontFamily: "surban", color: "white" }}>{title}</h1>
+        <h1 className='text-white lg:text-5xl text-3xl  font-semibold mb-3 ' style={{   }}>{title}</h1>
         <div className="detail" style={{ display: "flex" }}>
-          <img src={imgSrc} alt="" />
+          <img className='animate-bounce' src={imgSrc} alt="" />
           <p style={{ paddingTop: "2px", paddingLeft: "12px", fontSize: "16px", color: "white" }}>{description}</p>
         </div>
       </div>
@@ -73,10 +73,10 @@ function Contack() {
 
       {/* contact part */}
 
-      <div className="contactpart bg-white pt-20 md:pt-40">
-        <div className="contactsection w-5/6 md:w-4/5 mx-auto py-10 md:py-20 rounded-lg shadow-lg" style={{ background: 'linear-gradient(113deg, rgba(9, 31, 91, 0.96) 20%, rgba(18.48, 26.12, 60.06, 0.77) 44%, rgba(25.47, 27.82, 60.60, 0.46) 70%, rgba(35.88, 30.35, 61.41, 0) 100%)' }}>
+      <div data-aos="zoom-out" data-aos-duration="1500" className="contactpart  bg-indigo-50 dark:bg-slate-950 pt-20 md:pt-40">
+        <div className="contactsection md:w-4/5 md:mx-auto mx-4 py-10 md:py-20 rounded-lg shadow-lg shadow-slate-600" style={{ background: 'linear-gradient(113deg, rgba(9, 31, 91, 0.96) 20%, rgba(18.48, 26.12, 60.06, 0.77) 44%, rgba(25.47, 27.82, 60.60, 0.46) 70%, rgba(35.88, 30.35, 61.41, 0) 100%)' }}>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6  ">
             <ContactInfo
               title="On Call"
               imgSrc={img2}
@@ -103,8 +103,8 @@ function Contack() {
           {/* form section */}
 
 
-          <div className="form" style={{ backgroundColor: "white", padding: "20px", margin: "40px" }}>
-            <h1 style={{ margin: "10px", fontSize: "30px", fontWeight: "500", fontFamily: "sans-serif", color: "black" }}>Send us a message!</h1>
+          <div data-aos="fade-up" data-aos-duration="1500" className="form lg:mx-12 md:mx-8 mx-4 bg-slate-200 dark:bg-gray-700 rounded" style={{ padding: "20px",  }}>
+            <h1 className='text-lg dark:text-yellow-100 md:text-3xl' style={{ margin: "10px",  fontFamily: "sans-serif" }}>Send us a message!</h1>
             {/* <form onSubmit={handleSubmit}>
               <div style={{ display: "flex", marginBottom: "10px" }}>
                 <div style={{ flex: 1 }}>
@@ -131,34 +131,34 @@ function Contack() {
               <button type="submit" className={`w-[170px] h-[50px] text-center text-white block mx-auto mt-[20px] text-[16px] font-[Rubik] font-thin break-words rounded-[3px] border-none transition-colors duration-300 ${isClicked ? 'bg-blue-950' : 'bg-[#FFD233]'}`}
                 onClick={handleClick}>Send Message</button>
             </form> */}
-            <form onSubmit={handleSubmit} className=' justify-center item-center p-2 sm:p-2'>
+            <form onSubmit={handleSubmit} className=' justify-center item-center p-2 sm:p-2 '>
           <div className="grid gap-6 mb-6 md:grid-cols-2">
             <div>
               <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">First name</label>
-              <input type="text" id="first_name" value={formData.name} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required />
+              <input type="text" id="first_name" value={formData.name} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 rounded" placeholder="John" required />
             </div>
 
             <div>
               <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
-              <input type="tel" id="phone" value={formData.phone} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
+              <input type="tel" id="phone" value={formData.phone} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 rounded" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required />
             </div>
 
           </div>
           <div>
           <div>
             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email address</label>
-            <input type="email" id="email" value={formData.email} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+            <input type="email" id="email" value={formData.email} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
           </div>
           <div >
             <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
-            <input type="email" id="email" value={formData.subject} onChange={handleChange} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required />
+            <input type="email" id="email" value={formData.subject} onChange={handleChange} className="bg-gray-50 border rounded border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 rounded" placeholder="john.doe@company.com" required />
           </div>
           </div>
           <div className="mb-6">
             <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
-            <textarea type="Message" value={formData.message} onChange={handleChange} id="message" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Message" required />
+            <textarea type="Message" value={formData.message} onChange={handleChange} id="message" className="bg-gray-50 border border-gray-300  text-gray-900 text-sm  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-400 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 rounded" placeholder="Message" required />
           </div>
-          <button type="submit" onClick={handleClick} className="block m-auto  justify-center items-center text-white bg-yellow-400 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+          <button type="submit" onClick={handleClick} className="block m-auto  justify-center items-center text-white bg-yellow-600 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded animate-zoom">
             Submit Message
           </button>
 
