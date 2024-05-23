@@ -17,18 +17,18 @@ import { Link } from 'react-router-dom';
 
 
 const IntroPart = ({ imgSrc, title, description, description1, buttonText, buttonLink }) => (
-  <div className="herosection relative">
-    <div className="imgContainer relative overflow-hidden md:h-[700px] bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${imgSrc})` }}>
-      <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0.1, 0.9), rgba(0, 0.2, 0, 0))' }}></div>
-      <div className="content absolute inset-0 flex flex-col justify-center items-center text-center z-10">
-        <h1 className="text-white text-34xl md:text-6xl lg:text-7xl font-bold text-center">{title}</h1>
-        <p className="text-white text-3xl text-center md:text-lg lg:text-xl font-light pb-4 md:pb-6 lg:pb-8">
-          {description}
+  <div className="herosection relative min-h-screen"> 
+    <div className="imgContainer relative overflow-hidden min-h-screen md:h-[700px] bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${imgSrc})` }}> 
+      <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))' }}></div>
+      <div className="content absolute inset-0 flex flex-col justify-center items-center text-center z-10 p-4"> 
+        <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">{title}</h1> 
+        <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-light md:pt-4 pb-4 md:pb-6 lg:pb-8"> 
+        {description}
           <br />
           {description1}
         </p>
         <Link to={buttonLink}>
-          <button className="herobutton bg-blue-800 text-white px-4 md:px-6 py-2 md:py-3 lg:py-4 rounded-lg text-base md:text-lg lg:text-xl hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-yellow-100">
+          <button className="herobutton bg-blue-800  sm:text-base text-white px-4 sm:px-6 py-2 sm:py-3 md:py-3 lg:py-4 rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-yellow-100 animate-zoom">
             {buttonText}
           </button>
         </Link>
@@ -36,7 +36,6 @@ const IntroPart = ({ imgSrc, title, description, description1, buttonText, butto
     </div>
   </div>
 );
-
 
 export default IntroPart;
 
