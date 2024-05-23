@@ -37,8 +37,8 @@ function Faqs() {
         <div className="text-center mb-8">
           <GradientText text="GOT QUESTIONS ON EV?" />
         </div>
-        <div className="w-full">
-          <div className="mb-4 border-b border-blue-800 ">
+        <div data-aos="fade-down" data-aos-duration="1500" className="w-full">
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800 ">
             <Accordion open={open === 1} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(1)} className="flex justify-between items-center">
                 <span className="flex p-2 dark:text-slate-100" >
@@ -55,7 +55,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div  data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 2} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(2)} className="flex justify-between items-center">
                 <span className="flex  p-2 dark:text-slate-100">
@@ -76,7 +77,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 3} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(3)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -95,7 +97,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div  data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 4} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(4)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -112,7 +115,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 5} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(5)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -129,7 +133,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 6} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(6)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -146,7 +151,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000"  className="mb-4 border-b border-blue-800">
             <Accordion open={open === 7} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(7)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -168,7 +174,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000"  className="mb-4 border-b border-blue-800">
             <Accordion open={open === 8} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(8)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -187,7 +194,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 9} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(9)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -207,7 +215,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 10} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(10)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -224,7 +233,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 11} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(11)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -244,7 +254,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 12} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(12)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -264,7 +275,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 13} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(13)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -285,7 +297,8 @@ function Faqs() {
               </AccordionBody>
             </Accordion>
           </div>
-          <div className="mb-4 border-b border-blue-800">
+
+          <div data-aos="slide-up" data-aos-duration="1000" className="mb-4 border-b border-blue-800">
             <Accordion open={open === 14} animate={CUSTOM_ANIMATION}>
               <AccordionHeader onClick={() => handleOpen(14)}>
                 <span className="flex p-2 dark:text-slate-100">
@@ -330,7 +343,7 @@ function Faqs() {
             </div>
            
           </div> */}
-          <div className="p-4 md:p-12 mt-12 bg-yellow-400 dark:bg-slate-800 flex flex-col justify-center items-center gap-10 md:flex-row md:justify-between">
+          <div data-aos="fade-up" data-aos-duration="1500" className="p-4 md:p-12 mt-12 bg-yellow-400 dark:bg-slate-800 flex flex-col justify-center items-center gap-10 md:flex-row md:justify-between">
       <div className="flex flex-col justify-center gap-10 w-full md:w-1/2 text-center md:text-left">
         <div className="flex flex-col justify-center gap-10 md:pl-14">
           <div className="">
@@ -361,9 +374,9 @@ function Faqs() {
         </div>
       </div>
       <div className="flex justify-center items-center w-full md:w-1/2">
-        <img src={plugeasy} alt="App Image" className="max-w-full h-auto animate-zoom" />
+        <img data-aos="slide-up" data-aos-duration="1000" src={plugeasy} alt="App Image" className="max-w-full h-auto ani animate-zoom  " />
       </div>
-    </div>
+         </div>
       </div>
     </>
   );
