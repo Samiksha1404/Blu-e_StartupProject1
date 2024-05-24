@@ -18,6 +18,7 @@ import ServiceSolutioncard from './ServiceSolutioncard.jsx'
 import DownloadSection from './DownloadSection.jsx'
 import { NavLink } from 'react-router-dom'
 import ChargeSteps from './ChargeSteps.jsx'
+import Slider from './serviceSlider/Slider.jsx'
 
 
 function Services() {
@@ -42,15 +43,17 @@ function Services() {
       </div>
 
       {/* servive slider */}
-
-
+        
+        <Slider/>
+        
+       {/* servive slider ended*/}
 
       {/* Solutions For Establishing Optimised Charging */}
       <div>
-        <section data-aos="fade-down" data-aos-duration="1000" className="flex gap-5 max-md:flex-col max-md:gap-0">
-          <div data-aos="fade-up" data-aos-duration="1000" className=" flex md:pl-[169px]   lg:mx-0   h-[376px]   mt-10">
+        <section data-aos="fade-down" data-aos-duration="1000" className="flex flex-col items-center justify-center   md:flex-row  w-full">
+          <div data-aos="fade-up" data-aos-duration="1000" className=" flex   md:mx-auto   h-[376px]   mt-10">
 
-            <div className=' w-[600px]  flex'>
+            <div className='   flex'>
               <img className=" w-[322px] h-[376px]" src={img2} />
 
               <div  className="w-[300px] h-[326px]  bg-white mt-[50px] pt-[20px] pl-[20px] ml-[-112px]  ">
@@ -59,7 +62,7 @@ function Services() {
             </div>
           </div>
 
-          <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full block m-auto md:pr-[169px]">
+          <div data-aos="fade-up" data-aos-duration="1000" className="flex flex-col  w-[58%] max-md:ml-0 max-md:w-full mx-auto">
             <div className="flex flex-col px-5 mt-2 max-md:mt-10 max-md:max-w-full">
               <h2 className="text-2xl font-medium tracking-wide leading-8 text-center text-blue-950 max-md:max-w-full dark:text-blue-300 ">
                 Solutions For Establishing Optimised Charging
@@ -82,6 +85,7 @@ function Services() {
               </div>
             </div>
           </div>
+
         </section>
       </div>
 
@@ -133,7 +137,7 @@ function Services() {
       {/* about blu-e paragraph */}
 
       <div className=" ">
-        <div data-aos="fade-down" data-aos-duration="1000" class=" pt-8 pb-8 mt-8 md:mx-auto mx-4 flex flex-col gap-5 lg:w-[1380px] md:text-xl  text-justify dark:text-slate-400 ">
+        <div data-aos="fade-down" data-aos-duration="1000" class=" pt-8 pb-8 mt-8 mx-4 flex flex-col gap-5 xl:mx-16 lg:mx-10 md:mx-8   mx-4 md:text-xl  text-justify dark:text-slate-400 ">
 
           <p  data-aos="fade-down" data-aos-duration="1000" class="">At <span class="text-indigo-900 dark:text-indigo-600  text-xl md:text-xl font-semibold ">BLU-</span><span class="text-yellow-500 text-xl md:text-2xl font-semibold">E</span> , we understand the importance of efficient charging infrastructure for electric vehicles. Our state-of-the-art charging stations are equipped with advanced technologies, ensuring fast charging times and optimal performance. We prioritize user convenience by offering user-friendly interfaces and payment options, allowing seamless charging experiences.</p>
 
