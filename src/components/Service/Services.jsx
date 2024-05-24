@@ -132,8 +132,8 @@ function Services() {
 
       {/* about blu-e paragraph */}
 
-      <div className="">
-        <div data-aos="fade-down" data-aos-duration="1000" class="mt-8 md:mx-auto mx-4 flex flex-col gap-5 lg:w-[1195px] md:text-xl  text-justify dark:text-slate-400 ">
+      <div className=" ">
+        <div data-aos="fade-down" data-aos-duration="1000" class=" pt-8 pb-8 mt-8 md:mx-auto mx-4 flex flex-col gap-5 lg:w-[1380px] md:text-xl  text-justify dark:text-slate-400 ">
 
           <p  data-aos="fade-down" data-aos-duration="1000" class="">At <span class="text-indigo-900 dark:text-indigo-600  text-xl md:text-xl font-semibold ">BLU-</span><span class="text-yellow-500 text-xl md:text-2xl font-semibold">E</span> , we understand the importance of efficient charging infrastructure for electric vehicles. Our state-of-the-art charging stations are equipped with advanced technologies, ensuring fast charging times and optimal performance. We prioritize user convenience by offering user-friendly interfaces and payment options, allowing seamless charging experiences.</p>
 

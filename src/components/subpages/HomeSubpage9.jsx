@@ -16,7 +16,7 @@ const HomeSubpage9 = () => {
 
              {/* world map */}
             <div className="flex flex-col items-center mt-6">
-                <img src={evMap} alt="word-MAp" className='absolute lg:w-[764px] w-0 z-10'  data-aos="flip-up" data-aos-duration="2000"/>
+                <img src={evMap} alt="word-MAp" className='absolute lg:w-[764px] w-0 z-10 animate-zoom'  data-aos="flip-up" data-aos-duration="2000"/>
             </div>
 
 
@@ -28,9 +28,9 @@ const HomeSubpage9 = () => {
             <h1 class="text-indigo-950 dark:text-indigo-400/50 md:text-[42px] text-2xl font-semibold ">EV Charging</h1>
             <h2 class="text-yellow-700 font-semibold md:text-2xl text-xl md:pb-7">In 3 Simple Steps</h2>
             <ul class="space-y-2 md:text-xl  text-slate-800 dark:text-slate-500">
-              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1"/><p><span className=' font-bold'>Discover</span> Charging Stations</p></li>
-              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1"/><p> <span className=' font-bold'>Charge</span> seamlessly</p></li>
-              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1"/><p> <span className=' font-bold'>Pay</span>  conveniently</p></li>
+              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1 animate-zoom"/><p><span className=' font-bold'>Discover</span> Charging Stations</p></li>
+              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1 animate-zoom"/><p> <span className=' font-bold'>Charge</span> seamlessly</p></li>
+              <li class="flex space-x-3 "><img src={elipse} alt="" class="w-5 mt-1 animate-zoom"/><p> <span className=' font-bold'>Pay</span>  conveniently</p></li>
             </ul>
           </div>
 

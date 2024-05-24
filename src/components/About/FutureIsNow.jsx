@@ -1,10 +1,10 @@
 import React from 'react'
 import aboutImg from '../../assets/aboutImg.svg'
-
+import mission from '../../assets/mission.jpg'
 const FutureIsNow = () => {
   return (
-    <div >
-
+    
+ 
       <div className="flex flex-col gap-16 mt-10">
 
         {/* first */}
@@ -28,12 +28,14 @@ const FutureIsNow = () => {
 
           <div className=" w-full">
             <img data-aos="slide-down" data-aos-duration="1000" src={aboutImg} alt="" className="w-full" />
+          <div className="lg:w-[726px]">
+            <img src={mission} alt="" className="w-full" />
           </div>
 
           <div data-aos="slide-up" data-aos-duration="1000" className="bg-white dark:bg-slate-800  md:p-10 p-4  md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2">
             {/* heading */}
             <h1 className="lg:text-[30px] md:text-[25px] text-[18px] dark:text-indigo-200">MISION</h1>
-            <h1 className="lg:text-[53px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400">The Future IS Now</h1>
+            <h1 className="lg:text-[53px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400">Empowering Tomorrow's Mobility</h1>
             <p className="dark:text-slate-300 md:ml-0 ml-4">
               <ul className='list-disc text-justify '>
                 <li>To build competitive products & services from emerging greentechnologies in the automotive sector.</li>
@@ -50,6 +52,7 @@ const FutureIsNow = () => {
       </div>
 
     </div>
+    
   )
 }
 

@@ -4,9 +4,9 @@ import React from 'react';
 function Feature({ src, alt, title }) {
   return (
     <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-      <div className="flex flex-col grow text-sm font-semibold text-center text-blue-950 max-md:mt-10">
-        <img loading="lazy" src={src} alt={alt} className="self-center" />
-        <div className="mt-7 dark:text-blue-300">{title}</div>
+      <div className="flex flex-col grow text-sm font-semibold text-center text-blue-950 max-md:mt-10 ">
+        <img loading="lazy" src={src} alt={alt} className="self-center transition-shadow duration-300 hover:shadow-light-blue-gray rounded-full" />
+        <div className="mt-7 text-base dark:text-blue-300 text-blue-950">{title}</div>
       </div>
     </div>
   );
@@ -41,7 +41,7 @@ const LeftProduct2 = ({ heading, subheading, imgsrc }) => {
 
             <main className="flex flex-col">
               <section className="px-5 mt-4 max-md:w-full w-[565px]">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-2">
+                <div className="flex gap-5 max-md:flex-col max-md:gap-2 ">
                   {features.map((feature, index) => (
                     <Feature key={index} src={feature.src} alt={feature.alt} title={feature.title} />
                   ))}

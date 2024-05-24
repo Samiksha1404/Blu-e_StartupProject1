@@ -362,11 +362,11 @@ function Faqs() {
             </span>
           </div>
           <div className="flex justify-center md:justify-start gap-4 p-4">
-            <button className="bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+            <button className="  h-[60px] bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
               <img src={img2} alt="Play Store" className="w-6 h-6 mr-2" />
               <span className="hidden lg:inline">Play Store</span>
             </button>
-            <button className="bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+            <button className="  h-[60px] bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center ">
               <img src={img3} alt="Apple Store" className="w-6 h-6 mr-2" />
               <span className="hidden lg:inline">Apple Store</span>
             </button>

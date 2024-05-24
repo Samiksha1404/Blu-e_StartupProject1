@@ -47,3 +47,17 @@ body {
   --br-8xs: 5px;
 }
 
+.swiper-slide.custom-swiper-slide {
+  width: 230px !important; /* Adjust the width as needed */
+  margin-right:15px !important; /* Adjust the margin as needed */
+}
+.special-slide {
+  border: 2px solid red; /* Just for visualization */
+  width: 500px;
+ 
+    margin-left:100px; /* Adjust the margin as needed */
+  
+}
+.id {
+
+}
