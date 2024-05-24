@@ -29,12 +29,12 @@ import React from 'react';
 
 const FoundersCards = ({ img, name, role, linkedIn, email }) => {
   return (
-    <div data-aos="slide-down" data-aos-duration="1500" className="bg-white dark:bg-gray-400 rounded-lg p-6 shadow-lg lg:w-[270px] ">
+    <div data-aos="slide-down" data-aos-duration="1500" className="bg-white dark:bg-gray-400 rounded-lg p-6 shadow-lg w-[270px] ">
       <div className="h-48 mb-4 rounded">
         <img src={img} alt={`${name}'s picture`} className="w-full h-full object-cover rounded cursor-pointer hover:scale-110 duration-700" />
       </div>
       <h2 className="text-xl font-semibold text-gray-900">{name}</h2>
-      <p className="text-gray-600">{role}</p>
+      <p className="text-gray-600 dark:text-white">{role}</p>
       <div className="flex mt-4 space-x-3">
         <a href={linkedIn} className="text-blue-600" target="_blank" rel="noopener noreferrer">
           <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">

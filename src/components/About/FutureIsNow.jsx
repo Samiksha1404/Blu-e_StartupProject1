@@ -8,13 +8,13 @@ const FutureIsNow = () => {
       <div className="flex flex-col gap-16 mt-10">
 
         {/* first */}
-        <div className={`  flex flex-col lg:flex-row bg-gradient-to-r from-yellow-400 to-amber-100 dark:bg-gradient-to-r dark:from-indigo-900 dark:to-indigo-400 pt-9 items-center w-fit mx-auto`}>
+        <div data-aos="fade-up" data-aos-duration="1500" className={` lg:mx-16 md:mx-8 mx-4  flex flex-col lg:flex-row bg-gradient-to-r from-yellow-400 to-amber-100 dark:bg-gradient-to-r dark:from-indigo-900 dark:to-indigo-400 pt-9 items-center `}>
 
-          <div className="lg:w-[726px]">
-            <img src={aboutImg} alt="" className="w-full" />
+          <div className=" w-full">
+            <img data-aos="slide-down" data-aos-duration="1000" src={aboutImg} alt="" className="w-full" />
           </div>
 
-          <div className="bg-white dark:bg-slate-800  md:p-10 p-4 lg:w-[656px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2 ">
+          <div data-aos="slide-up" data-aos-duration="1000" className="bg-white dark:bg-slate-800  md:p-10 p-4  w-full md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2 ">
             {/* heading */}
             <h1 className="lg:text-[30px] md:text-[25px] text-[18px] dark:text-indigo-200">VISION</h1>
             <h1 className="lg:text-[53px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400">The Future IS Now</h1>
@@ -24,13 +24,13 @@ const FutureIsNow = () => {
 
         {/* second */}
 
-        <div className={`flex flex-col lg:flex-row-reverse bg-gradient-to-l from-yellow-400 to-amber-100 dark:bg-gradient-to-l dark:from-indigo-900 dark:to-indigo-400 pt-9 items-center w-fit mx-auto `}>
+        <div data-aos="fade-up" data-aos-duration="1500" className={` lg:mx-16 md:mx-8 mx-4  flex flex-col lg:flex-row-reverse bg-gradient-to-l from-yellow-400 to-amber-100 dark:bg-gradient-to-l dark:from-indigo-900 dark:to-indigo-400 pt-9 items-center  `}>
 
-          <div className="lg:w-[726px]">
-            <img src={aboutImg} alt="" className="w-full" />
+          <div className=" w-full">
+            <img data-aos="slide-down" data-aos-duration="1000" src={aboutImg} alt="" className="w-full" />
           </div>
 
-          <div className="bg-white dark:bg-slate-800  md:p-10 p-4 lg:w-[656px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2">
+          <div data-aos="slide-up" data-aos-duration="1000" className="bg-white dark:bg-slate-800  md:p-10 p-4  md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2">
             {/* heading */}
             <h1 className="lg:text-[30px] md:text-[25px] text-[18px] dark:text-indigo-200">MISION</h1>
             <h1 className="lg:text-[53px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400">The Future IS Now</h1>

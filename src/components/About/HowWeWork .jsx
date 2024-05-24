@@ -3,11 +3,11 @@ import work from '../../assets/work.svg'
 
 const HowWeWork  = () => {
   return (
-    <div data-aos="fade-down" data-aos-duration="1500"  className='bg-gradient-to-r from-yellow-300 to-yellow-100 dark:bg-gradient-to-r dark:from-cyan-900 dark:to-slate-800 py-16 px-12'>
-        <div className="flex lg:flex-row  flex-col justify-center items-center lg:w-[1209px] mx-auto  gap-8">
+    <div data-aos="fade-down" data-aos-duration="1500"  className='bg-gradient-to-r from-yellow-300 to-yellow-100 dark:bg-gradient-to-r dark:from-cyan-900 dark:to-slate-800 py-16 px-12 w-full'>
+        <div className="flex lg:flex-row  flex-col justify-center items-center  mx-auto  gap-8">
 
             <div data-aos="slide-up" data-aos-duration="1500" className="">
-               <img src={work} alt="" className="lg:w-[880px] shadow-md shadow-slate-700 hover:scale-110   duration-500 cursor-pointer  rounded-md" />
+               <img src={work} alt="" className=" shadow-md shadow-slate-700 hover:scale-110   duration-500 cursor-pointer  rounded-md" />
             </div>
 
             <div data-aos="slide-up" data-aos-duration="1500" className="flex flex-col gap-4">

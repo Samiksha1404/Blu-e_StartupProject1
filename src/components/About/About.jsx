@@ -61,7 +61,7 @@ function About() {
       </p>
     </div>
   </div>
-</div>
+        </div>
 
 
      <FutureIsNow/>
@@ -71,7 +71,7 @@ function About() {
      <div data-aos="flip-up" data-aos-duration="1500" className="">
 
       {/* heading */}
-      <div className="max-w-[600px] mx-auto text-center">
+      <div className=" mx-auto text-center">
         <GradientText text="Delivering Products  That Embody..."/>
       </div>
       
