@@ -45,19 +45,19 @@ export default function Footer() {
                  <p className="text-sm mt-2">© 2023 Shashtav Charging Bharat Pvt. Ltd.</p>
                 </div>
                 <div className='flex gap-6'>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/blu_e_shashtav_bharat/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className='md:w-9 md:h-9 w-7 h-7 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg '/>
                     </a>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=61559934486362" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className='md:w-9 md:h-9 w-7 h-7  text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
                         <FaTwitter className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/company/shashtav-charging-bharat-private-limited/" target="_blank" rel="noopener noreferrer">
                         <FaLinkedin className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="http://www.youtube.com/@Blu-E-ShashtavBharat" target="_blank" rel="noopener noreferrer">
                         <FaYoutube className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
                     </a>
 </div>

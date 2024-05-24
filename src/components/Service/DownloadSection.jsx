@@ -15,12 +15,12 @@ const DownloadSection = () => {
     {
       imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/c14113a96f5818c86215d0ec82d5e5672d3ac191b4a35198d793c8c7b20fa736?apiKey=d7e5bab79af041058fcada747b413e1e&",
       storeName: "Apple Store",
-      link: "https://www.example.com/apple-store-link"
+      link: "https://apps.apple.com/in/app/plugeasy/id1617952917"
     },
     { 
       imageSrc: "https://cdn.builder.io/api/v1/image/assets/TEMP/2226302f3402443cfd479bfe759297681457445d9e09392f0a5ef34990908b44?apiKey=d7e5bab79af041058fcada747b413e1e&", 
       storeName: "Google Play", 
-      link: "https://www.example.com/google-play-link" 
+      link: "https://play.google.com/store/apps/details?id=com.plugeasy.charge_app&pcampaignid=web_share" 
     }
   ];
 

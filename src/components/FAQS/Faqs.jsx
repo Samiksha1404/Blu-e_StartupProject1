@@ -6,6 +6,7 @@ import img2 from '../../assets/playstore.svg';
 import img3 from '../../assets/apple.svg';
 import GradientText from '../../components/subpages/GradientText.jsx';
 import plugeasy from '../../assets/Plugeasy.png';
+import { Link } from 'react-router-dom'
 import {
   Accordion,
   AccordionHeader,
@@ -362,14 +363,19 @@ function Faqs() {
             </span>
           </div>
           <div className="flex justify-center md:justify-start gap-4 p-4">
+          <Link to="https://play.google.com/store/apps/details?id=com.plugeasy.charge_app&pcampaignid=web_share">
             <button className="  h-[60px] bg-black hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
               <img src={img2} alt="Play Store" className="w-6 h-6 mr-2" />
               <span className="hidden lg:inline">Play Store</span>
             </button>
+            </Link>
+
+            <Link to="https://apps.apple.com/in/app/plugeasy/id1617952917">
             <button className="  h-[60px] bg-gray-600 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center ">
               <img src={img3} alt="Apple Store" className="w-6 h-6 mr-2" />
               <span className="hidden lg:inline">Apple Store</span>
             </button>
+              </Link>
           </div>
         </div>
       </div>

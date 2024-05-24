@@ -17,9 +17,9 @@ EV Charger?</p>
 
           {/* left */}
           <div className="">
-          <Card property="items-start" heading="High quality" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna"/>
-          <Card  heading="Recoverable energy" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna"/>
-          <Card  heading="Smart connected " content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna"/>
+          <Card property="items-start" heading="High Reliability" content="High reliability and low failure rate withlow operation and maintenance costs. Always available, easy to use andprofitable."/>
+          <Card  heading="High Efficiency" content="Efficient and power saving. Low heat loss and heat dissipation. Low overall power consumption and operating costs."/>
+          <Card  heading="High Safety " content="Dual protection. Active protective function. No fire or electric shock risk. Safety of network and supply."/>
           </div>
 
           {/* center image */}
@@ -30,9 +30,10 @@ EV Charger?</p>
           
           {/* right */}
           <div className="">
-           <Card property="items-end text-right" heading="Quick installation" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna"/>
-           <Card property="items-end text-right" heading="Free Support" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna"/>
-           <Card property="items-end text-right" heading="Access control" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna"/>
+           <Card property="items-end text-right" heading="Environment friendly" content="Low noise and easy to use. Environment friendly"/>
+           <Card property="items-end text-right" heading="Fast charging" content="Constant power output at different voltage and temperatures.
+Fast charging capability in all scenarios. Dispatching power according to different demand."/>
+           <Card property="items-end text-right" heading="Intelligent" content="Intelligently connect multiple operating devices with information-based remote operation management."/>
           </div>
 
 

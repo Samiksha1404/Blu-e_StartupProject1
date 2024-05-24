@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors()); // Use cors middleware
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/");
 const db = mongoose.connection;
 
 
@@ -26,15 +26,15 @@ const contactSchema = new mongoose.Schema({
 const Contact = mongoose.model('Contact', contactSchema);
 
 // Nodemailer configuration
-// const transporter = nodemailer.createTransport({
-//   host: 'smtp.gmail.com', // Update with your SMTP host
-//   port: 465, // Update with your SMTP port
-//   secure: true,
-//   auth: {
-//     user: '', // Update with your email
-//     pass: 'pass' // Update with your email password
-//   }
-// });
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com', // Update with your SMTP host
+  port: 465, // Update with your SMTP port
+  secure: true,
+  auth: {
+    user: '', // Update with your email
+    pass: '9637002930' // Update with your email password
+  }
+});
 // Routes
 app.post('/api/contact', async (req, res) => {
   try {

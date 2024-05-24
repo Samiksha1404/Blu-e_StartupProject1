@@ -29,7 +29,7 @@ import React from 'react';
 
 const FoundersCards = ({ img, name, role, linkedIn, email }) => {
   return (
-    <div data-aos="slide-down" data-aos-duration="1500" className="bg-white dark:bg-gray-400 rounded-lg p-6 shadow-lg w-[270px] ">
+    <div data-aos="slide-down" data-aos-duration="1500" className="bg-white dark:bg-gray-400 rounded-lg p-4 m-2 shadow-lg w-[270px] ">
       <div className="h-48 mb-4 rounded">
         <img src={img} alt={`${name}'s picture`} className="w-full h-full object-cover rounded cursor-pointer hover:scale-110 duration-700" />
       </div>

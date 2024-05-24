@@ -12,9 +12,11 @@ const HomeService = () => {
     <div className='mb-5' data-aos="fade-up">
         <div className="flex justify-around items-center flex-wrap">
         <div className="mt-10 flex items-center justify-center gap-5">
-            <img src={callLogo} alt="callLogo" className="" />
-            <p className="dark:text-slate-500 underline">Have any questions?</p>
-            <p className="text-slate-400">Talk to an expert now!</p>
+        <NavLink to="/contact">
+            <img src={callLogo} alt="callLogo" className="hover:shadow-blue-800 hover:scale-110" />
+            </NavLink>
+            <p className="dark:text-slate-500 underline hover:text-yellow-400">Have any questions?</p>
+            <p className="text-slate-400 animate-zoom hover:text-blue-950">Talk to an expert now!</p>
         </div>
 
         <div className="flex gap-4 items-center justify-center mb-6">

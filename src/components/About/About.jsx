@@ -5,7 +5,7 @@ import FutureIsNow from './FutureIsNow'
 import Card6 from '../subpages/HomeSubpage2/HomeSubpage6/Card6'
 import im1 from "../../assets/im1.svg"
 import im2 from "../../assets/im2.svg"
-import im3 from "../../assets/im3.svg"
+import im3 from "../../assets/qc.png"
 import im4 from "../../assets/im4.svg"
 import FutureOptimization from './FutureOptimization'
 import v1 from "../../assets/aboutvideo.mp4"

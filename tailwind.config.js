@@ -24,6 +24,9 @@ module.exports = {
       boxShadow: {
         'light-blue-gray': '0 7px 8px rgba(173, 216, 230, 0.7)', // Example shadow
       },
+      backgroundImage: theme => ({
+        'custom-yellow-gradient': 'linear-gradient(rgb(250 204 21 / 0.5), #ffd233)',
+      }),
     },
     // colors: {
     //   orange: 'rgba(255, 187, 122, 1)',
