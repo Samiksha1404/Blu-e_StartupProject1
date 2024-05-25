@@ -12,6 +12,7 @@ import ChargingSolution from '../subpages/cahrgingSolution/ChargingSolution';
 import EvAdvantage from '../subpages/EvAdvantage/EvAdvantage';
 import HomeService from '../subpages/HomeService/HomeService';
 import AppSlider from '../subpages/Slider/AppSlider';
+import OurVencters from '../subpages/OurVencters';
 
 
 
@@ -30,6 +31,7 @@ export default function Home() {
         <HomeSubPage6/>
         <EvAdvantage/>
         <HomeSubpage9/>
+        <OurVencters/>
         <HomeSubPage7/>
         <ThoughtLeadership/>
         <AppSlider/>

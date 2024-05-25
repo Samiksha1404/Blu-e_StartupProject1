@@ -18,7 +18,7 @@ import Cards from './Cards'
 const ChargingSolution = () => {
   return (
     <div data-aos="fade-up">
-        <div className="flex flex-col items-center justify-center py-10 mt-10">
+        <div className="flex flex-col items-center justify-center py-10 mt-8">
             <div className="text-center space-y-4 lg:mx-0 mx-5">
               <p className="lg:text-[59px] md:text-[42px] text-[32px] font-bold  bg-clip-text text-transparent bg-gradient-to-r from-blue-900 via-blue-950 to-yellow-400  text-center ">EV CHARGING SOLUTIONS FOR YOU</p>
               <p className="lg:text-[25px] text-[20px] dark:text-slate-400 ">We provide EV charging solution all the existing and upcoming infrastructure.</p>

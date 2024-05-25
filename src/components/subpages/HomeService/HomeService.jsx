@@ -9,7 +9,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 const HomeService = () => {
   return (
-    <div className='mb-5' data-aos="fade-up">
+    <div className='mb-5 mt-8' data-aos="fade-up">
         <div className="flex justify-around items-center flex-wrap">
         <div className="mt-10 flex items-center justify-center gap-5">
         <NavLink to="/contact">

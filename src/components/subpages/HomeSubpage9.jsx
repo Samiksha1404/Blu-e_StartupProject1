@@ -7,7 +7,7 @@ const HomeSubpage9 = () => {
   return (
     <div >
          
-        <div className="flex flex-col  items-center text-center mt-5">
+        <div className="flex flex-col  items-center text-center mt-8">
             {/* heading */}
             <div className="" data-aos="flip-down" data-aos-duration="2000">
              <h1 className="lg:text-[53px] md:text-[42px] sm:text-[32px] text-[28px] font-semibold bg-gradient-to-r from-blue-900 via-indigo-800 to-yellow-400 dark:bg-gradient-to-r dark:from-blue-700 dark:via-indigo-500 dark:to-yellow-300 inline-block text-transparent bg-clip-text">Charging In All Parts Of The Country</h1>
