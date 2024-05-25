@@ -18,6 +18,7 @@ import AppSlider from '../subpages/Slider/AppSlider';
 
 
 
+
 export default function Home() {
     return (
         <div className=" w-screen ">

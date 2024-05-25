@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const Cards = ({bgimage,icon,heading}) => {
   return (
     <div className='mx-1'>
-        <div className="lg:h-[375px] lg:w-[230px] flex flex-col justify-end shadow-black  shadow-lg dark:shadow-slate-500 bg-cover h-48 hover:shadow-blue-800 hover:scale-110  duration-300 ease-in-out" style={{ backgroundImage: `url(${bgimage})` }}>
+        <div className="lg:h-[375px] lg:w-[230px] flex flex-col justify-end shadow-black  shadow-lg dark:shadow-slate-500 bg-cover h-48 hover:shadow-blue-800 hover:scale-110  duration-300 ease-in-out hover:" style={{ backgroundImage: `url(${bgimage})` }}>
 
-<div className="bg-slate-200 dark:bg-orange-400 lg:w-[206px] lg:h-[131px]  flex flex-col items-center justify-center p-5 mx-auto  pt-5 text-center ">
+   <div className="bg-slate-200 dark:bg-orange-400 lg:w-[206px] lg:h-[131px]  flex flex-col items-center justify-center p-5 mx-auto  pt-5 text-center ">
   <img src={icon} alt="" className="bg-white p-5 rounded-full  absolute lg:mb-40 lg:w-[86px]  w-16 mb-32 " />
   <h1 className=" font-semibold lg:text-[22px] text-[14px]">{heading}</h1>
   <Link>

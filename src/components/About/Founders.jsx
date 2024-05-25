@@ -6,6 +6,9 @@ import Slider from 'react-slick';
 import founder1 from '../../assets/founder1.jpg';
 import founder2 from '../../assets/founder2.jpg';
 import founder3 from '../../assets/founder3.jpg';
+import founder4 from '../../assets/founder4.jpg';
+
+
 
 const founders = [
   {
@@ -30,11 +33,11 @@ const founders = [
     email: 's4samikshagupta2003@gmail.com',
   },
   {
-    img: founder2,
+    img: founder4,
     name: 'Mr. Kamalnath Dhekwar ',
     role: 'Technical-Head',
-    linkedIn: 'https://www.linkedin.com/in/varundixit',
-    email: 'varun.dixit1996@gmail.com',
+    linkedIn: 'https://www.linkedin.com/in/kamalnath-dhekwar-0a5a38261/',
+    email: 'dhekwarkamalnath18@gmail.com',
   },
 ];
 
@@ -54,7 +57,7 @@ const Founders = () => {
       <div
         data-aos="zoom-in"
         data-aos-duration="1500"
-        className="bg-gradient-to-r from-blue-900 to-blue-700 dark:bg-gradient-to-r dark:from-blue-950 dark:to-blue-900 p-10 mx-auto lg:w-[1191px] rounded-md mt-5"
+        className="bg-gradient-to-r from-blue-900 to-blue-700 dark:bg-gradient-to-r dark:from-blue-950 dark:to-blue-900 p-10 mx-auto lg:w-[80%] rounded-md mt-5 flex flex-col justify-center items-center  "
       >
         <h1 className="text-4xl font-bold text-white mb-8 text-center">
           The minds who keep us charged...

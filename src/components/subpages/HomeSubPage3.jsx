@@ -8,8 +8,8 @@ const HomeSubPage3 = () => {
        <p className="text-center md:text-[20px] text-[16px] text-slate-600 dark:text-slate-400 lg:w-[681px] ">We are a company dedicated to providing Reliable, Efficient and Affordable 
 charging solutions for the growing electric vehicle market in India.</p>
       </div>
-      <div className="mt-5">
-        <img src={Home3} alt="" className="" />
+      <div className="mt-5 ">
+        <img src={Home3} alt="" className="mx-auto w-full" />
       </div>
     </div>
   )
