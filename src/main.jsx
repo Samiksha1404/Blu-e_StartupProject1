@@ -12,6 +12,7 @@ import Products from './components/products/Products.jsx'
 import Faqs from './components/FAQS/Faqs.jsx'
 import Contack from './components/Contact/Contack.jsx'
 import Location from './components/location/Location.jsx'
+import Docs from './components/docs/Guidelines.jsx'
 
 
 
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
      <Route path='faqs' element={<Faqs/>} />
      <Route path='contact' element={<Contack/>} />
      <Route path='location' element={<Location/>} />
+     <Route path='guidelines' element={<Docs/>} />
     </Route>
   )
 )

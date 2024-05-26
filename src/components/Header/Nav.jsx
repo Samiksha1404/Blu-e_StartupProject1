@@ -19,14 +19,14 @@ export default function Header() {
     return (
         <header className='w-full   font-semibold sticky z-50 top-0  bg-white   dark:bg-slate-950/70 dark:shadow-slate-400  shadow-md '>
 
-          <nav className="w-full px-5 md:px-10  md:h-[70px] md:py-1 py-2  flex justify-between items-center  ">
+          <nav className="w-full px-5 xl:px-8 lg:px-4  md:h-[70px] md:py-1 py-2  flex justify-between items-center  ">
 
              {/* logo */}
              <div className="   p-1">
                    <Link to="/" className="">
                         <img
                             src={bluelogo}
-                            className=" lg:pl-16 md:w-full rounded-[4px]  w-[86px]  " 
+                            className=" xl:pl-16 lg:pl-2 md:w-full rounded-[4px]  w-[86px]  " 
                             alt="Logo"
                         />
                     </Link>
@@ -118,7 +118,20 @@ export default function Header() {
         </NavLink>
     </li>
    
-</ul>
+             </ul>
+             
+             {/* guildline button  */}
+             <NavLink
+            to="/guidelines">
+                <div class="relative inline-flex  group">
+               <div
+            class="absolute transitiona-all duration-1000 -inset-1 bg-gradient-to-r  from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-2 group-hover:duration-200  animate-zoom">
+              </div>
+               <button className="relative inline-flex items-center justify-center px-8 py-2 text-lg font-semi-bold text-white transition-all duration-200 bg-gradient-to-r  from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                Guidelines
+                </button>
+          </div>
+            </NavLink>
 
 
             <div className="flex gap-2 justify-center items-center">
@@ -129,7 +142,7 @@ className={`md:hidden text-3xl  z-20  ${isNavOpen ? "text-white" : "text-black d
 {isNavOpen ? <CgClose/> : <GiHamburgerMenu/> }
           </button>    
    
-           </div>   
+            </div>   
 
 
           </nav>
