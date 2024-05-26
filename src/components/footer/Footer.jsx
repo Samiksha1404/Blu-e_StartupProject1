@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import Grid from './Grid';
+import Grid1 from './Grid1';
 import footerLogo from '../../assets/blueSymb.png'
 
 
@@ -17,15 +18,15 @@ export default function Footer() {
                 <img src={footerLogo} alt="" className='lg:w-24 md:w-12 w-12 shadow-md shadow-slate-200 '/>
                 <Grid heading="About Blu-e"/>
                 <p className="md:text-[20px] text-[14px]">
-                <span className='font-bold md:text-[20px] text-[14px]'>Shashtav Charging Bharat Private Limited</span> is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. 
+                <span className='font-bold md:text-[18px] text-[14px]'>Shashtav Charging Bharat Private Limited</span> is a MSME registered and Startup India recognized startup by two young Indian entrepreneurs with a brand name as BLU-E. 
                 </p>
                 <h1 claclassNamess="">CIN: U27900MH2023PTC401951</h1>
                 </div>
 
             <div className="grid grid-cols-3 gap-4 sm:gap-6  ml-8">
                         
-                        <Grid heading="Company" list1="Home" list2="Service" list3="About Us " list4="FAQs"/>
-                        <Grid heading="products" list1="Home" list2="Service" list3="About Us " list4="FAQs"/>
+                        <Grid heading="Company" list1="Home" list2="Service" list3="About Us " list4="Location" list5="FAQs"/>
+                        <Grid1 heading="products" list1="7.5 kW AC Charger" list2="15 kW AC Charger " list3="50kW DC Charger " list4="ChargeMaster Pro" list5="Blu-E SplitJet"/>
                         <Grid heading="contact"/>
                          
            </div>

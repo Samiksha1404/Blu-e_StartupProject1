@@ -153,7 +153,7 @@ export default function Header() {
                     <div className="relative inline-flex group">
                         {/* <div className="absolute animate-zoom"></div> */}
                         <Button
-                            containerClassName="relative inline-flex items-center justify-center text-lg font-semi-bold text-white transition-all duration-200  font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                            containerClassName="relative inline-flex items-center justify-center text-lg font-semi-bold text-white transition-all duration-200  font-pj rounded-xl focus:outline-none "
                             borderRadius="1.0rem" // Adjust the border radius as needed
                             duration={2000} // Customize duration if needed
                         >
