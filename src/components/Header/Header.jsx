@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
-import bluelogo from '../../assets/bluelogo.svg'
+import bluelogo from '../../assets/bluelogo.png'
 import Darkmode from '../DarkMood/Darkmode';
 import Dark2 from '../DarkMood/Dark2';
 
