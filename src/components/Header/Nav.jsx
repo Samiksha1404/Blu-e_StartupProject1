@@ -26,13 +26,13 @@ export default function Header() {
                    <Link to="/" className="">
                         <img
                             src={bluelogo}
-                            className=" xl:pl-16 lg:pl-2 md:w-full rounded-[4px]  w-[86px]  " 
+                            className=" xl:pl-16 lg:pl-2 lg:w-full md:w-[88px] rounded-[4px]  w-[86px]  " 
                             alt="Logo"
                         />
                     </Link>
              </div>
              
-             <ul className="flex  md:w-fit w-0 md:text-lg lg:text-xl text-[0px] lg:space-x-6">
+             <ul className="flex  md:w-fit w-0 md:text-[17px] lg:text-xl text-[0px] lg:space-x-6">
     <li>
         <NavLink
             to="/"
@@ -122,16 +122,19 @@ export default function Header() {
              
              {/* guildline button  */}
              <NavLink
-            to="/guidelines">
-                <div class="relative inline-flex  group">
-               <div
-            class="absolute transitiona-all duration-1000 -inset-1 bg-gradient-to-r  from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-2 group-hover:duration-200  animate-zoom">
-              </div>
-               <button className="relative inline-flex items-center justify-center px-8 py-2 text-lg font-semi-bold text-white transition-all duration-200 bg-gradient-to-r  from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
-                Guidelines
-                </button>
-          </div>
+    to="/guidelines"
+    className="">
+    <div className="relative inline-flex group">
+        <div
+            className="absolute transition-all duration-1000 md:-inset-1 bg-gradient-to-r from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl md:blur-md md:group-hover:opacity-100 md:group-hover:-inset-2 md:group-hover:duration-200 md:animate-zoom">
+        </div>
+        <button className="relative inline-flex items-center justify-center md:px-6 md:py-2 md:text-lg text-[0.5px] font-semi-bold md:text-white transition-all duration-200 bg-gradient-to-r from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+            Guidelines
+        </button>
+    </div>
             </NavLink>
+
+
 
 
             <div className="flex gap-2 justify-center items-center">
@@ -221,6 +224,21 @@ className={`md:hidden text-3xl  z-20  ${isNavOpen ? "text-white" : "text-black d
                                     Contact Us
                                 </NavLink>
                             </li>
+
+                            <li className="mt-4">
+                                 {/* guildline button  */}
+                            <NavLink
+                            to="/guidelines">
+                                <div class="relative inline-flex  group">
+                            <div
+                            class="absolute transitiona-all duration-1000 -inset-1 bg-gradient-to-r  from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-2 group-hover:duration-200  animate-zoom">
+                            </div>
+                            <button className="relative inline-flex items-center justify-center px-6 py-2 text-lg font-semi-bold text-white transition-all duration-200 bg-gradient-to-r  from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                                Guidelines
+                                </button>
+                            </div>
+                            </NavLink>
+                                            </li>
                             
             </ul>
 
