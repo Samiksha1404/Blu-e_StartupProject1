@@ -31,7 +31,7 @@ export default function Header() {
                             alt="Logo"
                         />
                     </Link>
-             </div>
+               </div>
              
              <ul className="flex  md:w-fit w-0 md:text-[17px] lg:text-xl text-[0px] lg:space-x-6">
     <li>
@@ -122,14 +122,14 @@ export default function Header() {
              </ul>
              
              {/* guildline button  */}
-             {/* <NavLink
+              <NavLink
     to="/guidelines"
     className="">
     <div className="relative inline-flex group">
         <div
-            className="absolute transition-all duration-1000 md:-inset-1 bg-gradient-to-r from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl md:blur-md md:group-hover:opacity-100 md:group-hover:-inset-2 md:group-hover:duration-200 md:animate-zoom">
+            className="absolute transition-all duration-1000 md:-inset-[2px] bg-gradient-to-r from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-full md:blur-md md:group-hover:opacity-100 md:group-hover:-inset-2 md:group-hover:duration-200 md:animate-zoom">
         </div>
-        <button className="relative inline-flex items-center justify-center md:px-6 md:py-2 md:text-lg text-[0.5px] font-semi-bold md:text-white transition-all duration-200 bg-gradient-to-r from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+        <button className="relative inline-flex items-center justify-center md:px-6 md:py-2 md:text-lg text-[0.5px] font-semi-bold md:text-slate-800 dark:text-slate-200 transition-all duration-200 bg-gradient-to-r from-[#cf894c] via-[#d8d227] to-[#dbd766] dark:bg-gradient-to-r dark:from-[#4063c9] dark:via-[#1b1b7a] dark:to-[#211372] font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
             Guidelines
         </button>
     </div>
@@ -138,7 +138,7 @@ export default function Header() {
 
 
 
-            <div className="flex gap-2 justify-center items-center">
+            {/*  <div className="flex gap-2 justify-center items-center">
             <Dark2/>
             <button 
           onClick={()=> setNavOpen(!isNavOpen)}
@@ -149,19 +149,20 @@ export default function Header() {
             </div>    */}
 
                 {/* guidelines button */}
-                <NavLink to="/guidelines">
+              {/*   <NavLink to="/guidelines">
                     <div className="relative inline-flex group">
                         {/* <div className="absolute animate-zoom"></div> */}
-                        <Button
+                       {/*  <Button
                             containerClassName="relative inline-flex items-center justify-center text-lg font-semi-bold text-white transition-all duration-200  font-pj rounded-xl focus:outline-none "
                             borderRadius="1.0rem" // Adjust the border radius as needed
                             duration={2000} // Customize duration if needed
                         >
                             Guidelines
-                        </Button>
+                        </Button> 
                     </div>
-                </NavLink>
-
+                </NavLink> 
+            */}
+                 
                 <div className="flex gap-2 justify-center items-center">
                     <Dark2 />
                     <button
@@ -182,7 +183,7 @@ export default function Header() {
                              <NavLink
                                     to="/"
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                        `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     Home
@@ -192,7 +193,7 @@ export default function Header() {
                                 <NavLink
                                     to="/services"
                                     className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600 ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     Services
@@ -202,7 +203,7 @@ export default function Header() {
                                 <NavLink
                                     to="/products"
                                     className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     Products
@@ -212,7 +213,7 @@ export default function Header() {
                                 <NavLink
                                     to="/location"
                                     className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     Location
@@ -222,7 +223,7 @@ export default function Header() {
                                 <NavLink
                                     to="/about"
                                     className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600 ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     About Us
@@ -232,7 +233,7 @@ export default function Header() {
                                 <NavLink
                                     to="/faqs"
                                     className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     FAQS
@@ -242,7 +243,7 @@ export default function Header() {
                                 <NavLink
                                     to="/contact"
                                     className={({isActive}) =>
-                                    `block py-2 pr-4 pl-3 duration-200 text-xl  ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
+                                    `block py-2 pr-4 pl-3 text-xl hover:scale-110 duration-300 hover:text-indigo-600   ${isActive ?  "text-slate-100 text-3xl" : "text-blue-900 font-semibold dark:text-slate-300"}    dark:text-slate-200`
                                     }
                                 >
                                     Contact Us
@@ -255,9 +256,9 @@ export default function Header() {
                             to="/guidelines">
                                 <div class="relative inline-flex  group">
                             <div
-                            class="absolute transitiona-all duration-1000 -inset-1 bg-gradient-to-r  from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-2 group-hover:duration-200  animate-zoom">
+                            class="absolute transitiona-all duration-1000 -inset-[2px] bg-gradient-to-r  from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-2 group-hover:duration-200  animate-zoom">
                             </div>
-                            <button className="relative inline-flex items-center justify-center px-6 py-2 text-lg font-semi-bold text-white transition-all duration-200 bg-gradient-to-r  from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+                            <button className="relative inline-flex items-center justify-center px-4 py-2 text-lg font-semi-bold text-white transition-all duration-200 bg-gradient-to-r  from-[#151246] via-[#2a1b75] to-[#412e85] font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
                                 Guidelines
                                 </button>
                             </div>
