@@ -157,7 +157,7 @@ const Founders = () => {
           className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0"
         >
           <div className="flex justify-center col-span-2">
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
               <Card
                 img={founders[0].img}
                 name={founders[0].name}

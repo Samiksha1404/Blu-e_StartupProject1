@@ -121,19 +121,7 @@ export default function Header() {
    
              </ul>
              
-             {/* guildline button  */}
-              <NavLink
-    to="/guidelines"
-    className="">
-    <div className="relative inline-flex group">
-        <div
-            className="absolute transition-all duration-1000 md:-inset-[2px] bg-gradient-to-r from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-full md:blur-md md:group-hover:opacity-100 md:group-hover:-inset-2 md:group-hover:duration-200 md:animate-zoom">
-        </div>
-        <button className="relative inline-flex items-center justify-center md:px-6 md:py-2 md:text-lg text-[0.5px] font-semi-bold md:text-slate-800 dark:text-slate-200 transition-all duration-200 bg-gradient-to-r from-[#cf894c] via-[#d8d227] to-[#dbd766] dark:bg-gradient-to-r dark:from-[#4063c9] dark:via-[#1b1b7a] dark:to-[#211372] font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
-            Guidelines
-        </button>
-    </div>
-            </NavLink>
+             
 
 
 
@@ -164,6 +152,20 @@ export default function Header() {
             */}
                  
                 <div className="flex gap-2 justify-center items-center">
+                    {/* guildline button  */}
+              <NavLink
+    to="/guidelines"
+    className="lg:mr-5">
+    <div className="relative inline-flex group">
+        <div
+            className="absolute transition-all duration-1000 md:-inset-[2px] bg-gradient-to-r from-[#9d8500] via-[#fdcd40] to-[#1f00a9] rounded-full md:blur-md md:group-hover:opacity-100 md:group-hover:-inset-2 md:group-hover:duration-200 md:animate-zoom">
+        </div>
+        <button className="relative inline-flex items-center justify-center md:px-6 md:py-[7px] md:text-lg text-[0.5px] font-semi-bold md:text-slate-800 dark:text-slate-200 transition-all duration-200 bg-gradient-to-r from-[#cf894c] via-[#d8d227] to-[#dbd766] dark:bg-gradient-to-r dark:from-[#4063c9] dark:via-[#1b1b7a] dark:to-[#211372] font-pj rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900">
+            Guidelines
+        </button>
+    </div>
+            </NavLink>
+
                     <Dark2 />
                     <button
                         onClick={() => setNavOpen(!isNavOpen)}
