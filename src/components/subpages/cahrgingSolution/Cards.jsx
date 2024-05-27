@@ -9,10 +9,10 @@ const Cards = ({bgimage,icon,heading}) => {
         <div className="lg:h-[375px] lg:w-[230px] flex flex-col justify-end shadow-black  shadow-lg dark:shadow-slate-500 bg-cover h-48 hover:shadow-blue-800 hover:scale-110  duration-300 ease-in-out hover:" style={{ backgroundImage: `url(${bgimage})` }}>
 
    <div className="bg-slate-200 dark:bg-orange-400 lg:w-[206px] lg:h-[131px]  flex flex-col items-center justify-center p-5 mx-auto  pt-5 text-center ">
-  <img src={icon} alt="" className="bg-white p-5 rounded-full  absolute lg:mb-40 lg:w-[86px]  w-16 mb-32 " />
-  <h1 className=" font-semibold lg:text-[22px] text-[14px]">{heading}</h1>
+  <img src={icon} alt="" className="bg-white p-2 rounded-full  absolute lg:mb-40 lg:w-[86px]  w-16 mb-32 " />
+  <h1 className=" font-semibold lg:text-[20px] text-[14px]">{heading}</h1>
   <Link>
-    <button className='italic text-blue-950 lg:text-[20px] text-[12px] '>EXPLORE MORE</button>
+    <button className='italic text-blue-950 lg:text-[14px] text-[12px] '>EXPLORE MORE</button>
   </Link>
 </div>
 
@@ -21,6 +21,8 @@ const Cards = ({bgimage,icon,heading}) => {
     </div>
   )
 }
+
+
 
 export default Cards
 

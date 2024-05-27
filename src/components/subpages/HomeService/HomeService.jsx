@@ -1,7 +1,7 @@
 import React from 'react'
 import Cards from './Cards'
 import first from '../../../assets/first.svg'
-import second from '../../../assets/second.svg'
+import second from '../../../assets/second.jpg'
 import third from '../../../assets/third.svg'
 import charger from '../../../assets/charger.svg'
 import callLogo from '../../../assets/callLogo.svg'
@@ -51,7 +51,7 @@ const HomeService = () => {
         <div className="flex  justify-around items-center mt-4">
             <Cards bgImage={first} service="Energy as a service" />
             <Cards bgImage={second} service="Battery as a service" />
-            <Cards bgImage={third} service="Sample Card Title" />
+            <Cards bgImage={third} service="Management as service" />
         </div>
     </div>
   )

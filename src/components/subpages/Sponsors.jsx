@@ -15,12 +15,12 @@ const Sponsors = () => {
           </h1>
         </div>
 
-        <div className="overflow-hidden w-full flex justify-center px-8 pt-6"> {/* Added padding on both sides */}
-          <div className="flex animate-slide space-x-8">
+        <div className="overflow-hidden w-full flex justify-center px-8 pt-6 pb-6 dark:bg-white"> {/* Added padding on both sides */}
+          <div className="flex animate-slide space-x-8 items-center">
             {/* First set of images */}
             {[GEM, MSME, SIH, TBI, GEM, MSME, SIH, TBI].map((imgSrc, index) => (
               <div key={index} className="flex-shrink-0">
-                <img src={imgSrc} alt={`Sponsor ${index}`} className="w-28" />
+                <img src={imgSrc} alt={`Sponsor ${index}`} className="w-28 " />
               </div>
             ))}
             {/* Second set of images for the loop */}

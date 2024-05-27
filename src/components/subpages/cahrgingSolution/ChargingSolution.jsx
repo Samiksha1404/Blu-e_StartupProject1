@@ -30,7 +30,7 @@ const ChargingSolution = () => {
               <Cards bgimage={bgfleet} icon={fleet} heading="FLEET"/>
               <Cards bgimage={bgcommercial} icon={commercial} heading="COMMERCIAL"/>
               <Cards bgimage={bgworkplace} icon={workplace} heading="WORKPLACE"/>
-              <Cards bgimage={bgproject} icon={projects} heading="UNDER CONSTRUCTION PROJECTS"/>
+              <Cards bgimage={bgproject} icon={projects} heading="UNDER CONSTRUCTION "/>
             </div>
         </div>
     </div>

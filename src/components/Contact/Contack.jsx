@@ -8,9 +8,9 @@ import IntroPart from '../subcomponents/IntroPart'
 function Contack() {
 
   const ContactInfo = ({ title, imgSrc, description }) => (
-    <div className="c1 mx-auto " style={{ flex: 1, padding: "30px" }}>
+    <div className="c1 mx-auto" style={{ flex: 1, padding: "30px" }}>
       <div className="info1">
-        <h1 className='text-white lg:text-5xl text-3xl  font-semibold mb-3 ' style={{}}>{title}</h1>
+        <h1 className='text-white lg:text-5xl text-3xl font-semibold mb-3'>{title}</h1>
         <div className="detail" style={{ display: "flex" }}>
           <img className='animate-bounce' src={imgSrc} alt="" />
           <p style={{ paddingTop: "2px", paddingLeft: "12px", fontSize: "16px", color: "white" }}>{description}</p>
@@ -18,6 +18,7 @@ function Contack() {
       </div>
     </div>
   );
+  
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
@@ -73,31 +74,40 @@ function Contack() {
 
       {/* contact part */}
 
-      <div data-aos="zoom-out" data-aos-duration="1500" className="contactpart  bg-indigo-50 dark:bg-slate-950 pt-20 md:pt-40">
-        <div className="contactsection md:w-4/5 md:mx-auto mx-4 py-10 md:py-20 rounded-lg shadow-lg shadow-slate-600" style={{ background: 'linear-gradient(113deg, rgba(9, 31, 91, 0.96) 20%, rgba(18.48, 26.12, 60.06, 0.77) 44%, rgba(25.47, 27.82, 60.60, 0.46) 70%, rgba(35.88, 30.35, 61.41, 0) 100%)' }}>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6  ">
-            <ContactInfo
-              title="On Call"
-              imgSrc={img2}
-              description="+91 7620087268"
-            />
-            <ContactInfo
-              title="On Whatsapp"
-              imgSrc={img2}
-              description="+91 8830973806"
-            />
-            <ContactInfo
-              title="On Site"
-              imgSrc={img3}
-              description="Saoji restaurant, beside Haldiram, Utkarsh Nagar, Gittikhadan, Nagpur, Maharashtra 440013"
-            />
-            <ContactInfo
-              title="On Mail"
-              imgSrc={img4}
-              description={<a href='mailto:info@blu-e.in'>info@blu-e.in</a>}
-            />
+      <div data-aos="zoom-out" data-aos-duration="1500" className="contactpart bg-indigo-50 dark:bg-slate-950 pt-20 md:pt-40">
+  <div className="contactsection md:w-4/5 md:mx-auto mx-4 py-10 md:py-20 rounded-lg shadow-lg shadow-slate-600" style={{ background: 'linear-gradient(113deg, rgba(9, 31, 91, 0.96) 20%, rgba(18.48, 26.12, 60.06, 0.77) 44%, rgba(25.47, 27.82, 60.60, 0.46) 70%, rgba(35.88, 30.35, 61.41, 0) 100%)' }}>
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 justify-items-center items-start">
+      <ContactInfo
+        title="On Call"
+        imgSrc={img2}
+        description="+91 7620087268"
+      />
+      <ContactInfo
+        title="On Whatsapp"
+        imgSrc={img2}
+        description="+91 8830973806"
+      />
+      <ContactInfo
+        title="On Site"
+        imgSrc={img3}
+        description={
+          <div>
+            Saoji restaurant, beside Haldiram,<br />
+            Utkarsh Nagar, Gittikhadan,<br />
+            Nagpur, Maharashtra 440013
           </div>
+        }
+      />
+      <ContactInfo
+        title="On Mail"
+        imgSrc={img4}
+        description={<a href='mailto:info@blu-e.in'>info@blu-e.in</a>}
+      />
+    </div>
+  
+
+
+ 
 
 
           {/* form section */}

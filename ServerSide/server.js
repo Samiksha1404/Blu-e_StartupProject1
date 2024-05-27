@@ -32,7 +32,7 @@ const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: '', // Update with your email
-    pass: '9637002930' // Update with your email password
+    pass: '' // Update with your email password
   }
 });
 // Routes
@@ -42,14 +42,14 @@ app.post('/api/contact', async (req, res) => {
     const newContact = new Contact({ name, email, phone, subject, message });
     await newContact.save();
 
-    // // // Send email to admin
-    // const mailOptions = {
-    //   from: '',///yours email address 
-    //   to: '', // Update with whom u want to send
-    //   subject: 'New Contact Entry',
-    //   text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
-    // };
-    // await transporter.sendMail(mailOptions);
+    // // Send email to admin
+    const mailOptions = {
+      from: '',///yours email address 
+      to: '', // Update with whom u want to send
+      subject: 'New Contact Entry',
+      text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+    };
+    await transporter.sendMail(mailOptions);
 
     res.status(201).json({ message: 'Contact saved successfully' });
   } catch (err) {
@@ -62,3 +62,6 @@ app.post('/api/contact', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+
+

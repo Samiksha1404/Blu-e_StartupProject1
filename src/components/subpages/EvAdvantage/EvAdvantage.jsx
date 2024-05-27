@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-import chStation from '../../../assets/chStation.svg'
+import pumpimage from '../../../assets/Pumpimage.svg'
 
 const EvAdvantage = () => {
   return (
@@ -25,7 +25,7 @@ EV Charger?</p>
           {/* center image */}
 
           <div className="">
-            <img src={chStation} alt="" className="rounded-lg   " />
+            <img src={pumpimage} alt="" className="rounded-lg   " />
           </div>
           
           {/* right */}
