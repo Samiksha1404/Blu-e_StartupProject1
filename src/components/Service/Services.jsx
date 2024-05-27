@@ -98,16 +98,18 @@ function Services() {
         <GradientText text="Services Solution" />
 
         <div className="flex flex-col  md:gap-10 gap-6 mt-6 ">
-          <div className="grid md:grid-cols-4 grid-cols-2  md:gap-16  gap-6 mx-auto lg:px-0 px-4">
-            <ServiceSolutioncard title="Revolutionizing EV Charging with Autonomous Convenience" image={s1} />
-            <ServiceSolutioncard title="Easy payment with UPI" image={s2} />
+          <div className="grid md:grid-cols-4 grid-cols-2  md:gap-16  gap-6 mx-auto lg:px-0 px-4 ">
+            <ServiceSolutioncard title="Revolutionizing EV Charging with Autonomy" image={s1} />
+            <ServiceSolutioncard title="Make money by building network with us" image={s2} />
             <ServiceSolutioncard title="Subscription model for long route drivers" image={s3} />
-            <ServiceSolutioncard title="Real-Time Monitoring Status" image={s4} />
+            <ServiceSolutioncard title=" Quality service with minimal downtime" image={s5} />
           </div>
           <div className="grid md:grid-cols-3 grid-cols-2 mx-auto md:gap-14 gap-6 lg:px-0 px-4">
-            <ServiceSolutioncard title="Provides a quality service with minimum down time" image={s5} />
+            
             <ServiceSolutioncard title="Operative in all seasons" image={s1} />
-            <ServiceSolutioncard title="Make money by building network with us" image={s2} />
+            <ServiceSolutioncard title="Easy payment with UPI" image={s2} />
+            <ServiceSolutioncard title="Real-Time Monitoring Status" image={s4} />
+            
           </div>
         </div>
       </div>
