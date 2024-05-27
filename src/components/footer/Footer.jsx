@@ -32,15 +32,15 @@ export default function Footer() {
                         <Grid heading="contact"/>
                         <div className=" absolute md:mt-10 mt-8 ">
                         <div className="flex md:gap-3 gap-1 mb-5 mr-2">
-                        <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
+                        <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 '/>
                         <p className="">+917620087268</p>
                         </div>
                         <div className="flex md:gap-3 gap-1 mb-5">
-                        <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
+                        <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 '/>
                         <p className="">+918830973806</p>
                         </div>
                         <div className="flex md:gap-3  gap-1 mb-5">
-                        <FaEnvelope className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
+                        <FaEnvelope className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 '/>
                         <a href='mailto:info@blu-e.in'>info@blu-e.in</a>
                         </div>
                         </div>
