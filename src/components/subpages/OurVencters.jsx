@@ -1,7 +1,7 @@
 import React from 'react';
 import ev1 from '../../assets/ev1.svg';
-import ev2 from '../../assets/ev2 (2).png';
-import ev3 from '../../assets/ev3.png';
+import ev2 from '../../assets/MG.png';
+import ev3 from '../../assets/WCL.png';
 import ev4 from '../../assets/ev4 (2).png';
 import ev5 from '../../assets/ev5 (2).png';
 import ev6 from '../../assets/ev6.png';
@@ -18,8 +18,8 @@ const OurVentures = () => {
           </h1>
         </div>
 
-        <div className="overflow-hidden w-full flex justify-center px-8 pt-6">
-          <div className="flex animate-slide space-x-8">
+        <div className="overflow-hidden w-full flex justify-center items-center px-8 pt-6 pb-6 dark:bg-white">
+          <div className="flex animate-slide space-x-8 items-center">
             {/* First set of images */}
             {[ev1, ev2, ev3, ev4, ev5, ev7, ev6].map((imgSrc, index) => (
               <div key={index} className="flex-shrink-0">
