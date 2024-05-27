@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-import pumpimage from '../../../assets/Pumpimage.svg'
+import pumpimage from '../../../assets/carcharger.png'
 
 const EvAdvantage = () => {
   return (

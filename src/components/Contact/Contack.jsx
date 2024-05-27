@@ -85,23 +85,24 @@ function Contack() {
       <ContactInfo
         title="On Whatsapp"
         imgSrc={img2}
-        description="+91 8830973806"
+        description="+91 7620087268"
       />
       <ContactInfo
         title="On Site"
         imgSrc={img3}
         description={
           <div>
-            Saoji restaurant, beside Haldiram,<br />
-            Utkarsh Nagar, Gittikhadan,<br />
-            Nagpur, Maharashtra 440013
+            Saoji restaurant, beside <br />
+            Haldiram,Utkarsh Nagar, <br />
+            Gittikhadan,  Nagpur, <br />
+           Maharashtra 440013
           </div>
         }
       />
       <ContactInfo
         title="On Mail"
         imgSrc={img4}
-        description={<a href='mailto:info@blu-e.in'>info@blu-e.in</a>}
+        description={<a href='mailto:shashtavbharat.official@gmail.com'>shashtavbharat.official@gmail.com</a>}
       />
     </div>
   

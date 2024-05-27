@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 function Grid({heading, list1, list2,list3,list4,list5}) {
   return (
     <div>
-    <h2 className="mb-1 text-[14px] md:text-[18px] font-semibold pb-1 hover:text-blue-900 uppercase">{heading}</h2>
-    <ul className="space-y-1  text-[14px] md:text-[16px]">
+    <h2 className="mb-1 text-[14px] md:text-[18px] font-semibold pb-1 text-blue-950 uppercase">{heading}</h2>
+    <ul className="space-y-1  text-[12px]  lg:text-[16px]">
         <li className="pb-1 hover:text-blue-900">
             <Link to="/">{list1}</Link>
         </li>

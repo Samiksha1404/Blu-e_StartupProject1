@@ -12,8 +12,8 @@ import s2 from '../../assets/s2.svg'
 import s3 from '../../assets/s3.svg'
 import s4 from '../../assets/s4.svg'
 import s5 from '../../assets/s5.svg'
-import s6 from '../../assets/s6.svg'
-import s7 from '../../assets/s7.svg'
+import s6 from '../../assets/climate.svg'
+import s7 from '../../assets/money.svg'
 import ServiceSolutioncard from './ServiceSolutioncard.jsx'
 import DownloadSection from './DownloadSection.jsx'
 import { NavLink } from 'react-router-dom'
@@ -100,13 +100,13 @@ function Services() {
         <div className="flex flex-col  md:gap-10 gap-6 mt-6 ">
           <div className="grid md:grid-cols-4 grid-cols-2  md:gap-16  gap-6 mx-auto lg:px-0 px-4 ">
             <ServiceSolutioncard title="Revolutionizing EV Charging with Autonomy" image={s1} />
-            <ServiceSolutioncard title="Make money by building network with us" image={s2} />
+            <ServiceSolutioncard title="Make money by building network with us" image={s7} />
             <ServiceSolutioncard title="Subscription model for long route drivers" image={s3} />
             <ServiceSolutioncard title=" Quality service with minimal downtime" image={s5} />
           </div>
           <div className="grid md:grid-cols-3 grid-cols-2 mx-auto md:gap-14 gap-6 lg:px-0 px-4">
             
-            <ServiceSolutioncard title="Operative in all seasons" image={s1} />
+            <ServiceSolutioncard title="Operative in all seasons" image={s6} />
             <ServiceSolutioncard title="Easy payment with UPI" image={s2} />
             <ServiceSolutioncard title="Real-Time Monitoring Status" image={s4} />
             

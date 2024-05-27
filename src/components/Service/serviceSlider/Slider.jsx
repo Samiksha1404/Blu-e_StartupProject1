@@ -51,6 +51,7 @@ const Slider = () => {
           }}
           modules={[Pagination, Autoplay]}
           className="mySwiper"
+          style={{ marginTop: '30px' }}
         >
           <SwiperSlide>
             <Card image={home} title="HOME" content="Get a charging station for your home" />

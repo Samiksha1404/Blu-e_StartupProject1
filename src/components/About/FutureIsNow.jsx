@@ -20,7 +20,7 @@ const FutureIsNow = () => {
           <div data-aos="slide-up" data-aos-duration="1000" className="bg-white dark:bg-slate-800  md:p-10 p-4 lg:w-[656px] md:text-[20px] lg:h-[499px] flex flex-col justify-center gap-2 ">
             {/* heading */}
             <h1 className="lg:text-[30px] md:text-[25px] text-[18px] dark:text-indigo-200">VISION</h1>
-            <h1 className="lg:text-[53px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400">The Future IS Now</h1>
+            <h1 className="lg:text-[53px] md:text-[42px] text-[24px] font-semibold dark:text-indigo-400">The Future is Now</h1>
             <p className="dark:text-slate-300 text-justify">To become a leader in developing a sustainable and renewable technologies such as future alternate fuels and to actively participate and strive for the common goal of achieving complete carbon neutrality for the betterment of society. To excel in our commitment and known universally for the quality, services and innovations in our areas of operations.</p>
           </div>
         </div>

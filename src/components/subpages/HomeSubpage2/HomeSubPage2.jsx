@@ -5,11 +5,11 @@ function VideoSection() {
     <div className="flex flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">
       <div className="flex flex-col grow text-xl font-semibold text-center text-white max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 self-end px-20 py-16 max-w-full bg-blue-950 w-[600px] max-md:flex-wrap max-md:px-5">
-          <div className="flex-auto my-auto italic  transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400 hover:dark:text-blue-200">Watch Our Video!</div>
+          <div className="flex-auto my-auto italic  transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400 hover:dark:text-blue-200 animate-zoom">Watch Our Video!</div>
           <div
             className="shrink-0 w-px border border-white border-solid aspect-[0.03] stroke-[1px] stroke-white"
           />
-          <div className="flex-auto self-start mt-2.5 italic transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400 hover:dark:text-blue-200"> <a href="/contact">Talk To An Expert &gt;</a></div>
+          <div className="flex-auto self-start mt-3.5 italic transition-transform duration-300 ease-in-out transform hover:translate-y-1 hover:text-yellow-400 hover:dark:text-blue-200 animate-zoom"> <a href="/contact">Talk To An Expert &gt;</a></div>
         </div>
         <img
       loading="lazy"
@@ -41,7 +41,7 @@ function AboutUsButton() {
 function HomeSubpage2() {
   return (
     <div>
-      <div className="flex gap-5 max-md:flex-col justify-center items-center max-md:gap-0" data-aos="fade-down" data-aos-duration="2000">
+      <div className="flex gap-5 pl-8 max-md:flex-col justify-center items-center max-md:gap-0" data-aos="fade-down" data-aos-duration="2000">
         <div className="flex flex-col w-[39%] max-md:ml-0 max-md:w-full">
           <div className="flex flex-col self-stretch px-5 my-auto text-lg font-medium max-md:mt-10 max-md:max-w-full">
             <h1 className="text-xl tracking-wide leading-8 text-center text-blue-950 max-md:max-w-full dark:text-blue-300">
@@ -56,7 +56,7 @@ function HomeSubpage2() {
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/862d2b7dc82b113d7834e6f0975b08d7307a6dcfba06387182df74ee42031b7c?apiKey=d7e5bab79af041058fcada747b413e1e&"
                 alt=""
-                className="shrink-0 self-start aspect-square w-[60px]"
+                className="shrink-0 self-start aspect-square w-[60px] animate-zoom"
               />
               <p className="flex-auto dark:text-slate-500">
                 Our startup is revolutionizing EV charging with Autonomous /

@@ -1,6 +1,6 @@
 import React from 'react'
 import IntroPart from '../subcomponents/IntroPart'
-import img1 from "../../assets/Station4.jpg"
+import img1 from "../../assets/productintro.jpg"
 import GradientText from '../../components/subpages/GradientText.jsx'
 import LeftProduct from './LeftProduct.jsx'
 import RightProduct from './RightProduct.jsx'
@@ -58,7 +58,7 @@ function Products() {
 
 <LeftProduct
    imgsrc={p3}
-   heading="50 kW DC Fast Charger"
+   heading="40-230 kW DC Fast Charger"
    subheading="Fast Charging Solution"
    li1="The 50 kW DC Fast Charger is designed for quick charging sessions, catering to the needs of EV drivers on the go who require rapid replenishment of their vehicle's battery."
    li2="With a power output of 50 kilowatts, it can significantly reduce charging times compared to AC chargers, making it suitable for highway rest stops, gas stations, and other high-demand locations."
