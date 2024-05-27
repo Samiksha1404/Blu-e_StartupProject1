@@ -25,7 +25,7 @@ EV Charger?</p>
           {/* center image */}
 
           <div className="">
-            <img src={pumpimage} alt="" className="rounded-lg   " />
+            <img src={pumpimage} alt="" className="rounded-lg  " />
           </div>
           
           {/* right */}

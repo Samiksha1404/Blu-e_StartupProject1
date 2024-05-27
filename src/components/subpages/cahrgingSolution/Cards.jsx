@@ -1,20 +1,22 @@
 import React from 'react'
 
 
-import { Link } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 
 const Cards = ({bgimage,icon,heading}) => {
   return (
     <div className='mx-1'>
-        <div className="lg:h-[375px] lg:w-[230px] flex flex-col justify-end shadow-black  shadow-lg dark:shadow-slate-500 bg-cover h-48 hover:shadow-blue-800 hover:scale-110  duration-300 ease-in-out hover:" style={{ backgroundImage: `url(${bgimage})` }}>
+        <div className="lg:h-[375px] lg:w-[230px] flex flex-col justify-end shadow-black  shadow-lg dark:shadow-slate-500 bg-cover h-48 hover:shadow-blue-800 hover:scale-110  duration-300 ease-in-out  " style={{ backgroundImage: `url(${bgimage})` }}>
 
-   <div className="bg-slate-200 dark:bg-orange-400 lg:w-[206px] lg:h-[131px]  flex flex-col items-center justify-center p-5 mx-auto  pt-5 text-center ">
+   <div className="bg-slate-200 dark:bg-orange-400 w-[90%] lg:h-[131px]  flex flex-col items-center justify-center p-5 mx-auto  md:pt-5 text-center md:space-y-2   ">
   <img src={icon} alt="" className="bg-white p-2 rounded-full  absolute lg:mb-40 lg:w-[86px]  w-16 mb-32 " />
-  <h1 className=" font-semibold lg:text-[20px] text-[14px]">{heading}</h1>
-  <Link>
-    <button className='italic text-blue-950 lg:text-[14px] text-[12px] '>EXPLORE MORE</button>
-  </Link>
-</div>
+  <h1 className=" font-semibold lg:text-[20px] text-[14px] ">{heading}</h1>
+  <NavLink
+  to="/products"
+  >
+    <button className='italic text-blue-950 lg:text-[14px] text-[12px] dark:text-slate-200 hover:scale-125 duration-300 '>EXPLORE MORE</button>
+  </NavLink>
+   </div>
 
 </div>
 

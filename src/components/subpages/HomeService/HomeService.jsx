@@ -15,8 +15,12 @@ const HomeService = () => {
         <NavLink to="/contact">
             <img src={callLogo} alt="callLogo" className="hover:shadow-blue-800 hover:scale-110" />
             </NavLink>
-            <p className="dark:text-slate-500 underline hover:text-yellow-400">Have any questions?</p>
-            <p className="text-slate-400 animate-zoom hover:text-blue-950">Talk to an expert now!</p>
+            <NavLink to="/faqs">
+            <p className="dark:text-slate-500 underline hover:text-yellow-400 hover:scale-110  duration-300">Have any questions?</p>
+            </NavLink>
+          <NavLink to="/contact">
+          <p className="text-slate-500 animate-zoom hover:text-blue-950 dark:hover:text-blue-300">Talk to an expert now!</p>
+          </NavLink>
         </div>
 
         <div className="flex gap-4 items-center justify-center mb-6">

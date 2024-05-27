@@ -120,7 +120,7 @@ const Herosection = () => {
               </div>
             </div>
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 z-10 bg-gradient-to-r from-white to-transparent"></div>
+            <div className="absolute inset-0 z-10 bg-gradient-to-r from-white to-transparent dark:bg-gradient-to-r dark:from-slate-400 dark:to-transparent"></div>
             <img
               src={img}
               className="absolute block h-[630px] w-full object-cover top-0 left-0 z-0 cover-center"

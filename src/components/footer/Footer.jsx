@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin, FaYoutube ,FaEnvelope, FaPhone } from 'react-icons/fa';
 import Grid from './Grid';
 import Grid1 from './Grid1';
 import footerLogo from '../../assets/blueSymb.png'
@@ -23,11 +23,29 @@ export default function Footer() {
                 <h1 claclassNamess="">CIN: U27900MH2023PTC401951</h1>
                 </div>
 
-            <div className="grid grid-cols-3 gap-4 sm:gap-6  ml-8">
+            <div className="grid grid-cols-3   ">
                         
                         <Grid heading="Company" list1="Home" list2="Service" list3="About Us " list4="Location" list5="FAQs"/>
                         <Grid1 heading="products" list1="7.5 kW AC Charger" list2="15 kW AC Charger " list3="50kW DC Charger " list4="ChargeMaster Pro" list5="Blu-E SplitJet"/>
+    
+                        <div className="flex flex-col ">
                         <Grid heading="contact"/>
+                        <div className=" absolute md:mt-10 mt-8 ">
+                        <div className="flex md:gap-3 gap-1 mb-5 mr-2">
+                        <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
+                        <p className="">+917620087268</p>
+                        </div>
+                        <div className="flex md:gap-3 gap-1 mb-5">
+                        <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
+                        <p className="">+918830973806</p>
+                        </div>
+                        <div className="flex md:gap-3  gap-1 mb-5">
+                        <FaEnvelope className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
+                        <a href='mailto:info@blu-e.in'>info@blu-e.in</a>
+                        </div>
+                        </div>
+                        </div>
+                       
                          
            </div>
 
@@ -47,19 +65,19 @@ export default function Footer() {
                 </div>
                 <div className='flex gap-6'>
                     <a href="https://www.instagram.com/blu_e_shashtav_bharat/" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className='md:w-9 md:h-9 w-7 h-7 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg '/>
+                        <FaInstagram className='md:w-9 md:h-9 w-7 h-7 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 hover:bg-pink-600'/>
                     </a>
                     <a href="https://www.facebook.com/profile.php?id=61559934486362" target="_blank" rel="noopener noreferrer">
-                        <FaFacebook className='md:w-9 md:h-9 w-7 h-7  text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
+                        <FaFacebook className='md:w-9 md:h-9 w-7 h-7  text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200 hover:scale-125 duration-300 hover:bg-blue-700'/>
                     </a>
                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-                        <FaTwitter className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
+                        <FaTwitter className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200 hover:scale-125 duration-300 hover:bg-blue-700'/>
                     </a>
                     <a href="https://www.linkedin.com/company/shashtav-charging-bharat-private-limited/" target="_blank" rel="noopener noreferrer">
-                        <FaLinkedin className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
+                        <FaLinkedin className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200 hover:scale-125 duration-300 hover:bg-blue-800'/>
                     </a>
                     <a href="http://www.youtube.com/@Blu-E-ShashtavBharat" target="_blank" rel="noopener noreferrer">
-                        <FaYoutube className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200'/>
+                        <FaYoutube className='md:w-9 md:h-9 w-7 h-7 text-white bg-blue-900 p-1 rounded-lg dark:text-black dark:bg-slate-200  hover:scale-125 duration-300 hover:bg-red-600'/>
                     </a>
 </div>
 
