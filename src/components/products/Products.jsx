@@ -1,6 +1,6 @@
 import React from 'react'
 import IntroPart from '../subcomponents/IntroPart'
-import img1 from "../../assets/productintro.jpg"
+import img1 from "../../assets/producthead.jpg"
 import GradientText from '../../components/subpages/GradientText.jsx'
 import LeftProduct from './LeftProduct.jsx'
 import RightProduct from './RightProduct.jsx'
