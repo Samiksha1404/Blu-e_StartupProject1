@@ -31,14 +31,14 @@ const Slider = () => {
   </div>
 </div>
 
-      <div className="flex mt-4 items-center bg-gradient-to-r from-yellow-400 to-yellow-200 dark:bg-gradient-to-r dark:from-cyan-950 dark:to-cyan-800 bg md:w-[90%] mx-auto lg:pl-16 px-3 py-5">
+      <div className="flex mt-4 items-center bg-gradient-to-r from-yellow-400 to-yellow-200 dark:bg-gradient-to-r dark:from-cyan-950 dark:to-cyan-800 bg md:w-[90%] mx-auto lg:pl-16 px-3 py-5 ">
         <Swiper
           slidesPerView={3}
           centeredSlides={true}
           spaceBetween={30}
           loop={true}
           autoplay={{
-            delay: 1500,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -66,31 +66,40 @@ const Slider = () => {
           className="mySwiper "
         >
           <SwiperSlide>
-            <Card number="1" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="1" description="Amendment to Circular- Guidelines on Electric Vehicle Charging Station (EVCS)" driveLink="https://drive.google.com/file/d/1D-wWVFQvI-08pXb1c5hXH4VZ7lysMEjT/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/1D-wWVFQvI-08pXb1c5hXH4VZ7lysMEjT/view?usp=drive_link"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="2" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="2" description="Fixing of service charges for incentivized Electric Vehicle Charging Station in thc State of Maharashtra." driveLink="https://drive.google.com/file/d/1H6kxQRD28Uwsb-4-P0_R_KUCt95-g_0A/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/1H6kxQRD28Uwsb-4-P0_R_KUCt95-g_0A/view?usp=drive_link"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="3" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="3" description="Amendment in the revised Guidelines and Standards for Charging Infrastructure 
+for Electric Vehicles - reg" driveLink="https://drive.google.com/file/d/1wrnkpLDzNR7lCYl4uztj-AbkNWOuKXjJ/view?usp=drive_link"  downloadButton="https://drive.google.com/file/d/1wrnkpLDzNR7lCYl4uztj-AbkNWOuKXjJ/view?usp=drive_link"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="4" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="4" description="Case of Maharashtra State Electricity Distribution Company Limited for Truing-up of
+Aggregate Revenue Requirement (ARR) of FY 2017-18 and FY 2018-19..." driveLink="https://drive.google.com/file/d/13_-qqxRmafZCfG_I3RQscWLR6b-EBOi_/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/13_-qqxRmafZCfG_I3RQscWLR6b-EBOi_/view?usp=drive_link" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="5" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="5" description="Government of Maharashtra, Department of Forest, Industry, Energy, and Labor,
+Resolution No. VVAADO 2017/Pr. No. 188/Industry-2, Date: 14th February, 2018" driveLink="https://drive.google.com/file/d/1TLysX57TZBv-MW_lYhvL1OG6K02VeT62/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/1TLysX57TZBv-MW_lYhvL1OG6K02VeT62/view?usp=drive_link" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="6" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="6" description="Government of India, Ministry of Power, New Delhi,
+No. 12/2/2018-EV,
+Date: 14th December, 2018" driveLink="https://drive.google.com/file/d/1qTwXYZuIwMTu2cqAI8KX767uucREsebq/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/1qTwXYZuIwMTu2cqAI8KX767uucREsebq/view?usp=drive_link" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="7" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="7" description="Charging Infrastructure for Electric Vehicles (EV) -Revised Guidelines &
+Standards-reg" driveLink="https://drive.google.com/file/d/1xCUPtG0TbEPl7u9T2xBy6z-mDU7VWViu/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/1xCUPtG0TbEPl7u9T2xBy6z-mDU7VWViu/view?usp=drive_link" />
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="8" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="8" description="Case of Maharashtra State Electricity Distribution Company Limited for Truing-up of 
+Aggregate Revenue Requirement (ARR) of FY 2017-18 and FY 2018-19" driveLink="https://drive.google.com/file/d/1FEbro089TrJp_alPgCKZ74cj01LjEhUE/view?usp=drive_link"  downloadButton="https://drive.google.com/file/d/1FEbro089TrJp_alPgCKZ74cj01LjEhUE/view?usp=drive_link"/>
           </SwiperSlide>
           <SwiperSlide>
-            <Card number="9" description="this is abiofjhfie ndaioaejhdjhd" />
+            <Card number="9" description="ELECTRIC VEHICLE
+Infrastructure || CURRENT LANDSCAPE OF
+EV INFRASTRUCTURE || EV CHARGING MARKET" driveLink="https://drive.google.com/file/d/1qBGQ7IBw77SFeftm3ebIzo1Q1-h9mbMQ/view?usp=drive_link" downloadButton="https://drive.google.com/file/d/1qBGQ7IBw77SFeftm3ebIzo1Q1-h9mbMQ/view?usp=drive_link" />
           </SwiperSlide>
         </Swiper>
       </div>
