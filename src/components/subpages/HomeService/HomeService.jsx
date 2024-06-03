@@ -23,19 +23,19 @@ const HomeService = () => {
           </NavLink>
         </div>
 
-        <div className="flex gap-4 items-center justify-center mb-6">
+        <div className="flex gap-4 items-center justify-center mb-6 mt-6">
           <NavLink to="/services">
             <button className="relative md:px-6 md:py-3 px-2 md:text-xl  text-sm font-semibold  text-black rounded-lg group">
             <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-blue-900 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
 <span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-yellow-400 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
-<span class="relative">All Services</span>
+<span class="relative text-[16px]">All Services</span>
             </button>
           </NavLink>
           <NavLink to="/products">
           <button className="relative md:px-6 md:py-3 px-2 md:text-xl  text-sm font-semibold text-black rounded-lg group">
             <span class="absolute inset-0 w-full h-full transition duration-300 transform -translate-x-1 -translate-y-1 bg-blue-900 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0"></span>
 <span class="absolute inset-0 w-full h-full transition duration-300 transform translate-x-1 translate-y-1 bg-yellow-400 ease opacity-80 group-hover:translate-x-0 group-hover:translate-y-0 mix-blend-screen"></span>
-<span class="relative">All Products</span>
+<span class="relative text-[16px]">All Products</span>
             </button>
           </NavLink>
         </div>

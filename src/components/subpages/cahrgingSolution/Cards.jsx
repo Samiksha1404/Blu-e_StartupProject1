@@ -10,11 +10,11 @@ const Cards = ({bgimage,icon,heading}) => {
 
    <div className="bg-slate-200 dark:bg-orange-400 w-[90%] lg:h-[131px]  flex flex-col items-center justify-center p-5 mx-auto  md:pt-5 text-center md:space-y-2   ">
   <img src={icon} alt="" className="bg-white p-2 rounded-full  absolute lg:mb-40 lg:w-[86px]  w-16 mb-32 " />
-  <h1 className=" font-semibold lg:text-[20px] text-[14px] ">{heading}</h1>
+  <h1 className=" font-semibold lg:text-[20px] text-[10px] ">{heading}</h1>
   <NavLink
-  to="/products"
+  to="/service"
   >
-    <button className='italic text-blue-950 lg:text-[14px] text-[12px] dark:text-slate-200 hover:scale-125 duration-300 '>EXPLORE MORE</button>
+    <button className='italic text-blue-950 lg:text-[14px] text-[8px] dark:text-slate-200 hover:scale-125 duration-300 '>EXPLORE MORE</button>
   </NavLink>
    </div>
 

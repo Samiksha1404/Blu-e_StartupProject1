@@ -35,7 +35,7 @@ const FoundersCards = ({ img, name, role, linkedIn, email }) => {
         <img src={img} alt={`${name}'s picture`} className="w-full h-full object-cover rounded cursor-pointer hover:scale-110 duration-700" />
       </div>
       <h2 className="text-xl font-semibold text-gray-900">{name}</h2>
-      <p className="text-gray-600 ">{role}</p>
+      <p className="text-gray-600 text-[14px] ">{role}</p>
       <div className="flex mt-4 space-x-3">
         <a href={linkedIn} className="text-blue-600" target="_blank" rel="noopener noreferrer">
           <svg className="w-6 h-6 hover:scale-125  duration-500" fill="currentColor" viewBox="0 0 24 24">

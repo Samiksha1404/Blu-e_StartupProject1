@@ -11,9 +11,17 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors()); // Use cors middleware
 // MongoDB connection
-mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/");
-const db = mongoose.connection;
+// mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/");
+// const db = mongoose.connection;
 
+mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => {
+  console.log("Connected to MongoDB Atlas");
+}).catch((error) => {
+  console.error("Error connecting to MongoDB Atlas: ", error.message);
+});
 
 // Schema
 const contactSchema = new mongoose.Schema({
@@ -26,15 +34,16 @@ const contactSchema = new mongoose.Schema({
 const Contact = mongoose.model('Contact', contactSchema);
 
 // Nodemailer configuration
-const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com', // Update with your SMTP host
-  port: 465, // Update with your SMTP port
-  secure: true,
-  auth: {
-    user: '', // Update with your email
-    pass: '' // Update with your email password
-  }
-});
+// const transporter = nodemailer.createTransport({
+//   host: 'smtp.gmail.com', // Update with your SMTP host
+//   port: 465, // Update with your SMTP port
+//   secure: true,
+//   auth: {
+//     user: '', // Update with your email
+//     pass: '' // Update with your email password
+//   }
+// });
+
 // Routes
 app.post('/api/contact', async (req, res) => {
   try {
@@ -43,13 +52,13 @@ app.post('/api/contact', async (req, res) => {
     await newContact.save();
 
     // // Send email to admin
-    const mailOptions = {
-      from: '',///yours email address 
-      to: '', // Update with whom u want to send
-      subject: 'New Contact Entry',
-      text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
-    };
-    await transporter.sendMail(mailOptions);
+    // const mailOptions = {
+    //   from: '',///yours email address 
+    //   to: '', // Update with whom u want to send
+    //   subject: 'New Contact Entry',
+    //   text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+    // };
+    // await transporter.sendMail(mailOptions);
 
     res.status(201).json({ message: 'Contact saved successfully' });
   } catch (err) {

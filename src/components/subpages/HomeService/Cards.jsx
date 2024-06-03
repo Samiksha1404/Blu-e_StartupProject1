@@ -7,7 +7,7 @@ const Cards = ({service,bgImage}) => {
         <div className=" items-end lg:h-[492px] lg:w-[360px] h-48 bg-cover mx-1 bg-no-repeat flex " style={{ backgroundImage: `url(${bgImage})` }}>
             
             
-            <p className="pl-3 text-white font-bold text-[20px] mb-4">{service}</p>
+            <p className="pl-3 text-white font-bold lg:text-[20px] text-[16px] mb-4">{service}</p>
             
         </div>
         <NavLink to="/services">

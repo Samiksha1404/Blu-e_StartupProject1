@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import bluelogo from '../../assets/bluelogo.svg'
+import bluelogo from '../../assets/newblulogo.svg'
 import Darkmode from '../DarkMood/Darkmode';
 import Dark2 from '../DarkMood/Dark2';
 import { useState } from 'react';
@@ -27,7 +27,7 @@ export default function Header() {
                     <Link to="/" className="">
                         <img
                             src={bluelogo}
-                            className=" xl:pl-16 lg:pl-2 lg:w-full md:w-[88px] rounded-[4px]  w-[86px]  " 
+                            className=" xl:pl-16 lg:pl-2 lg:w-[150px] md:w-[88px]   w-[86px]  " 
                             alt="Logo"
                         />
                     </Link>
