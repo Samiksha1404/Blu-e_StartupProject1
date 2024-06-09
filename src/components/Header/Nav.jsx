@@ -27,7 +27,7 @@ export default function Header() {
                     <Link to="/" className="">
                         <img
                             src={bluelogo}
-                            className=" xl:pl-16 lg:pl-2 lg:w-[150px] md:w-[88px]   w-[86px]  " 
+                            className=" xl:pl-16 lg:pl-8 lg:w-[170px] md:w-[86px]   w-[86px]  " 
                             alt="Logo"
                         />
                     </Link>

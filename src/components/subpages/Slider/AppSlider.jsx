@@ -76,15 +76,15 @@ export default AppSlider;
 const getCssClass = (itemId) => {
   switch (itemId) {
     case 6:
-      return "lg:w-[600px] w-[600px]";
+      return "lg:w-[600px] w-[600px] ";
     case 7:
-      return "lg:w-[600px] w-[600px] ml-[380px] lg:ml-[380px]";
+      return "lg:w-[600px] w-[600px] ml-[380px] lg:ml-[380px] ";
     case 8:
-      return "lg:w-[600px] w-[600px] sm:ml-[760px] lg:ml-[760px]";
+      return "lg:w-[600px] w-[600px] sm:ml-[760px] lg:ml-[760px] ";
       case 9:
-      return "lg:w-[600px] w-[600px] ml-[1500px] lg:ml-[1500px]";
+      return "lg:w-[600px] w-[600px] ml-[1500px] lg:ml-[1500px] ";
       case 10:
-      return "lg:w-[600px] w-[600px] lg:ml-[1350px]";
+      return "lg:w-[600px] w-[600px] lg:ml-[1350px] ";
     default:
       return "";
   }

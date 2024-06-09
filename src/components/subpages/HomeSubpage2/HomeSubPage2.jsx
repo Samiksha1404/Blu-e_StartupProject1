@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link, NavLink } from 'react-router-dom'
+import Counter from "../Counter/Counter";
 function VideoSection() {
   return (
     <div className="flex flex-col ml-5 w-[61%] max-md:ml-0 max-md:w-full">
@@ -58,7 +59,7 @@ function HomeSubpage2() {
                 alt=""
                 className="shrink-0 self-start aspect-square w-[60px] animate-zoom"
               />
-              <p className="flex-auto dark:text-slate-500">
+              <p className="flex-auto dark:text-slate-500 font-[16px] text-justify">
                 Our startup is revolutionizing EV charging with Autonomous /
                 Autocharge features to tackle the conventional woes of
                 complexity and time-consuming processes. Everyone can now
@@ -69,6 +70,7 @@ function HomeSubpage2() {
 
             <AboutUsButton />
           </div>
+            <Counter/>
         </div>
 
         <VideoSection />
