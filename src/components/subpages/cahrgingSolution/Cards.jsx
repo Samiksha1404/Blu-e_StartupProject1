@@ -12,7 +12,7 @@ const Cards = ({bgimage,icon,heading}) => {
   <img src={icon} alt="" className="bg-white p-2 rounded-full  absolute lg:mb-40 lg:w-[86px]  w-16 mb-32 " />
   <h1 className=" font-semibold lg:text-[20px] text-[10px] ">{heading}</h1>
   <NavLink
-  to="/service"
+  to="/services"
   >
     <button className='italic text-blue-950 lg:text-[14px] text-[8px] dark:text-slate-200 hover:scale-125 duration-300 '>EXPLORE MORE</button>
   </NavLink>
