@@ -14,10 +14,7 @@ app.use(cors()); // Use cors middleware
 // mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/");
 // const db = mongoose.connection;
 
-mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-}).then(() => {
+mongoose.connect("mongodb+srv://shashtavbharatofficial:BluE12345678@cluster1.xv6ghjm.mongodb.net/").then(() => {
   console.log("Connected to MongoDB Atlas");
 }).catch((error) => {
   console.error("Error connecting to MongoDB Atlas: ", error.message);

@@ -43,7 +43,9 @@ function Contack() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3000/api/contact', formData);
+      // const response = await axios.post('http://localhost:3000/api/contact', formData);
+      const response = await axios.post('https://blu-e-startup-project1-koev.vercel.app/api/contact', formData);
+      
       console.log('Form submitted successfully', response.data);
       // Optionally, you can reset the form after submission
       setFormData({
