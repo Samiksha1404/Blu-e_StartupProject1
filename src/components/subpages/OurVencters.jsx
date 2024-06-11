@@ -13,7 +13,7 @@ const OurVentures = () => {
       <div className="flex flex-col text-center space-y-5 mt-8 mb-8 " data-aos="fade-up" data-aos-duration="1000">
         {/* Heading */}
         <div>
-          <h1 className="lg:text-[53px] md:text-[48px] sm:text-[40px] text-[38px] font-bold dark:text-slate-400">
+          <h1 className="lg:text-[53px] md:text-[48px] sm:text-[40px] text-[38px] font-bold dark:text-white">
             We serve top ventures
           </h1>
         </div>

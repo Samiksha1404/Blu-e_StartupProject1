@@ -28,15 +28,15 @@ export default function Footer() {
                             <Grid1 heading="products" list1="7.5 kW AC Charger" list2="15 kW AC Charger " list3="40-230 kW DC Charger " list4="ChargeMaster Pro" list5="Blu-E SplitJet" />
 
                             <div className="flex flex-col ">
-                            <h2 className="mb-1 text-[14px] md:text-[18px] font-semibold pb-1 text-blue-950 uppercase">contact</h2>
+                            <h2 className="mb-1 text-[14px] md:text-[18px] font-semibold pb-1 text-blue-950 uppercase dark:text-yellow-400">contact</h2>
                                 <div className=" absolute md:mt-10 mt-8 ">
                                     <div className="flex md:gap-3 gap-1 mb-5 mr-2">
                                         <FaPhone className=' w-6 h-6 text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 ' />
-                                        <p className=" text-[12px]  lg:text-[16px]">+917620087268</p>
+                                        <p className=" text-[12px]  lg:text-[16px] hover:text-blue-900">+917620087268</p>
                                     </div>
                                     <div className="flex md:gap-3  gap-1 mb-5">
                                         <FaEnvelope className=' w-6 h-6  text-white dark:text-black dark:bg-slate-200 bg-blue-900 p-1 rounded-lg hover:scale-125 duration-300 ' />
-                                        <a className='text-[12px]  lg:text-[16px]' href='mailto:shashtavbharat.official@gmail.com' >shashtavbharat.<br/>official@gmail.com</a>
+                                        <a className='text-[12px]  lg:text-[16px] hover:text-blue-900' href='mailto:shashtavbharat.official@gmail.com' >shashtavbharat.<br/>official@gmail.com</a>
                                     </div>
                                 </div>
                             </div>

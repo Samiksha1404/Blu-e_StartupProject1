@@ -47,7 +47,7 @@ const HomeService = () => {
         {/* heading */}
         <div className="flex flex-col space-y-2  items-center ">
          <p className="md:text-[20px] text-[15px] text-slate-500">Vision for the change </p>
-         <p className="md:text-[48px] text-[25px] font-semibold dark:text-slate-400
+         <p className="md:text-[48px] text-[25px] font-semibold dark:text-white
            ">The services we provide</p>
         </div>
         
