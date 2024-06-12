@@ -40,7 +40,7 @@ function Contack() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://blu-e-backend.vercel.app/api/contact', formData, {
+      const response = await axios.post('https://blu-e-startup-backend.vercel.app/api/contact', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
