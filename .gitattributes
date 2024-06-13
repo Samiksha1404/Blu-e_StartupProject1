@@ -1,11 +1,4 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
 src/assets/blu_e[[:space:]]video.mp4 filter=lfs diff=lfs merge=lfs -text
 src/assets/blu_evideo.mp4 filter=lfs diff=lfs merge=lfs -text
-echo "* text=auto" > .gitattributes
-echo "*.js text" >> .gitattributes
-echo "*.json text" >> .gitattributes
-echo "*.md text" >> .gitattributes
-echo "*.html text" >> .gitattributes
-echo "*.css text" >> .gitattributes
 
-git add .gitattributes
