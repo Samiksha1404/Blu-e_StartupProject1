@@ -19,7 +19,7 @@ app.use(cors({
   credentials: true
 })); // Use cors middleware
 
-mongoose.connect(process.env.MONGODB_URI).then(() => {
+mongoose.connect(process.cwd()+process.env.MONGODB_URI).then(() => {
   console.log("Connected to MongoDB Atlas");
 }).catch((error) => {
   console.error("Error connecting to MongoDB Atlas: ", error.message);
