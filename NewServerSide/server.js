@@ -4,9 +4,9 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
-const dotenv = require('dotenv');
+// const dotenv = require('dotenv');
 
-dotenv.config();
+// dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -19,7 +19,7 @@ app.use(cors({
   credentials: true
 })); // Use cors middleware
 
-mongoose.connect(process.cwd()+process.env.MONGODB_URI).then(() => {
+mongoose.connect(MONGODB_URL).then(() => {
   console.log("Connected to MongoDB Atlas");
 }).catch((error) => {
   console.error("Error connecting to MongoDB Atlas: ", error.message);
