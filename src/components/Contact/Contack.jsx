@@ -19,47 +19,83 @@ function Contack() {
     </div>
   );
   
-  const [isClicked, setIsClicked] = useState(false);
+  // const [isClicked, setIsClicked] = useState(false);
 
-  const handleClick = () => {
-    setIsClicked(true);
-    // Call your handleSubmit function
-    handleSubmit();
-    // Optionally, reset the color after some time if needed
-    setTimeout(() => setIsClicked(false), 300); // reset color after 300ms
-  };
+  // const handleClick = () => {
+  //   setIsClicked(true);
+  //   // Call your handleSubmit function
+  //   handleSubmit();
+  //   // Optionally, reset the color after some time if needed
+  //   setTimeout(() => setIsClicked(false), 300); // reset color after 300ms
+  // };
 
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: '',
-  });
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   phone: '',
+  //   subject: '',
+  //   message: '',
+  // });
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      // const response = await axios.post('http://localhost:3000/api/contact', formData);
-      const response = await axios.post('https://blu-e-startup-backend.vercel.app/api/contact', formData);
-      console.log('Form submitted successfully', response.data);
-      // Optionally, you can reset the form after submission
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: '',
-      });
-    } catch (error) {
-      console.error('Error submitting form', error); // Log the error
-      alert('Error submitting form'); // Notify the user about the error
-    }
-  };
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     // const response = await axios.post('http://localhost:3000/api/contact', formData);
+  //     const response = await axios.post('https://blu-e-startup-backend.vercel.app/api/contact', formData);
+  //     console.log('Form submitted successfully', response.data);
+  //     // Optionally, you can reset the form after submission
+  //     setFormData({
+  //       name: '',
+  //       email: '',
+  //       phone: '',
+  //       subject: '',
+  //       message: '',
+  //     });
+  //   } catch (error) {
+  //     console.error('Error submitting form', error); // Log the error
+  //     alert('Error submitting form'); // Notify the user about the error
+  //   }
+  // };
+
   
+    const [formData, setFormData] = useState({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: '',
+    });
+  
+    const handleChange = (e) => {
+      const { name, value } = e.target;
+      setFormData((prevFormData) => ({
+        ...prevFormData,
+        [name]: value,
+      }));
+    };
+  
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      try {
+        // const response = await axios.post('http://localhost:3000/api/contact', formData);
+        const response = await axios.post('https://blu-e-startup-backend.vercel.app/api/contact', formData);
+        console.log('Form submitted successfully', response.data);
+        // Optionally, you can reset the form after submission
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: '',
+        });
+      } catch (error) {
+        console.error('Error submitting form', error); // Log the error
+        alert('Error submitting form'); // Notify the user about the error
+      }
+    };
 
   return (
     <>
