@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ["Blu-E.in"],
+  origin: ["https://blu-e.in"],
   methods: ["POST", "GET"],
   credentials: true
 })); // Use cors middleware
