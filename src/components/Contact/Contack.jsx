@@ -46,7 +46,7 @@ function Contack() {
       // const response = await axios.post('http://localhost:3000/api/contact', formData);
       // const response = await axios.post('https://blu-e-startup-backend.vercel.app/api/contact', formData);
       // const response = await axios.post('https://blu-e-startup-backend.vercel.app/api/contact', formData,{ headers: { "Content-Type": "application/json" } });
-      let response = await fetch(process.env.REACT_APP_BACKEND_URL + "/login", {
+      let response = await fetch("https://blu-e-startup-backend.vercel.app/api/contact", {
         method: "post",
         body: JSON.stringify({ email: Email, password: Password }),
         headers: { 'content-type': 'application/json' }
