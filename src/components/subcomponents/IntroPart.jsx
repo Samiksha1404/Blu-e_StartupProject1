@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 
 const IntroPart = ({ imgSrc, title, description, description1, buttonText, buttonLink }) => (
   <div className="herosection relative min-h-screen"> 
-    <div className="imgContainer relative overflow-hidden min-h-screen md:h-[700px] bg-fixed bg-center bg-cover" style={{ backgroundImage: `url(${imgSrc})` }}> 
+    <div className="imgContainer relative overflow-hidden min-h-screen md:h-[700px] bg-fixed bg-center bg-cover w-[100%]" style={{ backgroundImage: `url(${imgSrc})` }}> 
       <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))' }}></div>
       <div className="content absolute inset-0 flex flex-col justify-center items-center text-center z-10 p-4"> 
         <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">{title}</h1> 

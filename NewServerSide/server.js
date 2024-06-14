@@ -36,15 +36,15 @@ const contactSchema = new mongoose.Schema({
 const Contact = mongoose.model('Contact', contactSchema);
 
 // Nodemailer configuration
-// const transporter = nodemailer.createTransport({
-//   host: 'smtp.gmail.com', // Update with your SMTP host
-//   port: 465, // Update with your SMTP port
-//   secure: true,
-//   auth: {
-//     user: process.env.EMAIL_USER,
-//     pass: process.env.EMAIL_PASS
-//   }
-// });
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com', // Update with your SMTP host
+  port: 465, // Update with your SMTP port
+  secure: true,
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
+  }
+});
 
 app.get("/", (req, res) => {
   res.status(200).json({ message: "Ready." });
@@ -58,13 +58,13 @@ app.post('/api/contact', async (req, res) => {
     await newContact.save();
 
     // // Send email to admin
-    // const mailOptions = {
-    //   from: process.env.EMAIL_USER,
-    //   to: 'admin@example.com', // Update with the recipient's email
-    //   subject: 'New Contact Entry',
-    //   text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
-    // };
-    // await transporter.sendMail(mailOptions);
+    const mailOptions = {
+      from: process.env.EMAIL_USER,
+      to: 'admin@example.com', // Update with the recipient's email
+      subject: `${subject}`,
+      text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+    };
+    await transporter.sendMail(mailOptions);
 
     res.status(201).json({ message: 'Contact saved successfully' });
   } catch (err) {

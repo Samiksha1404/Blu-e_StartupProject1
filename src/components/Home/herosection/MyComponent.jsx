@@ -19,7 +19,7 @@ function MyComponent({ title,title1,title2, subtitle, description, linkText, lin
           loading="lazy"
           src={imageUrl}
           alt=""
-          className="object-cover absolute inset-0 pt-8 "
+          className="object-cover  absolute inset-0 pt-8 "
         />
       <a
         className="overflow-hidden relative flex-col justify-center items-start px-14 py-7 mt-12 ml-3.5 max-w-full text-lg italic text-center text-white hover:text-yellow-400 aspect-[3.42] fill-blue-950 w-[236px] max-md:px-5 max-md:mt-10 max-md:ml-2.5"
