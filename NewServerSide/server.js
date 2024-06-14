@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ["https://blu-e-startup-project1.vercel.app"],
+  origin: ["Blu-E.in"],
   methods: ["POST", "GET"],
   credentials: true
 })); // Use cors middleware
