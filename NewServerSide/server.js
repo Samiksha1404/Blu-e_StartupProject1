@@ -59,10 +59,16 @@ app.post('/api/contact', async (req, res) => {
 
     // // Send email to admin
     const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: 'admin@example.com', // Update with the recipient's email
-      subject: `${subject}`,
-      text: `A new contact entry has been logged:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+      from: email,
+      to: process.env.EMAIL_USER, // Update with the recipient's email
+      subject: 'New Contact Entry',
+      // text: `A new contact entry has been logged:\n\nName: ${name}\n Email: ${email}\nPhone: ${phone}\nSubject: ${subject}\nMessage: ${message}`
+      html: `<p><strong>Name:</strong> ${name}</p>
+               <p><strong>Email:</strong> ${email}</p>
+               <p><strong>Phone:</strong> ${phone}</p>
+               <p><strong>Subject:</strong> ${subject}</p>
+               <p><strong>Message:</strong> ${message}</p>
+               `,
     };
     await transporter.sendMail(mailOptions);
 
