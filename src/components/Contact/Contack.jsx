@@ -36,8 +36,6 @@ function Contack() {
     subject: '',
     message: '',
   });
- 
-  const [responseMessage, setResponseMessage] = useState('');
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -53,7 +51,6 @@ function Contack() {
         body: JSON.stringify(formData),
         headers: { 'content-type': 'application/json' }
       });
-
       console.log('Form submitted successfully', response.data);
       // Optionally, you can reset the form after submission
       setFormData({
@@ -63,22 +60,10 @@ function Contack() {
         subject: '',
         message: '',
       });
-    // } catch (error) {
-    //   console.error('Error submitting form', error); // Log the error
-    //   alert('Error submitting form'); // Notify the user about the error
-    // }
-
-    const result = await res.json();
-
-      if (result.success) {
-        setResponseMessage('Message sent successfully!');
-      } else {
-        setResponseMessage('Failed to send message. Please try again later.');
-      }
     } catch (error) {
-      setResponseMessage('An error occurred. Please try again later.');
+      console.error('Error submitting form', error); // Log the error
+      alert('Error submitting form'); // Notify the user about the error
     }
-
   };
   
 
@@ -171,7 +156,6 @@ function Contack() {
               <button type="submit" className="block m-auto justify-center items-center text-white bg-yellow-400 hover:bg-blue-900 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 rounded animate-zoom">
                 Submit Message
               </button>
-              {responseMessage && <p>{responseMessage}</p>}
             </form>
 
           </div>
