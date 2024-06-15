@@ -9,7 +9,7 @@ import { ServiceData } from "../Slider/SliderComponent";
 import DownloadSection from "../../Service/DownloadSection";
 
 import GradientText from '../../../components/subpages/GradientText.jsx'
-// import plugeasylogo from '../../../assets/plugeasy logo.jpg';
+import plugeasylogo from '../../../assets/plugeasy logo.jpg';
 const AppSlider = () => {
   return (
     <div>
@@ -17,7 +17,7 @@ const AppSlider = () => {
      <div className="flex items-center justify-center flex-col h-[700px] pt-12 ">
     <div className="flex pb-6">
     <div className="w-[100px] h-[100px] pb-4 m-2 animate-zoom">
-     <img src={""} alt="" />
+     <img src={plugeasylogo} alt="Plugeasylogo" />
      </div>
      <div>
      <GradientText text="PLUGEASY" />
