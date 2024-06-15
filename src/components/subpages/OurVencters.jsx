@@ -2,7 +2,7 @@ import React from 'react';
 import ev1 from '../../assets/ev1.svg';
 import ev2 from '../../assets/MG.png';
 import ev3 from '../../assets/WCL.png';
-import ev4 from '../../assets/ev4 (2).png';
+import ev4 from '../../assets/ev4.png';
 import ev5 from '../../assets/ev5 (2).png';
 import ev6 from '../../assets/ev6.png';
 import ev7 from '../../assets/ev7.png';
